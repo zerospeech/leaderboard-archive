@@ -1,0 +1,16 @@
+metadata:
+  after_challenge: 'yes'
+  author: "Fahlstr\xF6m Myrman and Salvi"
+  bib: <a class="reference internal" href="http://www.speech.kth.se/glu2017/papers/GLU2017_paper_6.pdf"
+    id="id14">[14]</a>
+  binary: 'yes'
+  main_idea: Siamese model on GMM posteriors
+  reference: "Arvid Fahlstr\xF6m Myrman and Giampiero Salvi : Partitioning of Posteriorgrams\
+    \ using Siamese Models for Unsupervised Acoustic Modelling"
+  supervision: 'no'
+  team: KTH Royal Institute of Technology
+scores:
+  english_across: '19.3'
+  english_within: '12.0'
+  xitsonga_across: '21.9'
+  xitsonga_within: '12.7'

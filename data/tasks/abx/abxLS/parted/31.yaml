@@ -1,0 +1,48 @@
+description: 'For ABX Joint minimization of cluster loss and CPC loss. For other tasks
+  we trained BERT language model on the pseudo text.
+
+  '
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '60'
+  parameters:
+    frame_shift: 0.01
+    metric: cosine
+    visually_grounded: false
+  train_set: librispeech 100 and 960
+extras: null
+index: 32
+model_id: Gan21c
+publication:
+  DOI: null
+  author_short: Dr.Sriram Ganapathy et al.
+  authors: Dr.Sriram Ganapathy, Varun Krishna
+  bib_ref: '-'
+  code: null
+  institution: Indian Institute of Science
+  open_science: false
+  paper_ref: Dr.Sriram Ganapathy, Varun Krishna (2021.0) -
+  paper_title: '-'
+  paper_url: '-'
+  pub_year: 2021
+  team_name: null
+scores:
+  clean:
+    dev:
+      across: 0.0448
+      within: 0.0338
+    test:
+      across: 0.0435
+      within: 0.0334
+  other:
+    dev:
+      across: 0.0878
+      within: 0.0535
+    test:
+      across: 0.0907
+      within: 0.0535
+submission_date: null
+submission_id: 'varun_krishna4'
+submitted_by: null

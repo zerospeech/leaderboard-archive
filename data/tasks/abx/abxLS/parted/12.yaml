@@ -1,0 +1,59 @@
+description: This system combined a baseline method with a Deep Clustering method.
+  Specifically, we trained an autoregressive neural network model for phoneme classification
+  using pseudo-labels obtained by clustering outputs of a CPC network with k-means,
+  and then executing the second-round clustering with the outputs of the final layer
+  of the autoregressive model. We used a CPC-big baseline model which was trained
+  on Libri-light 6k as a seed model, and used LibriSpeech 960h for pseudo-label phoneme
+  classification tasks by constructing the same network as the CPC-big model. We adopted
+  a BERT-small model on LibriSpeech 960h for LM training. Experimental results show
+  that a relative improvement in the sBLIMP score of 2.3 % is achieved compared to
+  a baseline method (CPC-big+km50+BERT-small).
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '60'
+  parameters:
+    frame_shift: 0.01
+    metric: cosine
+    visually_grounded: false
+  train_set: 'CPC training: Libri-light 6k, Phoneme classification task: LibriSpeech
+    960h, kmeans: LibriSpeech 100h, LM: LibriSpeech 960h'
+extras: null
+index: 13
+model_id: Mae21a
+publication:
+  DOI: null
+  author_short: Maekaku <i>et al.</i>
+  authors: 'Maekaku, T., Chang, X., Fujita, Y., Chen, L., Watanabe, S. & Rudnicky,
+    A. '
+  bib_ref: maekaku2021speech
+  code: null
+  institution: Yahoo Japan Corporation, Carnegie Mellon University
+  open_science: false
+  paper_ref: Maekaku, T., Chang, X., Fujita, Y., Chen, L., Watanabe, S. & Rudnicky,
+    A.  (2021.0) Speech representation learning combining conformer cpc with deep
+    cluster for the zerospeech challenge 2021.
+  paper_title: Speech representation learning combining conformer cpc with deep cluster
+    for the zerospeech challenge 2021.
+  paper_url: https://arxiv.org/abs/2107.05899
+  pub_year: 2021
+  team_name: null
+scores:
+  clean:
+    dev:
+      across: 0.0414
+      within: 0.0328
+    test:
+      across: 0.0425
+      within: 0.0315
+  other:
+    dev:
+      across: 0.0827
+      within: 0.0497
+    test:
+      across: 0.0864
+      within: 0.0497
+submission_date: '2021-03-23T16:23:00+00:00'
+submission_id: '20210323162300_fyuya'
+submitted_by: null

@@ -1,0 +1,59 @@
+audio_samples:
+  english_1: english_1_20190315122333_shekharnayak.wav
+  english_2: english_2_20190315122333_shekharnayak.wav
+  surprise_1: surprise_1_20190315122333_shekharnayak.wav
+  surprise_2: surprise_2_20190315122333_shekharnayak.wav
+details_abx:
+  english_auxiliary1_abx_dtw_cosine: 46.33
+  english_auxiliary1_abx_dtw_kl: 45.98
+  english_auxiliary1_abx_levenshtein: 45.54
+  english_auxiliary2_abx_dtw_cosine: '-'
+  english_auxiliary2_abx_dtw_kl: '-'
+  english_auxiliary2_abx_levenshtein: '-'
+  english_test_abx_dtw_cosine: 46.33
+  english_test_abx_dtw_kl: 45.98
+  english_test_abx_levenshtein: 45.54
+  surprise_auxiliary1_abx_dtw_cosine: 39.07
+  surprise_auxiliary1_abx_dtw_kl: 37.97
+  surprise_auxiliary1_abx_levenshtein: 40.17
+  surprise_auxiliary2_abx_dtw_cosine: '-'
+  surprise_auxiliary2_abx_dtw_kl: '-'
+  surprise_auxiliary2_abx_levenshtein: '-'
+  surprise_test_abx_dtw_cosine: 39.07
+  surprise_test_abx_dtw_kl: 37.97
+  surprise_test_abx_levenshtein: 40.17
+details_bitrate:
+  english_auxiliary1_bitrate: 52.21
+  english_auxiliary2_bitrate: '-'
+  english_test_bitrate: 52.21
+  surprise_auxiliary1_bitrate: 46.07
+  surprise_auxiliary2_bitrate: '-'
+  surprise_test_bitrate: 46.07
+metadata:
+  abx_distance: levenshtein
+  affiliation: Indian Institute of Technology Hyderabad, Johns Hopkins University
+  author: Chintigari Shiva Kumar, Ramesh Gundluru, Shekhar Nayak, Saurabhchand Bhati,
+    K Sri Rama Murty
+  author_short: Kumar <i>et al.</i>
+  auxiliary1_description: not used
+  auxiliary2_description: not used
+  directory: /home/zerospeech/2019/submissions/20190315122333_shekharnayak
+  open_source: false
+  submission_index: 10
+  submitted_at: '2019-03-15T12:23:33+00:00'
+  submitted_by: shekharnayak
+  system_description: Features - MFCC, Kernel-gram segmentation, k-means clustering,
+    Merlin<br>speech synthesizer
+  using_external_data: false
+  using_parallel_train: false
+scores:
+  english_abx: 45.54
+  english_bitrate: 52.21
+  english_cer: 0.83
+  english_mos: 2.18
+  english_similarity: 3.01
+  surprise_abx: 40.17
+  surprise_bitrate: 46.07
+  surprise_cer: 0.86
+  surprise_mos: 1.82
+  surprise_similarity: 3.3

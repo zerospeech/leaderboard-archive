@@ -1,0 +1,48 @@
+description: 'CPC-big (trained on librispeech 960), kmeans (trained on librispeech
+  100), LSTM. See https://zerospeech.com/2021 for more details.
+
+  '
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '60'
+  parameters:
+    frame_shift: 0.01
+    metric: cosine
+    visually_grounded: false
+  train_set: librispeech 100 and 960
+extras: null
+index: 20
+model_id: Gan21a
+publication:
+  DOI: null
+  author_short: Dr.Sriram Ganapathy et al.
+  authors: Dr.Sriram Ganapathy, Varun Krishna
+  bib_ref: '-'
+  code: null
+  institution: Indian Institute of Science
+  open_science: false
+  paper_ref: Dr.Sriram Ganapathy, Varun Krishna (2021.0) -
+  paper_title: '-'
+  paper_url: '-'
+  pub_year: 2021
+  team_name: null
+scores:
+  clean:
+    dev:
+      across: 0.0819
+      within: 0.059
+    test:
+      across: 0.0708
+      within: 0.0504
+  other:
+    dev:
+      across: 0.1333
+      within: 0.0766
+    test:
+      across: 0.1401
+      within: 0.0789
+submission_date: '2021-11-18T10:43:59+00:00'
+submission_id: 'varun_krishna'
+submitted_by: null

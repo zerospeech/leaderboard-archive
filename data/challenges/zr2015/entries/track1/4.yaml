@@ -1,0 +1,16 @@
+metadata:
+  after_challenge: 'no'
+  author: Renshaw et al.
+  bib: <a class="reference internal" href="#renshaw_comparison_2015" id="id5">[5]</a>
+  binary: 'no'
+  main_idea: STD+CAE (English)
+  reference: Renshaw, D., Kamper, H., Jansen, A., & Goldwater, S. (2015). A comparison
+    of neural network methods for unsupervised representation learning on the zero
+    resource speech challenge. In Proceedings of Interspeech.
+  supervision: 'no'
+  team: Edinburgh & JHU
+scores:
+  english_across: '21.1'
+  english_within: '13.5'
+  xitsonga_across: '19.3'
+  xitsonga_within: '11.9'

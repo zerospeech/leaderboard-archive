@@ -1,0 +1,833 @@
+{
+    "last_modified": "2022-06-02T17:56:36.908513",
+    "data": [
+        {
+            "model_id": "Ras15a",
+            "submission_date": null,
+            "open_science": false,
+            "code": null,
+            "description": "",
+            "scores": {
+                "english": {
+                    "grouping": {
+                        "precision": 4.3,
+                        "recall": 10.6,
+                        "fscore": 6.0
+                    },
+                    "token": {
+                        "precision": 21.6,
+                        "recall": 4.7,
+                        "fscore": 7.8
+                    },
+                    "type": {
+                        "precision": 12.7,
+                        "recall": 10.8,
+                        "fscore": 11.6
+                    },
+                    "boundary": {
+                        "precision": 75.7,
+                        "recall": 27.4,
+                        "fscore": 40.3
+                    },
+                    "matching": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "nlp": {
+                        "ned": 88.0,
+                        "coverage": 42.2,
+                        "nwords": null,
+                        "npairs": null
+                    }
+                },
+                "xitsonga": {
+                    "grouping": {
+                        "precision": 17.7,
+                        "recall": 2.8,
+                        "fscore": 4.9
+                    },
+                    "token": {
+                        "precision": 0.8,
+                        "recall": 1.3,
+                        "fscore": 1.0
+                    },
+                    "type": {
+                        "precision": 0.8,
+                        "recall": 1.3,
+                        "fscore": 1.7
+                    },
+                    "boundary": {
+                        "precision": 16.3,
+                        "recall": 24.4,
+                        "fscore": 19.5
+                    },
+                    "matching": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "nlp": {
+                        "ned": 61.2,
+                        "coverage": 95.0,
+                        "nwords": null,
+                        "npairs": null
+                    }
+                }
+            },
+            "publication": {
+                "author_short": "Räsänen et al.",
+                "paper_ref": null,
+                "paper_url": null,
+                "team_name": null,
+                "institution": "Aalto & Stanford",
+                "DOI": null
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "TDE-15"
+                ],
+                "supervision": null,
+                "binary": null,
+                "gpu_budget": null
+            }
+        },
+        {
+            "model_id": "Ras15b",
+            "submission_date": null,
+            "open_science": false,
+            "code": null,
+            "description": "",
+            "scores": {
+                "english": {
+                    "grouping": {
+                        "precision": 13.4,
+                        "recall": 15.7,
+                        "fscore": 14.2
+                    },
+                    "token": {
+                        "precision": 22.6,
+                        "recall": 6.1,
+                        "fscore": 9.6
+                    },
+                    "type": {
+                        "precision": 14.1,
+                        "recall": 12.9,
+                        "fscore": 13.5
+                    },
+                    "boundary": {
+                        "precision": 75.7,
+                        "recall": 33.7,
+                        "fscore": 46.7
+                    },
+                    "matching": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "nlp": {
+                        "ned": 70.8,
+                        "coverage": 42.4,
+                        "nwords": null,
+                        "npairs": null
+                    }
+                },
+                "xitsonga": {
+                    "grouping": {
+                        "precision": 10.7,
+                        "recall": 3.3,
+                        "fscore": 5.0
+                    },
+                    "token": {
+                        "precision": 2.3,
+                        "recall": 3.4,
+                        "fscore": 2.7
+                    },
+                    "type": {
+                        "precision": 2.3,
+                        "recall": 3.4,
+                        "fscore": 3.3
+                    },
+                    "boundary": {
+                        "precision": 29.2,
+                        "recall": 39.4,
+                        "fscore": 33.5
+                    },
+                    "matching": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "nlp": {
+                        "ned": 63.1,
+                        "coverage": 94.7,
+                        "nwords": null,
+                        "npairs": null
+                    }
+                }
+            },
+            "publication": {
+                "author_short": "Räsänen et al.",
+                "paper_ref": null,
+                "paper_url": null,
+                "team_name": null,
+                "institution": "Aalto & Stanford",
+                "DOI": null
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "TDE-15"
+                ],
+                "supervision": null,
+                "binary": null,
+                "gpu_budget": null
+            }
+        },
+        {
+            "model_id": "Ras15c",
+            "submission_date": null,
+            "open_science": false,
+            "code": null,
+            "description": "",
+            "scores": {
+                "english": {
+                    "grouping": {
+                        "precision": 4.0,
+                        "recall": 10.8,
+                        "fscore": 5.7
+                    },
+                    "token": {
+                        "precision": 21.6,
+                        "recall": 4.8,
+                        "fscore": 7.9
+                    },
+                    "type": {
+                        "precision": 13.5,
+                        "recall": 11.3,
+                        "fscore": 12.3
+                    },
+                    "boundary": {
+                        "precision": 76.1,
+                        "recall": 28.5,
+                        "fscore": 41.4
+                    },
+                    "matching": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "nlp": {
+                        "ned": 89.6,
+                        "coverage": 40.6,
+                        "nwords": null,
+                        "npairs": null
+                    }
+                },
+                "xitsonga": {
+                    "grouping": {
+                        "precision": 6.2,
+                        "recall": 3.2,
+                        "fscore": 4.3
+                    },
+                    "token": {
+                        "precision": 1.8,
+                        "recall": 1.8,
+                        "fscore": 1.8
+                    },
+                    "type": {
+                        "precision": 1.8,
+                        "recall": 1.8,
+                        "fscore": 2.4
+                    },
+                    "boundary": {
+                        "precision": 26.2,
+                        "recall": 26.3,
+                        "fscore": 26.3
+                    },
+                    "matching": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "nlp": {
+                        "ned": 78.4,
+                        "coverage": 77.7,
+                        "nwords": null,
+                        "npairs": null
+                    }
+                }
+            },
+            "publication": {
+                "author_short": "Räsänen et al.",
+                "paper_ref": null,
+                "paper_url": null,
+                "team_name": null,
+                "institution": "Aalto & Stanford",
+                "DOI": null
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "TDE-15"
+                ],
+                "supervision": null,
+                "binary": null,
+                "gpu_budget": null
+            }
+        },
+        {
+            "model_id": "Lyz15a",
+            "submission_date": null,
+            "open_science": false,
+            "code": null,
+            "description": "",
+            "scores": {
+                "english": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": 4.2,
+                        "recall": 0.6,
+                        "fscore": 1.0
+                    },
+                    "type": {
+                        "precision": 4.7,
+                        "recall": 2.5,
+                        "fscore": 3.3
+                    },
+                    "boundary": {
+                        "precision": 39.6,
+                        "recall": 7.5,
+                        "fscore": 12.7
+                    },
+                    "matching": {
+                        "precision": 14.6,
+                        "recall": 2.3,
+                        "fscore": 4.0
+                    },
+                    "nlp": {
+                        "ned": 77.3,
+                        "coverage": 25.5,
+                        "nwords": null,
+                        "npairs": null
+                    }
+                },
+                "xitsonga": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": 2.0,
+                        "recall": 0.9,
+                        "fscore": 1.2
+                    },
+                    "type": {
+                        "precision": 2.0,
+                        "recall": 0.9,
+                        "fscore": 2.8
+                    },
+                    "boundary": {
+                        "precision": 19.4,
+                        "recall": 11.2,
+                        "fscore": 14.2
+                    },
+                    "matching": {
+                        "precision": 30.6,
+                        "recall": 0.6,
+                        "fscore": 1.2
+                    },
+                    "nlp": {
+                        "ned": 36.1,
+                        "coverage": 30.2,
+                        "nwords": null,
+                        "npairs": null
+                    }
+                }
+            },
+            "publication": {
+                "author_short": "Lyzinski et al.",
+                "paper_ref": null,
+                "paper_url": null,
+                "team_name": null,
+                "institution": "JHU",
+                "DOI": null
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "TDE-15"
+                ],
+                "supervision": null,
+                "binary": null,
+                "gpu_budget": null
+            }
+        },
+        {
+            "model_id": "Kam15a",
+            "submission_date": null,
+            "open_science": false,
+            "code": null,
+            "description": "",
+            "scores": {
+                "english": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "type": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": 18.0
+                    },
+                    "boundary": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": 62.0
+                    },
+                    "matching": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "nlp": {
+                        "ned": null,
+                        "coverage": null,
+                        "nwords": null,
+                        "npairs": null
+                    }
+                },
+                "xitsonga": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "type": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": 5.5
+                    },
+                    "boundary": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": 43.0
+                    },
+                    "matching": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "nlp": {
+                        "ned": null,
+                        "coverage": null,
+                        "nwords": null,
+                        "npairs": null
+                    }
+                }
+            },
+            "publication": {
+                "author_short": "Kamper et al. ",
+                "paper_ref": null,
+                "paper_url": null,
+                "team_name": null,
+                "institution": "",
+                "DOI": null
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "TDE-15"
+                ],
+                "supervision": null,
+                "binary": null,
+                "gpu_budget": null
+            }
+        },
+        {
+            "model_id": "Baseline2",
+            "submission_date": null,
+            "open_science": false,
+            "code": null,
+            "description": "",
+            "scores": {
+                "english": {
+                    "grouping": {
+                        "precision": 21.4,
+                        "recall": 84.6,
+                        "fscore": 33.3
+                    },
+                    "token": {
+                        "precision": 5.5,
+                        "recall": 0.4,
+                        "fscore": 0.8
+                    },
+                    "type": {
+                        "precision": 6.2,
+                        "recall": 1.9,
+                        "fscore": 2.9
+                    },
+                    "boundary": {
+                        "precision": 44.1,
+                        "recall": 4.7,
+                        "fscore": 8.6
+                    },
+                    "matching": {
+                        "precision": 39.4,
+                        "recall": 1.6,
+                        "fscore": 3.1
+                    },
+                    "nlp": {
+                        "ned": 21.9,
+                        "coverage": 16.3,
+                        "nwords": null,
+                        "npairs": null
+                    }
+                },
+                "xitsonga": {
+                    "grouping": {
+                        "precision": 52.1,
+                        "recall": 77.4,
+                        "fscore": 62.2
+                    },
+                    "token": {
+                        "precision": 2.6,
+                        "recall": 0.5,
+                        "fscore": 0.8
+                    },
+                    "type": {
+                        "precision": 2.6,
+                        "recall": 0.5,
+                        "fscore": 2.0
+                    },
+                    "boundary": {
+                        "precision": 22.3,
+                        "recall": 5.6,
+                        "fscore": 8.9
+                    },
+                    "matching": {
+                        "precision": 69.1,
+                        "recall": 0.3,
+                        "fscore": 0.5
+                    },
+                    "nlp": {
+                        "ned": 12.0,
+                        "coverage": 16.2,
+                        "nwords": null,
+                        "npairs": null
+                    }
+                }
+            },
+            "publication": {
+                "author_short": "Baseline",
+                "paper_ref": null,
+                "paper_url": null,
+                "team_name": null,
+                "institution": "CoML Team",
+                "DOI": null
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "TDE-15"
+                ],
+                "supervision": null,
+                "binary": null,
+                "gpu_budget": null
+            }
+        },
+        {
+            "model_id": "Lyz15b",
+            "submission_date": null,
+            "open_science": false,
+            "code": null,
+            "description": "",
+            "scores": {
+                "english": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": 1.9,
+                        "recall": 0.7,
+                        "fscore": 1.0
+                    },
+                    "type": {
+                        "precision": 2.3,
+                        "recall": 2.9,
+                        "fscore": 2.6
+                    },
+                    "boundary": {
+                        "precision": 31.7,
+                        "recall": 14.2,
+                        "fscore": 19.6
+                    },
+                    "matching": {
+                        "precision": 12.9,
+                        "recall": 5.1,
+                        "fscore": 7.2
+                    },
+                    "nlp": {
+                        "ned": 36.4,
+                        "coverage": 46.7,
+                        "nwords": null,
+                        "npairs": null
+                    }
+                },
+                "xitsonga": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": 1.5,
+                        "recall": 2.3,
+                        "fscore": 2.0
+                    },
+                    "type": {
+                        "precision": 1.5,
+                        "recall": 2.3,
+                        "fscore": 3.6
+                    },
+                    "boundary": {
+                        "precision": 14.8,
+                        "recall": 29.5,
+                        "fscore": 19.7
+                    },
+                    "matching": {
+                        "precision": 13.3,
+                        "recall": 7.4,
+                        "fscore": 9.5
+                    },
+                    "nlp": {
+                        "ned": 34.1,
+                        "coverage": 67.6,
+                        "nwords": null,
+                        "npairs": null
+                    }
+                }
+            },
+            "publication": {
+                "author_short": "Lyzinski et al.",
+                "paper_ref": null,
+                "paper_url": null,
+                "team_name": null,
+                "institution": "JHU",
+                "DOI": null
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "TDE-15"
+                ],
+                "supervision": null,
+                "binary": null,
+                "gpu_budget": null
+            }
+        },
+        {
+            "model_id": "Lyz15c",
+            "submission_date": null,
+            "open_science": false,
+            "code": null,
+            "description": "",
+            "scores": {
+                "english": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": 2.4,
+                        "recall": 3.5,
+                        "fscore": 2.8
+                    },
+                    "type": {
+                        "precision": 3.1,
+                        "recall": 9.2,
+                        "fscore": 4.6
+                    },
+                    "boundary": {
+                        "precision": 35.4,
+                        "recall": 38.5,
+                        "fscore": 36.9
+                    },
+                    "matching": {
+                        "precision": 6.5,
+                        "recall": 3.5,
+                        "fscore": 4.6
+                    },
+                    "nlp": {
+                        "ned": 61.2,
+                        "coverage": 80.2,
+                        "nwords": null,
+                        "npairs": null
+                    }
+                },
+                "xitsonga": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": 2.2,
+                        "recall": 12.6,
+                        "fscore": 0.8
+                    },
+                    "type": {
+                        "precision": 2.2,
+                        "recall": 12.6,
+                        "fscore": 7.8
+                    },
+                    "boundary": {
+                        "precision": 18.8,
+                        "recall": 64.0,
+                        "fscore": 29.0
+                    },
+                    "matching": {
+                        "precision": 21.2,
+                        "recall": 3.8,
+                        "fscore": 6.5
+                    },
+                    "nlp": {
+                        "ned": 43.2,
+                        "coverage": 89.4,
+                        "nwords": null,
+                        "npairs": null
+                    }
+                }
+            },
+            "publication": {
+                "author_short": "Lyzinski et al.",
+                "paper_ref": null,
+                "paper_url": null,
+                "team_name": null,
+                "institution": "JHU",
+                "DOI": null
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "TDE-15"
+                ],
+                "supervision": null,
+                "binary": null,
+                "gpu_budget": null
+            }
+        },
+        {
+            "model_id": "topline15b",
+            "submission_date": null,
+            "open_science": false,
+            "code": null,
+            "description": "",
+            "scores": {
+                "english": {
+                    "grouping": {
+                        "precision": 99.5,
+                        "recall": 100.0,
+                        "fscore": 99.7
+                    },
+                    "token": {
+                        "precision": 68.2,
+                        "recall": 60.8,
+                        "fscore": 64.3
+                    },
+                    "type": {
+                        "precision": 50.3,
+                        "recall": 56.2,
+                        "fscore": 53.1
+                    },
+                    "boundary": {
+                        "precision": 88.4,
+                        "recall": 86.7,
+                        "fscore": 87.5
+                    },
+                    "matching": {
+                        "precision": 98.3,
+                        "recall": 18.5,
+                        "fscore": 31.1
+                    },
+                    "nlp": {
+                        "ned": 0.0,
+                        "coverage": 100.0,
+                        "nwords": null,
+                        "npairs": null
+                    }
+                },
+                "xitsonga": {
+                    "grouping": {
+                        "precision": 100.0,
+                        "recall": 100.0,
+                        "fscore": 100.0
+                    },
+                    "token": {
+                        "precision": 34.1,
+                        "recall": 49.7,
+                        "fscore": 40.4
+                    },
+                    "type": {
+                        "precision": 34.1,
+                        "recall": 49.7,
+                        "fscore": 16.5
+                    },
+                    "boundary": {
+                        "precision": 66.6,
+                        "recall": 91.9,
+                        "fscore": 77.2
+                    },
+                    "matching": {
+                        "precision": 100.0,
+                        "recall": 6.8,
+                        "fscore": 12.7
+                    },
+                    "nlp": {
+                        "ned": 0.0,
+                        "coverage": 100.0,
+                        "nwords": null,
+                        "npairs": null
+                    }
+                }
+            },
+            "publication": {
+                "author_short": "Topline",
+                "paper_ref": null,
+                "paper_url": null,
+                "team_name": null,
+                "institution": "CoML Team",
+                "DOI": null
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "TDE-15"
+                ],
+                "supervision": null,
+                "binary": null,
+                "gpu_budget": null
+            }
+        }
+    ]
+}

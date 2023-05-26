@@ -1,0 +1,78 @@
+'2019':
+  audio_samples:
+    english_1: english_1_20200424134758_benjaminvan.wav
+    english_2: english_2_20200424134758_benjaminvan.wav
+    surprise_1: surprise_1_20200424134758_benjaminvan.wav
+    surprise_2: surprise_2_20200424134758_benjaminvan.wav
+  english:
+    details_abx:
+      auxiliary_embedding1:
+        KL: 50.0
+        cosine: 13.17
+        levenshtein: 44.3
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 50.0
+        cosine: 14.04
+        levenshtein: 35.93
+    details_bitrate:
+      auxiliary_embedding1: 815.99
+      auxiliary_embedding2: '-'
+      test: 412.24
+    scores:
+      abx: 14.04
+      bitrate: 412.24
+      cer: 0.39
+      mos: 3.62
+      similarity: 3.49
+  metadata:
+    abx_distance: dtw_cosine
+    auxiliary1_description: Continuous features after projecting but prior to quantization.
+    hyperparameters: All hyperparameters used for training the models can be found
+      in the config folder at https://github.com/bshall/ZeroSpeech. The same hyperparameters
+      are used across languages, i.e. no language-specific hyperparameter tuning is
+      necessary.
+    system description: An end-to-end vector-quantized variational autoencoder. We
+      use a light-weight decoder based on WaveRNN, allowing us to train on a single
+      GPU. The encoder downsamples input log-Mel spectrograms by a factor of 2 before
+      projecting into a 64 dimensional latent space. Latent vectors are quantized
+      using a codebook of size 512. Code to train and evaluate the models is available
+      at https://github.com/bshall/ZeroSpeech.
+    using_external_data: false
+    using_parallel_train: false
+  surprise:
+    details_abx:
+      auxiliary_embedding1:
+        KL: 50.0
+        cosine: 8.3
+        levenshtein: 47.17
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 50.0
+        cosine: 6.29
+        levenshtein: 32.99
+    details_bitrate:
+      auxiliary_embedding1: 817.57
+      auxiliary_embedding2: '-'
+      test: 423.67
+    scores:
+      abx: 6.29
+      bitrate: 423.67
+      cer: 0.21
+      mos: 3.71
+      similarity: 2.59
+metadata:
+  affiliation: Stellenbosch University
+  author: Benjamin van Niekerk, Leanne Nortje, Herman Kamper
+  author_short: Niekerk <i>et al.</i>
+  directory: /mnt/zs2020_submissions/20200424134758_benjaminvan
+  open_source: true
+  submission_index: 14
+  submitted_at: '2020-04-24T13:47:58+00:00'
+  submitted_by: benjaminvan

@@ -1,0 +1,76 @@
+'2019':
+  audio_samples:
+    english_1: english_1_20200424114655_bolajiy.wav
+    english_2: english_2_20200424114655_bolajiy.wav
+    surprise_1: surprise_1_20200424114655_bolajiy.wav
+    surprise_2: surprise_2_20200424114655_bolajiy.wav
+  english:
+    details_abx:
+      auxiliary_embedding1:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 37.8
+        cosine: 37.32
+        levenshtein: 36.83
+    details_bitrate:
+      auxiliary_embedding1: '-'
+      auxiliary_embedding2: '-'
+      test: 58.98
+    scores:
+      abx: 36.83
+      bitrate: 58.98
+      cer: 0.76
+      mos: 2.12
+      similarity: 2.91
+  metadata:
+    abx_distance: levenshtein
+    auxiliary1_description: description of the auxiliary1 embeddings (if used)
+    auxiliary2_description: description of the auxiliary1 embeddings (if used)
+    hyperparameters: subspace_dimension=100 number_of_units=75
+    system description: The subspace HMM described in https://www.isca-speech.org/archive/Interspeech_2019/pdfs/2224.pdf
+      is used for acoustic unit discovery. The system is a Bayesian HMM-GMM system
+      whose parameters are constrained to dwell on a low-dimensional subspace of the
+      parameter space. The subspace is pretrained on languages (Spanish, Polish, German,
+      French from the Globalphone corpus) and kept constant for the target languages.
+      The 'test' embeddings are the sequence of units as decoded by the HMM.
+    using_external_data: true
+    using_parallel_train: false
+  surprise:
+    details_abx:
+      auxiliary_embedding1:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 33.0
+        cosine: 33.55
+        levenshtein: 33.66
+    details_bitrate:
+      auxiliary_embedding1: '-'
+      auxiliary_embedding2: '-'
+      test: 65.76
+    scores:
+      abx: 33.66
+      bitrate: 65.76
+      cer: 0.62
+      mos: 2.49
+      similarity: 3.43
+metadata:
+  affiliation: Brno University of Technology, Bogazici University
+  author: Bolaji Yusuf, Lucas Ondel
+  author_short: Yusuf <i>et al.</i>
+  directory: /mnt/zs2020_submissions/20200424114655_bolajiy
+  open_source: true
+  submission_index: 11
+  submitted_at: '2020-04-24T11:46:55+00:00'
+  submitted_by: bolajiy

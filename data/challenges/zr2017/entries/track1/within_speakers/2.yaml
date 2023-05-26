@@ -1,0 +1,22 @@
+metadata:
+  DOI: <a href="https://zenodo.org/record/808915">808915</a>
+  affiliation: Northwestern Polytechnical University
+  author: Chen et al.
+  rank: '4'
+  supervision: 'No'
+scores:
+  LANG1_10s: '6.2'
+  LANG1_120s: '6.3'
+  LANG1_1s: '7.6'
+  LANG2_10s: '9.9'
+  LANG2_120s: '9.8'
+  LANG2_1s: '11.7'
+  english_10s: '7.3'
+  english_120s: '7.2'
+  english_1s: '8.5'
+  french_10s: '9.5'
+  french_120s: '9.4'
+  french_1s: '11.1'
+  mandarin_10s: '8.5'
+  mandarin_120s: '8.4'
+  mandarin_1s: '10.5'

@@ -1,0 +1,49 @@
+description: CPC-big (from the zerospeech2021 baseline), speaker normalization, kmeans
+  (trained on a subset of LibriSpeech 100), LSTM language model (from the zerospeech2021
+  baseline).
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '60'
+  parameters:
+    frame_shift: 0.01
+    metric: cosine
+    visually_grounded: false
+  train_set: LibriSpeech 960
+extras: null
+index: 9
+model_id: Nie21
+publication:
+  DOI: null
+  author_short: van Niekerk <i>et al.</i>
+  authors: 'Niekerk, B., Nortje, L., Baas, M. & Kamper, H. '
+  bib_ref: van2021analyzing
+  code: null
+  institution: Stellenbosch University
+  open_science: false
+  paper_ref: Niekerk, B., Nortje, L., Baas, M. & Kamper, H.  (2021.0) Analyzing speaker
+    information in self-supervised models to improve zero-resource speech processing.
+  paper_title: Analyzing speaker information in self-supervised models to improve
+    zero-resource speech processing.
+  paper_url: https://arxiv.org/abs/2108.00917
+  pub_year: 2021
+  team_name: null
+scores:
+  clean:
+    dev:
+      across: 0.0663
+      within: 0.0537
+    test:
+      across: 0.0689
+      within: 0.0541
+  other:
+    dev:
+      across: 0.1289
+      within: 0.088
+    test:
+      across: 0.1314
+      within: 0.088
+submission_date: '2021-03-22T23:00:44+00:00'
+submission_id: '20210322230044_benjaminvan'
+submitted_by: null

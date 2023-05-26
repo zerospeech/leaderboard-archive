@@ -1,0 +1,72 @@
+audio_samples:
+  english_1: english_1_20190315130005_syfeng.wav
+  english_2: english_2_20190315130005_syfeng.wav
+  surprise_1: surprise_1_20190315130005_syfeng.wav
+  surprise_2: surprise_2_20190315130005_syfeng.wav
+details_abx:
+  english_auxiliary1_abx_dtw_cosine: 13.33
+  english_auxiliary1_abx_dtw_kl: 50.0
+  english_auxiliary1_abx_levenshtein: 44.3
+  english_auxiliary2_abx_dtw_cosine: 13.82
+  english_auxiliary2_abx_dtw_kl: 13.72
+  english_auxiliary2_abx_levenshtein: 44.3
+  english_test_abx_dtw_cosine: 22.32
+  english_test_abx_dtw_kl: 21.67
+  english_test_abx_levenshtein: 26.46
+  surprise_auxiliary1_abx_dtw_cosine: 6.52
+  surprise_auxiliary1_abx_dtw_kl: 50.0
+  surprise_auxiliary1_abx_levenshtein: 47.1
+  surprise_auxiliary2_abx_dtw_cosine: 7.49
+  surprise_auxiliary2_abx_dtw_kl: 7.62
+  surprise_auxiliary2_abx_levenshtein: 47.1
+  surprise_test_abx_dtw_cosine: 11.44
+  surprise_test_abx_dtw_kl: 10.64
+  surprise_test_abx_levenshtein: 18.95
+details_bitrate:
+  english_auxiliary1_bitrate: 1732.81
+  english_auxiliary2_bitrate: 1732.81
+  english_test_bitrate: 413.23
+  surprise_auxiliary1_bitrate: 1732.67
+  surprise_auxiliary2_bitrate: 1732.67
+  surprise_test_bitrate: 470.23
+metadata:
+  abx_distance: dtw_kl
+  affiliation: The Chinese University of Hong Kong
+  author: Siyuan Feng, Zhiyuan Peng, Tan Lee
+  author_short: Feng <i>et al.</i>
+  auxiliary1_description: Linear bottleneck layer activation representation in DNN
+    model<br>discussed in Step 3 of 'system description'. Frame-wise, no<br>quantization.
+  auxiliary2_description: Softmax output layer activation representation in DPGMM
+    task. In log-<br>softmax scale, frame-wise, no quantization.
+  directory: /home/zerospeech/2019/submissions/20190315130005_syfeng
+  open_source: true
+  submission_index: 11
+  submitted_at: '2019-03-15T13:00:05+00:00'
+  submitted_by: syfeng
+  system_description: Step 1. Use train/unit/ to train a factorized hierarchical variational<br>auto-encoder
+    (FHVAE) model, with which speaker characteristics<br>information and linguistic
+    content are disentangled into different<br>frame-level representations. Step 2.
+    Use linguistic content<br>representation of train/unit/ learned by FHVAE to train
+    a Dirichlet<br>process GMM (DPGMM) and obtain frame cluster labels. Step 3. Use<br>train/unit/
+    MFCC features and DPGMM labels and speaker ID labels to<br>train a DNN model with
+    adversarial multi-task learning. Specifically,<br>speaker ID task is set as the
+    adversarial task while DPGMM task is the<br>normal task. Step 4. Extract softmax
+    output layer representation of<br>DPGMM task. This representation is further quantized
+    to one-hot<br>representation by setting the max value inside each frame  to 1,
+    and<br>other values to 0. Consecutive repetitive one-hot features are<br>collapsed.
+    Step 5. Use train/voice/ one-hot representation in Step 4<br>to perform train
+    speech synthesizer using the given Ossian system.<br>Step 6. Synthesize test/
+    one-hot representation with the trained<br>synthesizer.
+  using_external_data: false
+  using_parallel_train: false
+scores:
+  english_abx: 21.67
+  english_bitrate: 413.23
+  english_cer: 0.84
+  english_mos: 1.56
+  english_similarity: 2.18
+  surprise_abx: 10.64
+  surprise_bitrate: 470.23
+  surprise_cer: 0.74
+  surprise_mos: 1.28
+  surprise_similarity: 2.01

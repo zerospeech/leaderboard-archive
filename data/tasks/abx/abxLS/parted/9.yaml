@@ -1,0 +1,60 @@
+description: Information Retrieval to ZeroSpeech 2021. In our submission we have decided
+  to verify the limits of information retrieval approaches to acoustic representations,
+  word-spotting and word semantics discovery. For ABX we use baseline representations.
+  For other tasks we use baseline k-means clustering for quantization. For sWUGGY
+  we provide for each query word the minimum cost of edit-distance matching a given
+  word to the Librispeech960 corpus. This essentially attempts to perform a dictionary
+  lookup - real words should match with a low score, while artificial words should
+  match with a higher one. For sSIMI we segment the sequences of pseudophonemes into
+  words using SentencePiece, we then learn the embeddings of discovered pseudo-words
+  using word embedding approaches. We then map the pseudophones of the query word
+  to the nearest discovered pseudoword. For sBLIMP we provide LM scores, similarly
+  to the baseline.
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '60'
+  parameters:
+    frame_shift: 0.01
+    metric: cosine
+    visually_grounded: false
+  train_set: LibriSpeech
+extras: null
+index: 10
+model_id: Cho21a
+publication:
+  DOI: null
+  author_short: Chorowski <i>et al.</i>
+  authors: "Chorowski, J., Ciesielski, G., Dzikowski, J., \u0141a\u0144cucki, A.,\
+    \ Marxer, R., Opala, M., Pusz, P., Rychlikowski, P. & Stypu\u0142kowski, M."
+  bib_ref: chorowski2021information
+  code: null
+  institution: University of Wroclaw
+  open_science: true
+  paper_ref: "Chorowski, J., Ciesielski, G., Dzikowski, J., \u0141a\u0144cucki, A.,\
+    \ Marxer, R., Opala, M., Pusz, P., Rychlikowski, P. & Stypu\u0142kowski, M. (2021.0)\
+    \ Information retrieval for zerospeech 2021: The submission by university of wroclaw."
+  paper_title: 'Information retrieval for zerospeech 2021: The submission by university
+    of wroclaw.'
+  paper_url: https://arxiv.org/abs/2106.11603
+  pub_year: 2021
+  team_name: null
+scores:
+  clean:
+    dev:
+      across: 0.0413
+      within: 0.0338
+    test:
+      across: 0.0425
+      within: 0.0329
+  other:
+    dev:
+      across: 0.0761
+      within: 0.048
+    test:
+      across: 0.0789
+      within: 0.048
+submission_date: '2021-03-23T02:11:00+00:00'
+submission_id: '20210323021100_chorowski'
+submitted_by: null

@@ -1,0 +1,39 @@
+metadata:
+  after: 'no'
+  author: Lyzinski et al.
+  team: JHU
+scores:
+  NED_english: 61.2
+  NED_xitsonga: 43.2
+  boundary_F_english: '36.9'
+  boundary_F_xitsonga: 29.0
+  boundary_prec_english: '35.4'
+  boundary_prec_xitsonga: 18.8
+  boundary_rec_english: '38.5'
+  boundary_rec_xitsonga: 64.0
+  cov_english: 80.2
+  cov_xitsonga: 89.4
+  grouping_F_english: ''
+  grouping_F_xitsonga: ''
+  grouping_prec_english: ''
+  grouping_prec_xitsonga: ''
+  grouping_rec_english: ''
+  grouping_rec_xitsonga: ''
+  matching_F_english: '4.6'
+  matching_F_xitsonga: 6.5
+  matching_prec_english: '6.5'
+  matching_prec_xitsonga: 21.2
+  matching_rec_english: '3.5'
+  matching_rec_xitsonga: 3.8
+  token_F_english: '2.8'
+  token_F_xitsonga: 0.8
+  token_prec_english: '2.4'
+  token_prec_xitsonga: 2.2
+  token_rec_english: '3.5'
+  token_rec_xitsonga: 12.6
+  type_F_english: '4.6'
+  type_F_xitsonga: 7.8
+  type_prec_english: '3.1'
+  type_prec_xitsonga: 4.9
+  type_rec_english: '9.2'
+  type_rec_xitsonga: 18.8

@@ -1,0 +1,22 @@
+metadata:
+  DOI: ''
+  affiliation: University of Wroclaw/Deepmind
+  author: <a href="https://arxiv.org/pdf/1901.08810.pdf">Chorowski et al.</a>
+  rank: ''
+  supervision: 'No'
+scores:
+  LANG1_10s: ''
+  LANG1_120s: ''
+  LANG1_1s: ''
+  LANG2_10s: ''
+  LANG2_120s: ''
+  LANG2_1s: ''
+  english_10s: '8.0'
+  english_120s: '8.0'
+  english_1s: '8.1'
+  french_10s: '10.8'
+  french_120s: '11.1'
+  french_1s: '11.0'
+  mandarin_10s: '11.7'
+  mandarin_120s: '11.9'
+  mandarin_1s: '12.2'

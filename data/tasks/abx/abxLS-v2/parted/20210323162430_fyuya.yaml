@@ -1,0 +1,213 @@
+description: This system combined a baseline method with a Deep Clustering method.
+  Specifically, we trained an autoregressive neural network model for phoneme classification
+  using pseudo-labels obtained by clustering outputs of a CPC network with k-means,
+  and then executing the second-round clustering with the outputs of the final layer
+  of the autoregressive model. We used LibriSpeech 460h data for CPC training and
+  phoneme classification. In both tasks, we adopted the same network as a CPC-small
+  model, but we replaced a Transformer layer with a Conformer one for CPC training.
+  We utilized a BERT-small model on LibriSpeech 960h for LM training. Experimental
+  results show that our method outperforms a baseline (CPC-big+km50+BERT-small) in
+  sWUGGY metric.
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '60'
+  parameters:
+    frame_shift: 0.01
+    metric: cosine
+    visually_grounded: false
+  train_set: 'CPC training: LibriSpeech 460h, Phoneme classification task: LibriSpeech
+    460h, k-means: LibriSpeech 100h, LM: LibriSpeech 960h'
+extras: null
+index: 15
+model_id: Mae21c
+publication:
+  DOI: null
+  author_short: Maekaku <i>et al.</i>
+  authors: 'Maekaku, T., Chang, X., Fujita, Y., Chen, L., Watanabe, S. & Rudnicky,
+    A. '
+  bib_ref: maekaku2021speech
+  code: null
+  institution: Yahoo Japan Corporation, Carnegie Mellon University
+  open_science: false
+  paper_ref: Maekaku, T., Chang, X., Fujita, Y., Chen, L., Watanabe, S. & Rudnicky,
+    A.  (2021.0) Speech representation learning combining conformer cpc with deep
+    cluster for the zerospeech challenge 2021.
+  paper_title: Speech representation learning combining conformer cpc with deep cluster
+    for the zerospeech challenge 2021.
+  paper_url: https://arxiv.org/abs/2107.05901
+  pub_year: 2021
+  team_name: null
+scores:
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.0742944478988647
+  seed: 3459
+  speaker_mode: within
+  subset: dev-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.0788411200046539
+  seed: 3459
+  speaker_mode: across
+  subset: dev-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.033084325492382
+  seed: 3459
+  speaker_mode: across
+  subset: dev-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0248237960040569
+  seed: 3459
+  speaker_mode: within
+  subset: dev-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.1032358109951019
+  seed: 3459
+  speaker_mode: within
+  subset: dev-other
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.1174990460276603
+  seed: 3459
+  speaker_mode: across
+  subset: dev-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0793082490563392
+  seed: 3459
+  speaker_mode: across
+  subset: dev-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.044479988515377
+  seed: 3459
+  speaker_mode: within
+  subset: dev-other
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.0727807506918907
+  seed: 3459
+  speaker_mode: within
+  subset: test-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.0767294615507125
+  seed: 3459
+  speaker_mode: across
+  subset: test-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0347711965441703
+  seed: 3459
+  speaker_mode: across
+  subset: test-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0237834230065345
+  seed: 3459
+  speaker_mode: within
+  subset: test-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.1075788885354995
+  seed: 3459
+  speaker_mode: within
+  subset: test-other
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.1212301701307296
+  seed: 3459
+  speaker_mode: across
+  subset: test-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.080397255718708
+  seed: 3459
+  speaker_mode: across
+  subset: test-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0466389134526252
+  seed: 3459
+  speaker_mode: within
+  subset: test-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0405
+  seed: none
+  speaker_mode: within
+  subset: dev-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0542
+  seed: none
+  speaker_mode: across
+  subset: dev-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0612
+  seed: none
+  speaker_mode: within
+  subset: dev-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.1049
+  seed: none
+  speaker_mode: across
+  subset: dev-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0387
+  seed: none
+  speaker_mode: within
+  subset: test-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0519
+  seed: none
+  speaker_mode: across
+  subset: test-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0612
+  seed: none
+  speaker_mode: within
+  subset: test-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.1076
+  seed: none
+  speaker_mode: across
+  subset: test-other
+submission_date: '2021-03-23T16:24:30+00:00'
+submission_id: 20210323162430_fyuya
+submitted_by: null

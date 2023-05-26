@@ -1,0 +1,69 @@
+'2019':
+  audio_samples:
+    english_1: english_1_20200425001923_androstj.wav
+    english_2: english_2_20200425001923_androstj.wav
+    surprise_1: surprise_1_20200425001923_androstj.wav
+    surprise_2: surprise_2_20200425001923_androstj.wav
+  english:
+    details_abx:
+      auxiliary_embedding1:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 50.0
+        cosine: 24.0
+        levenshtein: 38.74
+    details_bitrate:
+      auxiliary_embedding1: '-'
+      auxiliary_embedding2: '-'
+      test: 348.74
+    scores:
+      abx: 24.0
+      bitrate: 348.74
+      cer: 0.34
+      mos: 2.28
+      similarity: 1.78
+  metadata:
+    abx_distance: dtw_cosine
+    hyperparameters: 2 time stride
+    system description: Transformers VQVAE
+    using_external_data: false
+    using_parallel_train: false
+  surprise:
+    details_abx:
+      auxiliary_embedding1:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 50.0
+        cosine: 17.48
+        levenshtein: 39.24
+    details_bitrate:
+      auxiliary_embedding1: '-'
+      auxiliary_embedding2: '-'
+      test: 351.49
+    scores:
+      abx: 17.48
+      bitrate: 351.49
+      cer: 0.28
+      mos: 2.72
+      similarity: 1.98
+metadata:
+  affiliation: NAIST
+  author: Andros Tjandra, Sakriani Sakti, Satoshi Nakamura
+  author_short: Tjandra <i>et al.</i>
+  directory: /mnt/zs2020_submissions/20200425001923_androstj
+  open_source: false
+  submission_index: 18
+  submitted_at: '2020-04-25T00:19:23+00:00'
+  submitted_by: androstj

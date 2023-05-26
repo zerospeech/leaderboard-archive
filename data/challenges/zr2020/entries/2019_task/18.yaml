@@ -1,0 +1,74 @@
+'2019':
+  audio_samples:
+    english_1: english_1_20201125004600_liucodalab.wav
+    english_2: english_2_20201125004600_liucodalab.wav
+    surprise_1: surprise_1_20201125004600_liucodalab.wav
+    surprise_2: surprise_2_20201125004600_liucodalab.wav
+  english:
+    details_abx:
+      auxiliary_embedding1:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 50.0
+        cosine: 13.35
+        levenshtein: 35.2
+    details_bitrate:
+      auxiliary_embedding1: '-'
+      auxiliary_embedding2: '-'
+      test: 408.37
+    scores:
+      abx: 13.35
+      bitrate: 408.37
+      cer: '-'
+      mos: '-'
+      similarity: '-'
+  metadata:
+    abx_distance: dtw_cosine
+    affiliation: Information Engineering University
+    author: Liu
+    auxiliary1_description: not used
+    auxiliary2_description: not used
+    open source: false
+    system description: Use VQVAE to perform AUD, the encoder of VQVAE is consist
+      of DoConv layers.
+    using_external_data: false
+    using_parallel_train: false
+  surprise:
+    details_abx:
+      auxiliary_embedding1:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 50.0
+        cosine: 6.69
+        levenshtein: 33.62
+    details_bitrate:
+      auxiliary_embedding1: '-'
+      auxiliary_embedding2: '-'
+      test: 422.49
+    scores:
+      abx: 6.69
+      bitrate: 422.49
+      cer: '-'
+      mos: '-'
+      similarity: '-'
+metadata:
+  affiliation: Information Engineering University
+  author: Liu
+  author_short: Liu*
+  directory: /mnt/zs2020_submissions/20201125004600_liucodalab
+  open_source: false
+  submission_index: 23
+  submitted_at: '2020-11-25T12:46:00+00:00'
+  submitted_by: liucodalab

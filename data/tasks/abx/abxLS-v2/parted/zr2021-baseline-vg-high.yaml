@@ -1,0 +1,205 @@
+description: High-budget baseline composed of CPC small + VG + KMEANS (500) + BERT
+  big
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '160'
+  parameters:
+    frame_shift: 0.02
+    metric: cosine
+    visually_grounded: false
+  train_set: SpokenCOCO, Librispeech
+extras: null
+index: 8
+model_id: Baseline4vg-sm
+publication:
+  DOI: null
+  author_short: <b>VG baseline (high budget)
+  authors: "Alishahi, A., Chrupa\u0142a, G., Cristia, A., Dupoux, E., Higy, B., Lavechin,\
+    \ M., R\xE4s\xE4nen, O. & Yu, C."
+  bib_ref: alishahi2021zr
+  code: null
+  institution: Aalto University, CNRS, EHESS, ENS, Inria, PSL Research University,
+    Tampere University, Tilburg University, University of Texas
+  open_science: true
+  paper_ref: "Alishahi, A., Chrupa\u0142a, G., Cristia, A., Dupoux, E., Higy, B.,\
+    \ Lavechin, M., R\xE4s\xE4nen, O. & Yu, C. (2021.0) R-2021VG: Zero-resource speech\
+    \ challenge, visually-grounded language modelling track."
+  paper_title: 'R-2021VG: Zero-resource speech challenge, visually-grounded language
+    modelling track.'
+  paper_url: https://arxiv.org/abs/2107.06546
+  pub_year: 2021
+  team_name: null
+scores:
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.1225699186325073
+  seed: 3459
+  speaker_mode: within
+  subset: dev-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.1272738426923751
+  seed: 3459
+  speaker_mode: across
+  subset: dev-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0469653792679309
+  seed: 3459
+  speaker_mode: across
+  subset: dev-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0342906638979911
+  seed: 3459
+  speaker_mode: within
+  subset: dev-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.1523043513298034
+  seed: 3459
+  speaker_mode: within
+  subset: dev-other
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.1648146212100982
+  seed: 3459
+  speaker_mode: across
+  subset: dev-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0924212336540222
+  seed: 3459
+  speaker_mode: across
+  subset: dev-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0575410984456539
+  seed: 3459
+  speaker_mode: within
+  subset: dev-other
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.1216156855225563
+  seed: 3459
+  speaker_mode: within
+  subset: test-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.1266446411609649
+  seed: 3459
+  speaker_mode: across
+  subset: test-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0492749623954296
+  seed: 3459
+  speaker_mode: across
+  subset: test-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0334175676107406
+  seed: 3459
+  speaker_mode: within
+  subset: test-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.1558646112680435
+  seed: 3459
+  speaker_mode: within
+  subset: test-other
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.1698697954416275
+  seed: 3459
+  speaker_mode: across
+  subset: test-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0977099612355232
+  seed: 3459
+  speaker_mode: across
+  subset: test-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0572909004986286
+  seed: 3459
+  speaker_mode: within
+  subset: test-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0551
+  seed: none
+  speaker_mode: within
+  subset: dev-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0673
+  seed: none
+  speaker_mode: across
+  subset: dev-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0744
+  seed: none
+  speaker_mode: within
+  subset: dev-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.1133
+  seed: none
+  speaker_mode: across
+  subset: dev-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0536
+  seed: none
+  speaker_mode: within
+  subset: test-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0671
+  seed: none
+  speaker_mode: across
+  subset: test-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0744
+  seed: none
+  speaker_mode: within
+  subset: test-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.1192
+  seed: none
+  speaker_mode: across
+  subset: test-other
+submission_date: '2021-01-01T15:16:16+00:00'
+submission_id: zr2021-baseline-vg-high
+submitted_by: null

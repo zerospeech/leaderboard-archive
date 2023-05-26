@@ -1,0 +1,318 @@
+author_label: Maekaku <i>et al.</i>
+index: 15
+lexical_all:
+- 0.6212
+- 0.6208625
+lexical_invocab:
+- 0.6721161
+- 0.6731098799999999
+more:
+  description:
+    affiliation: Yahoo Japan Corporation, Carnegie Mellon University
+    author: Takashi Maekaku, Yuya Fujita, Xuankai Chang, Li-Wei Chen, Shinji Watanabe,
+      Alex Rudnicky
+    description: This system combined a baseline method with a Deep Clustering method.
+      Specifically, we trained an autoregressive neural network model for phoneme
+      classification using pseudo-labels obtained by clustering outputs of a CPC network
+      with k-means, and then executing the second-round clustering with the outputs
+      of the final layer of the autoregressive model. We used LibriSpeech 460h data
+      for CPC training and phoneme classification. In both tasks, we adopted the same
+      network as a CPC-small model, but we replaced a Transformer layer with a Conformer
+      one for CPC training. We utilized a BERT-small model on LibriSpeech 960h for
+      LM training. Experimental results show that our method outperforms a baseline
+      (CPC-big+km50+BERT-small) in sWUGGY metric.
+    gpu_budget: 60
+    open_source: false
+    parameters:
+      phonetic:
+        frame_shift: 0.01
+        metric: cosine
+      semantic:
+        metric: cosine
+        pooling: min
+    submitted_at: '2021-03-23T16:24:30+00:00'
+    train_set: 'CPC training: LibriSpeech 460h, Phoneme classification task: LibriSpeech
+      460h, k-means: LibriSpeech 100h, LM: LibriSpeech 960h'
+  lexical:
+    by_frequency:
+    - frequency: oov
+      n_dev: 5000
+      n_test: 20000
+      score_dev: 0.5703
+      score_test: 0.5686
+      std_dev: 0.3458
+      std_test: 0.3444
+    - frequency: 1-5
+      n_dev: 1656
+      n_test: 6788
+      score_dev: 0.6368
+      score_test: 0.6321
+      std_dev: 0.3344
+      std_test: 0.3351
+    - frequency: 6-20
+      n_dev: 1563
+      n_test: 6170
+      score_dev: 0.6444
+      score_test: 0.6568
+      std_dev: 0.3335
+      std_test: 0.3322
+    - frequency: 21-100
+      n_dev: 1251
+      n_test: 4998
+      score_dev: 0.7055
+      score_test: 0.7058
+      std_dev: 0.3168
+      std_test: 0.3189
+    - frequency: '>100'
+      n_dev: 530
+      n_test: 2044
+      score_dev: 0.7854
+      score_test: 0.7786
+      std_dev: 0.2868
+      std_test: 0.2942
+    by_length:
+    - length: 4
+      n_dev: 345
+      n_test: 1460
+      score_dev: 0.621
+      score_test: 0.5726
+      std_dev: 0.3526
+      std_test: 0.3502
+    - length: 5
+      n_dev: 1626
+      n_test: 6608
+      score_dev: 0.5761
+      score_test: 0.5696
+      std_dev: 0.3452
+      std_test: 0.3458
+    - length: 6
+      n_dev: 2492
+      n_test: 9898
+      score_dev: 0.586
+      score_test: 0.5905
+      std_dev: 0.3401
+      std_test: 0.338
+    - length: 7
+      n_dev: 2102
+      n_test: 8205
+      score_dev: 0.6096
+      score_test: 0.6124
+      std_dev: 0.3424
+      std_test: 0.3398
+    - length: 8
+      n_dev: 1497
+      n_test: 6096
+      score_dev: 0.6364
+      score_test: 0.6359
+      std_dev: 0.3342
+      std_test: 0.3408
+    - length: 9
+      n_dev: 955
+      n_test: 3514
+      score_dev: 0.6712
+      score_test: 0.6793
+      std_dev: 0.3371
+      std_test: 0.3301
+    - length: 10
+      n_dev: 490
+      n_test: 2054
+      score_dev: 0.7163
+      score_test: 0.7168
+      std_dev: 0.3139
+      std_test: 0.3198
+    - length: 11
+      n_dev: 298
+      n_test: 1184
+      score_dev: 0.7441
+      score_test: 0.7384
+      std_dev: 0.3181
+      std_test: 0.3133
+    - length: 12
+      n_dev: 132
+      n_test: 602
+      score_dev: 0.7841
+      score_test: 0.7666
+      std_dev: 0.2759
+      std_test: 0.2954
+    - length: 13
+      n_dev: 51
+      n_test: 301
+      score_dev: 0.8137
+      score_test: 0.789
+      std_dev: 0.2441
+      std_test: 0.276
+    - length: 14
+      n_dev: 12
+      n_test: 78
+      score_dev: 0.6458
+      score_test: 0.7051
+      std_dev: 0.3608
+      std_test: 0.362
+  semantic:
+  - dataset: mturk-771
+    librispeech: 7.0677
+    set: dev
+    synthetic: -0.1719
+  - dataset: MEN
+    librispeech: 1.326
+    set: test
+    synthetic: 5.6962
+  - dataset: WordSim-353
+    librispeech: -5.2826
+    set: test
+    synthetic: 7.2683
+  - dataset: WordSim-353-REL
+    librispeech: -4.6202
+    set: test
+    synthetic: 10.1451
+  - dataset: WordSim-353-SIM
+    librispeech: 1.3621
+    set: test
+    synthetic: 3.7957
+  - dataset: YP-130
+    librispeech: 9.023
+    set: test
+    synthetic: -1.556
+  - dataset: mc-30
+    librispeech: -12.9813
+    set: test
+    synthetic: -0.6899
+  - dataset: mturk-287
+    librispeech: -22.703
+    set: test
+    synthetic: -12.2863
+  - dataset: rg-65
+    librispeech: -8.8635
+    set: test
+    synthetic: -4.2944
+  - dataset: rw
+    librispeech: 33.6693
+    set: test
+    synthetic: 18.0198
+  - dataset: simLex999
+    librispeech: 12.8883
+    set: test
+    synthetic: 12.3672
+  - dataset: simverb-3500
+    librispeech: 2.5558
+    set: test
+    synthetic: 5.5381
+  - dataset: verb-143
+    librispeech: 0.4001
+    set: test
+    synthetic: 27.1399
+  syntactic:
+  - n_dev: 200
+    n_test: 2000
+    score_dev: 0.5437
+    score_test: 0.5585
+    std_dev: 0.345
+    std_test: 0.4967
+    type: anaphor_agreement
+  - n_dev: 900
+    n_test: 9000
+    score_dev: 0.4944
+    score_test: 0.491
+    std_dev: 0.3767
+    std_test: 0.4999
+    type: argument_structure
+  - n_dev: 500
+    n_test: 5000
+    score_dev: 0.6175
+    score_test: 0.5985
+    std_dev: 0.3294
+    std_test: 0.4901
+    type: binding
+  - n_dev: 500
+    n_test: 5000
+    score_dev: 0.496
+    score_test: 0.51
+    std_dev: 0.3349
+    std_test: 0.4999
+    type: control_raising
+  - n_dev: 800
+    n_test: 8000
+    score_dev: 0.5247
+    score_test: 0.5118
+    std_dev: 0.3168
+    std_test: 0.4999
+    type: determiner_noun_agreement
+  - n_dev: 100
+    n_test: 1000
+    score_dev: 0.68
+    score_test: 0.673
+    std_dev: 0.3219
+    std_test: 0.4694
+    type: ellipsis
+  - n_dev: 800
+    n_test: 8000
+    score_dev: 0.5969
+    score_test: 0.5896
+    std_dev: 0.3796
+    std_test: 0.4919
+    type: filler_gap_dependency
+  - n_dev: 200
+    n_test: 2000
+    score_dev: 0.5275
+    score_test: 0.546
+    std_dev: 0.319
+    std_test: 0.4917
+    type: irregular_forms
+  - n_dev: 700
+    n_test: 7000
+    score_dev: 0.5639
+    score_test: 0.5516
+    std_dev: 0.3236
+    std_test: 0.4974
+    type: island_effects
+  - n_dev: 700
+    n_test: 7000
+    score_dev: 0.4818
+    score_test: 0.4919
+    std_dev: 0.3302
+    std_test: 0.5
+    type: npi_licensing
+  - n_dev: 300
+    n_test: 3000
+    score_dev: 0.4775
+    score_test: 0.4757
+    std_dev: 0.3537
+    std_test: 0.4995
+    type: quantifiers
+  - n_dev: 600
+    n_test: 6000
+    score_dev: 0.5104
+    score_test: 0.5
+    std_dev: 0.3214
+    std_test: 0.5
+    type: subject_verb_agreement
+phonetic_clean_across:
+- 0.0542
+- 0.0519
+phonetic_clean_within:
+- 0.0405
+- 0.0387
+phonetic_other_across:
+- 0.1049
+- 0.1076
+phonetic_other_within:
+- 0.0612
+- 0.0611
+semantic_librispeech:
+- 7.0677
+- 0.5644999999999999
+semantic_synthetic:
+- -0.1719
+- 5.928641666666667
+set:
+- dev
+- test
+syntactic:
+- 0.5337698412698413
+- 0.5299285714285714
+weighted_semantic_librispeech:
+- 7.0677
+- 3.289198081534772
+weighted_semantic_synthetic:
+- -0.1719
+- 7.528760231937602

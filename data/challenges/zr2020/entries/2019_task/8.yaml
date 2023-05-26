@@ -1,0 +1,73 @@
+'2019':
+  audio_samples:
+    english_1: english_1_20200424133919_ManoRanjithK.wav
+    english_2: english_2_20200424133919_ManoRanjithK.wav
+    surprise_1: surprise_1_20200424133919_ManoRanjithK.wav
+    surprise_2: surprise_2_20200424133919_ManoRanjithK.wav
+  english:
+    details_abx:
+      auxiliary_embedding1:
+        KL: 33.07
+        cosine: 32.84
+        levenshtein: 32.54
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 33.61
+        cosine: 33.31
+        levenshtein: 33.28
+    details_bitrate:
+      auxiliary_embedding1: 138.01
+      auxiliary_embedding2: '-'
+      test: 126.41
+    scores:
+      abx: 33.28
+      bitrate: 126.41
+      cer: 0.61
+      mos: 3.15
+      similarity: 2.69
+  metadata:
+    abx_distance: levenshtein
+    auxiliary1_description: expanded one-hot representation
+    hyperparameters: K for KNN-graph - 8 Window scale factor for syllable-like segmentation
+      - 8 Number of iteration for self-training - 15
+    system description: AUD - Speech units of the form CV, VC transients and steady-state
+      regions are modelled using GMM-HMM (same as system 2) TTS - Espnet on voice
+      data and waveglow
+    using_external_data: false
+    using_parallel_train: false
+  surprise:
+    details_abx:
+      auxiliary_embedding1:
+        KL: 34.32
+        cosine: 34.18
+        levenshtein: 34.25
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 34.03
+        cosine: 34.08
+        levenshtein: 34.33
+    details_bitrate:
+      auxiliary_embedding1: 117.27
+      auxiliary_embedding2: '-'
+      test: 101.0
+    scores:
+      abx: 34.33
+      bitrate: 101.0
+      cer: 0.67
+      mos: 3.09
+      similarity: 2.45
+metadata:
+  affiliation: Indian Institute of Technology Madras
+  author: Mano Ranjith Kumar, Anusha Prakash, Karthik Pandia D, Hema A Murthy
+  author_short: Kumar <i>et al.</i>
+  directory: /mnt/zs2020_submissions/20200424133919_ManoRanjithK
+  open_source: true
+  submission_index: 12
+  submitted_at: '2020-04-24T13:39:19+00:00'
+  submitted_by: ManoRanjithK

@@ -1,0 +1,16 @@
+metadata:
+  after_challenge: 'no'
+  author: "Thiolli\xE8re et al."
+  bib: <a class="reference internal" href="#Thiolliere2015" id="id3">[3]</a>
+  binary: 'no'
+  main_idea: STD+ABnet
+  reference: Thiolliere, R., Dunbar, E., Synnaeve, G., Versteegh, M., & Dupoux, E.
+    (2015). A hybrid dynamic time warping-deep neural network architecture for unsupervised
+    acoustic modeling. In Proc. Interspeech.
+  supervision: 'no'
+  team: ENS-PSL,Paris
+scores:
+  english_across: '17.9'
+  english_within: '12.0'
+  xitsonga_across: '16.6'
+  xitsonga_within: '11.7'

@@ -1,0 +1,22 @@
+metadata:
+  DOI: ''
+  affiliation: PSL University, CNRS, ENS, EHESS, INRIA
+  author: <b>Topline</b>
+  rank: ''
+  supervision: 'Yes'
+scores:
+  LANG1_10s: '10.5'
+  LANG1_120s: '10.4'
+  LANG1_1s: '12.8'
+  LANG2_10s: '3.6'
+  LANG2_120s: '4.3'
+  LANG2_1s: '7.1'
+  english_10s: '6.9'
+  english_120s: '6.7'
+  english_1s: '8.6'
+  french_10s: '9.1'
+  french_120s: '8.9'
+  french_1s: '10.6'
+  mandarin_10s: '5.7'
+  mandarin_120s: '5.1'
+  mandarin_1s: '12.0'

@@ -1,0 +1,204 @@
+description: Segmental CPC is used for modelling at phone level. For ABX, frame level
+  features from CPC-big are used.
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '60'
+  parameters:
+    frame_shift: 0.01
+    metric: cosine
+    visually_grounded: false
+  train_set: LibriSpeech 960
+extras: null
+index: 26
+model_id: Bha21b
+publication:
+  DOI: null
+  author_short: Saurabhchand Bhati et al.
+  authors: "Bhati, S., Villalba, J., \u017Belasko, P., Moro-Velazquez, L. & Dehak,\
+    \ N."
+  bib_ref: bhati2021unsupervised
+  code: null
+  institution: JHU
+  open_science: false
+  paper_ref: "Bhati, S., Villalba, J., \u017Belasko, P., Moro-Velazquez, L. & Dehak,\
+    \ N. (2021.0) Unsupervised speech segmentation and variable rate representation\
+    \ learning using segmental contrastive predictive coding."
+  paper_title: Unsupervised speech segmentation and variable rate representation learning
+    using segmental contrastive predictive coding.
+  paper_url: https://arxiv.org/abs/2110.02345
+  pub_year: 2021
+  team_name: null
+scores:
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.0707868188619613
+  seed: 3459
+  speaker_mode: within
+  subset: dev-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.0729643926024437
+  seed: 3459
+  speaker_mode: across
+  subset: dev-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0269370842725038
+  seed: 3459
+  speaker_mode: across
+  subset: dev-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.019925482571125
+  seed: 3459
+  speaker_mode: within
+  subset: dev-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.1017482206225395
+  seed: 3459
+  speaker_mode: within
+  subset: dev-other
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.1109489277005195
+  seed: 3459
+  speaker_mode: across
+  subset: dev-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0668873712420463
+  seed: 3459
+  speaker_mode: across
+  subset: dev-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0421430803835392
+  seed: 3459
+  speaker_mode: within
+  subset: dev-other
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.0701581239700317
+  seed: 3459
+  speaker_mode: within
+  subset: test-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.0717557147145271
+  seed: 3459
+  speaker_mode: across
+  subset: test-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0288920979946851
+  seed: 3459
+  speaker_mode: across
+  subset: test-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0212321802973747
+  seed: 3459
+  speaker_mode: within
+  subset: test-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.1048944741487503
+  seed: 3459
+  speaker_mode: within
+  subset: test-other
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.1145717054605484
+  seed: 3459
+  speaker_mode: across
+  subset: test-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0698188468813896
+  seed: 3459
+  speaker_mode: across
+  subset: test-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0421537570655345
+  seed: 3459
+  speaker_mode: within
+  subset: test-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0375
+  seed: none
+  speaker_mode: within
+  subset: dev-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0456
+  seed: none
+  speaker_mode: across
+  subset: dev-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0553
+  seed: none
+  speaker_mode: within
+  subset: dev-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0874
+  seed: none
+  speaker_mode: across
+  subset: dev-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0349
+  seed: none
+  speaker_mode: within
+  subset: test-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0451
+  seed: none
+  speaker_mode: across
+  subset: test-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0553
+  seed: none
+  speaker_mode: within
+  subset: test-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0916
+  seed: none
+  speaker_mode: across
+  subset: test-other
+submission_date: '2021-11-24T18:52:09+00:00'
+submission_id: saurabh_bhati2
+submitted_by: null

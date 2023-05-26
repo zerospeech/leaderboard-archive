@@ -1,0 +1,295 @@
+'2019':
+  audio_samples:
+    english_1: english_1_20200425114629_patricklt.wav
+    english_2: english_2_20200425114629_patricklt.wav
+    surprise_1: surprise_1_20200425114629_patricklt.wav
+    surprise_2: surprise_2_20200425114629_patricklt.wav
+  english:
+    details_abx:
+      auxiliary_embedding1:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 50.0
+        cosine: 36.29
+        levenshtein: 44.26
+    details_bitrate:
+      auxiliary_embedding1: '-'
+      auxiliary_embedding2: '-'
+      test: 1739.85
+    scores:
+      abx: 36.29
+      bitrate: 1739.85
+      cer: 0.31
+      mos: 3.31
+      similarity: 3.16
+  metadata:
+    abx distance: dtw_cosine
+    auxiliary1 description: not used
+    auxiliary2 description: not used
+    hyperparameters: Speech features WORLD-based 50-dimensional mel-cepstrum including
+      0th power log-continuous F0 with binary U/V decision and code-aperiodicity 10
+      ms frame shift 1024 FFT points analysis For CycleVAE joint spectral and excitation
+      modeling 32 latent-dimensions 3 cycles one-hot speaker code is used for all
+      215 speakers of 2017 datasets -3/+3 contexts for input convolution extraction
+      1 hidden layer and 1024 hidden units for GRU encoder and spectral decoder 1
+      hidden layer and 512 hidden units for GRU excitation decoder 0.5 dropout encoder
+      output layer generates latent-posterior with standard Laplacian prior and posterior-probability
+      of speaker-input code spectral decoder input layer receives sampled latent parameters
+      in training, but mode of posterior in decoding, and one-hot code of generated
+      speaker spectral decoder output layer generates mel-cepstrum excitation decoder
+      input layer receives estimated mel-cepstrum and one-hot code of generated speaker
+      excitation decoder output layer generates log-F0, binary U/V decision, and code-aperiodicity
+      loss values including reconstruction mel-cepstrum of all cycles path + KL-divergence
+      to standard Laplacian prior in each cycle path + cross-entropy of speaker-posterior
+      + F0,U/V,code-ap reconstruction loss of 1st half of 1st cycle For WaveNet waveform
+      modeling 256 hidden-channels and skip channels 3 dilation depth (dilation factors
+      with respect to power of kernel-size), 2 dilation repeat 7 kernel-size -3/+3
+      contexts for input convolution extraction of conditioning features (WORLD-based)
+      upsampling layer with transposed 2d convolution to match 10 ms frame shift output
+      is 256-dimensional categorical values for mu-law discretized waveform samples
+      noise-shaping method is used to obtain target waveform with flatter spectral
+      tilt the multispeaker model (3 targets) was used without fine-tuning (the same
+      multispeaker model from the other submission)
+    system description: Spectral and excitation model is developed with CycleVAE,
+      which is based on cyclic variational autoencoder (CycleVAE) [https://www.isca-speech.org/archive/Interspeech_2019/pdfs/2307.pdf].
+      The difference to the above paper is that it estimates excitation parameters
+      with the first half of the first cycle. Also, the difference between the other
+      submission is the use of continuous latent distribution and the joint modeling
+      of spectral and excitation parameters. On the other hand. waveform model is
+      developed with Shallow WaveNet vocoder using softmax output [https://ieeexplore.ieee.org/abstract/document/9003800].
+      Waveform model is without fine-tuning, unlike the other submission, due to not
+      enough time after spectral-excitation model was trained.
+    using external data: false
+    using parallel train: false
+  surprise:
+    details_abx:
+      auxiliary_embedding1:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 50.0
+        cosine: 24.42
+        levenshtein: 47.05
+    details_bitrate:
+      auxiliary_embedding1: '-'
+      auxiliary_embedding2: '-'
+      test: 1745.79
+    scores:
+      abx: 24.42
+      bitrate: 1745.79
+      cer: 0.21
+      mos: 3.84
+      similarity: 3.91
+metadata:
+  affiliation: Nagoya University
+  author: Patrick Lumban Tobing, Yi-Chiao Wu, Tomoki Hayashi, Kazuhiro Kobayashi,
+    Tomoki Toda
+  author_short: Lumban Tobing <i>et al.</i>
+  directory: /mnt/zs2020_submissions/20200425114629_patricklt
+  open_source: false
+  submission_index: 22
+  submitted_at: '2020-04-25T11:46:29+00:00'
+  submitted_by: patricklt
+track1_2017:
+  LANG1:
+    10s:
+      across: 39.45
+      within: 33.1
+    120s:
+      across: 42.66
+      within: 38.64
+    1s:
+      across: 30.12
+      within: 22.29
+  LANG2:
+    10s:
+      across: 40.82
+      within: 39.33
+    120s:
+      across: 42.21
+      within: 41.58
+    1s:
+      across: 32.06
+      within: 28.36
+  english:
+    10s:
+      across: 32.89
+      within: 27.37
+    120s:
+      across: 41.77
+      within: 36.92
+    1s:
+      across: 29.65
+      within: 24.83
+  french:
+    10s:
+      across: 35.35
+      within: 27.31
+    120s:
+      across: 42.05
+      within: 37.71
+    1s:
+      across: 31.65
+      within: 25.52
+  mandarin:
+    10s:
+      across: 23.73
+      within: 20.37
+    120s:
+      across: 35.21
+      within: 30.37
+    1s:
+      across: 20.69
+      within: 18.96
+  metadata:
+    hyperparameters: Speech features WORLD-based 50-dimensional mel-cepstrum including
+      0th power log-continuous F0 with binary U/V decision and code-aperiodicity 10
+      ms frame shift 1024 FFT points analysis For CycleVAE joint spectral and excitation
+      modeling 32 latent-dimensions 3 cycles one-hot speaker code is used for all
+      153 speakers of 2017 datasets -3/+3 contexts for input convolution extraction
+      1 hidden layer and 1024 hidden units for GRU encoder and spectral decoder 1
+      hidden layer and 512 hidden units for GRU excitation decoder 0.5 dropout encoder
+      output layer generates latent-posterior with standard Laplacian prior and posterior-probability
+      of speaker-input code spectral decoder input layer receives sampled latent parameters
+      in training, but mode of posterior in decoding, and one-hot code of generated
+      speaker spectral decoder output layer generates mel-cepstrum excitation decoder
+      input layer receives estimated mel-cepstrum and one-hot code of generated speaker
+      excitation decoder output layer generates log-F0, binary U/V decision, and code-aperiodicity
+      loss values including reconstruction mel-cepstrum of all cycles path + KL-divergence
+      to standard Laplacian prior in each cycle path + cross-entropy of speaker-posterior
+      + F0,U/V,code-ap reconstruction loss of 1st half of 1st cycle
+    system description: Spectral and excitation model is developed with CycleVAE,
+      which is based on cyclic variational autoencoder (CycleVAE) [https://www.isca-speech.org/archive/Interspeech_2019/pdfs/2307.pdf].
+      The difference to the above paper is that it estimates excitation parameters
+      with the first half of the first cycle. Also, the difference between the other
+      submission is the use of continuous latent distribution and the joint modeling
+      of spectral and excitation parameters.
+    track1 supervised: false
+    track2 supervised: false
+track2_2017:
+  LANG1:
+    details:
+      boundary_fscore: '-'
+      boundary_precision: '-'
+      boundary_recall: '-'
+      coverage: '-'
+      grouping_fscore: '-'
+      grouping_precision: '-'
+      grouping_recall: '-'
+      ned: '-'
+      pairs: '-'
+      token_fscore: '-'
+      token_precision: '-'
+      token_recall: '-'
+      type_fscore: '-'
+      type_precision: '-'
+      type_recall: '-'
+      words: '-'
+    scores:
+      coverage: '-'
+      ned: '-'
+      words: '-'
+  LANG2:
+    details:
+      boundary_fscore: '-'
+      boundary_precision: '-'
+      boundary_recall: '-'
+      coverage: '-'
+      grouping_fscore: '-'
+      grouping_precision: '-'
+      grouping_recall: '-'
+      ned: '-'
+      pairs: '-'
+      token_fscore: '-'
+      token_precision: '-'
+      token_recall: '-'
+      type_fscore: '-'
+      type_precision: '-'
+      type_recall: '-'
+      words: '-'
+    scores:
+      coverage: '-'
+      ned: '-'
+      words: '-'
+  english:
+    details:
+      boundary_fscore: '-'
+      boundary_precision: '-'
+      boundary_recall: '-'
+      coverage: '-'
+      grouping_fscore: '-'
+      grouping_precision: '-'
+      grouping_recall: '-'
+      ned: '-'
+      pairs: '-'
+      token_fscore: '-'
+      token_precision: '-'
+      token_recall: '-'
+      type_fscore: '-'
+      type_precision: '-'
+      type_recall: '-'
+      words: '-'
+    scores:
+      coverage: '-'
+      ned: '-'
+      words: '-'
+  french:
+    details:
+      boundary_fscore: '-'
+      boundary_precision: '-'
+      boundary_recall: '-'
+      coverage: '-'
+      grouping_fscore: '-'
+      grouping_precision: '-'
+      grouping_recall: '-'
+      ned: '-'
+      pairs: '-'
+      token_fscore: '-'
+      token_precision: '-'
+      token_recall: '-'
+      type_fscore: '-'
+      type_precision: '-'
+      type_recall: '-'
+      words: '-'
+    scores:
+      coverage: '-'
+      ned: '-'
+      words: '-'
+  mandarin:
+    details:
+      boundary_fscore: '-'
+      boundary_precision: '-'
+      boundary_recall: '-'
+      coverage: '-'
+      grouping_fscore: '-'
+      grouping_precision: '-'
+      grouping_recall: '-'
+      ned: '-'
+      pairs: '-'
+      token_fscore: '-'
+      token_precision: '-'
+      token_recall: '-'
+      type_fscore: '-'
+      type_precision: '-'
+      type_recall: '-'
+      words: '-'
+    scores:
+      coverage: '-'
+      ned: '-'
+      words: '-'
+  metadata:
+    hyperparameters: '-'
+    system description: '-'
+    track1_supervised: '-'
+    track2_supervised: '-'

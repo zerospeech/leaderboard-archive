@@ -1,0 +1,16 @@
+metadata:
+  after_challenge: 'no'
+  author: Baljekar et al.
+  bib: <a class="reference internal" href="#baljekar_using_2015" id="id8">[8]</a>
+  binary: 'yes'
+  main_idea: Binary phonological/articulatory features
+  reference: Baljekar, P., Sitaram, S., Muthukumar, P. K., & Black, A. (2015). Using
+    articulatory features and inferred phonological segments in zero resource speech
+    processing. In Proceedings of Interspeech.
+  supervision: yes, English
+  team: CMU
+scores:
+  english_across: '29.8'
+  english_within: '18.4'
+  xitsonga_across: '29.7'
+  xitsonga_within: '18.1'

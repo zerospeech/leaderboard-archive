@@ -1,0 +1,207 @@
+description: Our submission uses the baseline CPC model. For ABX, we remove speaker
+  identity with a linear projection and average representations with k-Means centroids
+  (https://arxiv.org/abs/2106.11603). For other tasks, we use pseudo-phones derived
+  with a self-trained segmenting language model without speaker normalization. In
+  the lexical and syntactic task, we ensemble AWD-LSTMs trained directly on those
+  representations. In the semantic task, we train a word2vec model on pseudo-words
+  found using the segmentation of pseudo-phone sequences.
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '60'
+  parameters:
+    frame_shift: 0.01
+    metric: cosine
+    visually_grounded: false
+  train_set: LibriLight 6k
+extras: null
+index: 25
+model_id: "\u0141a\u014421"
+publication:
+  DOI: null
+  author_short: "Adrian \u0141ancucki et al."
+  authors: "Adrian \u0141ancucki, Tomasz Grzegorzek, Santiago Cuervo, Ricard Marxer,\
+    \ Pawe\u0142 Rychlikowski, Jan Chorowski"
+  bib_ref: '-'
+  code: null
+  institution: University of Wroclaw
+  open_science: false
+  paper_ref: "Adrian \u0141ancucki, Tomasz Grzegorzek, Santiago Cuervo, Ricard Marxer,\
+    \ Pawe\u0142 Rychlikowski, Jan Chorowski (2021.0) -"
+  paper_title: '-'
+  paper_url: '-'
+  pub_year: 2021
+  team_name: null
+scores:
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.0572753436863422
+  seed: 3459
+  speaker_mode: within
+  subset: dev-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.0593104436993598
+  seed: 3459
+  speaker_mode: across
+  subset: dev-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0219746194779872
+  seed: 3459
+  speaker_mode: across
+  subset: dev-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.017340438440442
+  seed: 3459
+  speaker_mode: within
+  subset: dev-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.0829123184084892
+  seed: 3459
+  speaker_mode: within
+  subset: dev-other
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.0905796512961387
+  seed: 3459
+  speaker_mode: across
+  subset: dev-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0573692880570888
+  seed: 3459
+  speaker_mode: across
+  subset: dev-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0354325771331787
+  seed: 3459
+  speaker_mode: within
+  subset: dev-other
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.0576503984630107
+  seed: 3459
+  speaker_mode: within
+  subset: test-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.0593621879816055
+  seed: 3459
+  speaker_mode: across
+  subset: test-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0257325358688831
+  seed: 3459
+  speaker_mode: across
+  subset: test-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0182436741888523
+  seed: 3459
+  speaker_mode: within
+  subset: test-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.0856406316161155
+  seed: 3459
+  speaker_mode: within
+  subset: test-other
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.0936806127429008
+  seed: 3459
+  speaker_mode: across
+  subset: test-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0581282600760459
+  seed: 3459
+  speaker_mode: across
+  subset: test-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0355713851749897
+  seed: 3459
+  speaker_mode: within
+  subset: test-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0295
+  seed: none
+  speaker_mode: within
+  subset: dev-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0354
+  seed: none
+  speaker_mode: across
+  subset: dev-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.045
+  seed: none
+  speaker_mode: within
+  subset: dev-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0705
+  seed: none
+  speaker_mode: across
+  subset: dev-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0285
+  seed: none
+  speaker_mode: within
+  subset: test-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0367
+  seed: none
+  speaker_mode: across
+  subset: test-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.045
+  seed: none
+  speaker_mode: within
+  subset: test-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0733
+  seed: none
+  speaker_mode: across
+  subset: test-other
+submission_date: '2021-11-23T15:07:16+00:00'
+submission_id: adrian_lancucki
+submitted_by: null

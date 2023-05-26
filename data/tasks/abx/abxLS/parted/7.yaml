@@ -1,0 +1,51 @@
+description: High-budget baseline composed of CPC small + VG + KMEANS (500) + BERT
+  big
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '160'
+  parameters:
+    frame_shift: 0.02
+    metric: cosine
+    visually_grounded: false
+  train_set: SpokenCOCO, Librispeech
+extras: null
+index: 8
+model_id: Baseline4vg-sm
+publication:
+  DOI: null
+  author_short: <b>VG baseline (high budget)
+  authors: "Alishahi, A., Chrupa\u0142a, G., Cristia, A., Dupoux, E., Higy, B., Lavechin,\
+    \ M., R\xE4s\xE4nen, O. & Yu, C."
+  bib_ref: alishahi2021zr
+  code: null
+  institution: Aalto University, CNRS, EHESS, ENS, Inria, PSL Research University,
+    Tampere University, Tilburg University, University of Texas
+  open_science: true
+  paper_ref: "Alishahi, A., Chrupa\u0142a, G., Cristia, A., Dupoux, E., Higy, B.,\
+    \ Lavechin, M., R\xE4s\xE4nen, O. & Yu, C. (2021.0) R-2021VG: Zero-resource speech\
+    \ challenge, visually-grounded language modelling track."
+  paper_title: 'R-2021VG: Zero-resource speech challenge, visually-grounded language
+    modelling track.'
+  paper_url: https://arxiv.org/abs/2107.06546
+  pub_year: 2021
+  team_name: null
+scores:
+  clean:
+    dev:
+      across: 0.0673
+      within: 0.0551
+    test:
+      across: 0.0671
+      within: 0.0536
+  other:
+    dev:
+      across: 0.1133
+      within: 0.0744
+    test:
+      across: 0.1192
+      within: 0.0744
+submission_date: '2021-01-01T15:16:16+00:00'
+submission_id: 'zr2021-baseline-vg-high'
+submitted_by: null

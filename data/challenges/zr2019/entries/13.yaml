@@ -1,0 +1,67 @@
+audio_samples:
+  english_1: english_1_20190315234010_YeonjungHong.wav
+  english_2: english_2_20190315234010_YeonjungHong.wav
+  surprise_1: surprise_1_20190315234010_YeonjungHong.wav
+  surprise_2: surprise_2_20190315234010_YeonjungHong.wav
+details_abx:
+  english_auxiliary1_abx_dtw_cosine: '-'
+  english_auxiliary1_abx_dtw_kl: '-'
+  english_auxiliary1_abx_levenshtein: '-'
+  english_auxiliary2_abx_dtw_cosine: '-'
+  english_auxiliary2_abx_dtw_kl: '-'
+  english_auxiliary2_abx_levenshtein: '-'
+  english_test_abx_dtw_cosine: 20.26
+  english_test_abx_dtw_kl: 50.0
+  english_test_abx_levenshtein: 37.44
+  surprise_auxiliary1_abx_dtw_cosine: '-'
+  surprise_auxiliary1_abx_dtw_kl: '-'
+  surprise_auxiliary1_abx_levenshtein: '-'
+  surprise_auxiliary2_abx_dtw_cosine: '-'
+  surprise_auxiliary2_abx_dtw_kl: '-'
+  surprise_auxiliary2_abx_levenshtein: '-'
+  surprise_test_abx_dtw_cosine: 10.39
+  surprise_test_abx_dtw_kl: 50.0
+  surprise_test_abx_levenshtein: 32.47
+details_bitrate:
+  english_auxiliary1_bitrate: '-'
+  english_auxiliary2_bitrate: '-'
+  english_test_bitrate: 160.88
+  surprise_auxiliary1_bitrate: '-'
+  surprise_auxiliary2_bitrate: '-'
+  surprise_test_bitrate: 144.63
+metadata:
+  abx_distance: dtw_cosine
+  affiliation: Korea University
+  author: Suhee Cho, Yeonjung Hong, Yookyung Shin, Youngsun Cho, Hyebin Yoon, Hyungwon
+    Yang, Ingu Lee, Seohyun Kim, Wiback Kim, Youngjun Kim, Hosung Nam
+  author_short: Cho <i>et al.</i>
+  auxiliary1_description: not used
+  auxiliary2_description: not used
+  directory: /home/zerospeech/2019/submissions/20190315234010_YeonjungHong
+  open_source: true
+  submission_index: 14
+  submitted_at: '2019-03-15T23:40:10+00:00'
+  submitted_by: YeonjungHong
+  system_description: An end-to-end multi-target voice conversion system is submitted
+    from<br>this group. Specifically, following the model proposed by Chorowski et<br>al.(2019),
+    we used Vector Quantized-Variational AutoEncoder (VQ-VAE)<br>for unsupervised
+    speech representation learning, and WaveNet decoder<br>for speech synthesis. We
+    further enhanced the speech representation<br>learning with the speaker-adversarial
+    approach of Chou et al. (2018).<br>However, as this is currently in the early
+    stage of training, here we<br>only submit our baseline inference results without
+    the additional<br>speaker-adversarial training. All of our code is uploaded at<br>https://github.com/Suhee05/Zerospeech2019.
+    Submmited Model<br>Specifications are English (525,000 training steps, mini-batch
+    size<br>16), Surprise (245,000 training steps, mini-batch size 16).
+  using_external_data: false
+  using_parallel_train: false
+scores:
+  english_abx: 20.26
+  english_bitrate: 160.88
+  english_cer: 0.64
+  english_mos: 2.91
+  english_similarity: 2.7
+  surprise_abx: 10.39
+  surprise_bitrate: 144.63
+  surprise_cer: 0.78
+  surprise_mos: 1.53
+  surprise_similarity: 1.33

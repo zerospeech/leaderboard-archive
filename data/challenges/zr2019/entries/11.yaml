@@ -1,0 +1,62 @@
+audio_samples:
+  english_1: english_1_20190315135759_kamperh.wav
+  english_2: english_2_20190315135759_kamperh.wav
+  surprise_1: surprise_1_20190315135759_kamperh.wav
+  surprise_2: surprise_2_20190315135759_kamperh.wav
+details_abx:
+  english_auxiliary1_abx_dtw_cosine: 27.14
+  english_auxiliary1_abx_dtw_kl: 50.0
+  english_auxiliary1_abx_levenshtein: 45.5
+  english_auxiliary2_abx_dtw_cosine: 25.1
+  english_auxiliary2_abx_dtw_kl: 26.62
+  english_auxiliary2_abx_levenshtein: 44.26
+  english_test_abx_dtw_cosine: 30.78
+  english_test_abx_dtw_kl: 50.0
+  english_test_abx_levenshtein: 41.44
+  surprise_auxiliary1_abx_dtw_cosine: 23.5
+  surprise_auxiliary1_abx_dtw_kl: 50.0
+  surprise_auxiliary1_abx_levenshtein: 47.02
+  surprise_auxiliary2_abx_dtw_cosine: 17.6
+  surprise_auxiliary2_abx_dtw_kl: 28.15
+  surprise_auxiliary2_abx_levenshtein: 47.05
+  surprise_test_abx_dtw_cosine: 26.49
+  surprise_test_abx_dtw_kl: 50.0
+  surprise_test_abx_levenshtein: 39.26
+details_bitrate:
+  english_auxiliary1_bitrate: 188.4
+  english_auxiliary2_bitrate: 1732.09
+  english_test_bitrate: 87.74
+  surprise_auxiliary1_bitrate: 186.05
+  surprise_auxiliary2_bitrate: 1745.19
+  surprise_test_bitrate: 69.22
+metadata:
+  abx_distance: dtw_cosine
+  affiliation: Stellenbosch University
+  author: Herman Kamper, Ryan Eloff, Avashna Govender, Andre Nortje, Leanne Nortje,
+    Arnu Pretorius, Elan van Biljon, Ewald van der Westhuizen, Benjamin van Niekerk,
+    Lisa van Staden
+  author_short: Kamper <i>et al.</i>
+  auxiliary1_description: Intermediate continuous features prior to discretisation.
+  auxiliary2_description: Intermediate continuous features prior to vocoding but after<br>discretisation.
+  directory: /home/zerospeech/2019/submissions/20190315135759_kamperh
+  open_source: true
+  submission_index: 12
+  submitted_at: '2019-03-15T13:57:59+00:00'
+  submitted_by: kamperh
+  system_description: A neural network model with intermediate discritisation is trained
+    to<br>produce speech features (filterbanks) as output given MFCC features as<br>input.
+    The output is used to condition a trained neural vocoder<br>(FFTNet). Internal
+    label, ryan_conv_deconv_compression_8.
+  using_external_data: false
+  using_parallel_train: false
+scores:
+  english_abx: 30.78
+  english_bitrate: 87.74
+  english_cer: 0.75
+  english_mos: 2.31
+  english_similarity: 2.49
+  surprise_abx: 26.49
+  surprise_bitrate: 69.22
+  surprise_cer: 0.58
+  surprise_mos: 1.94
+  surprise_similarity: 1.95

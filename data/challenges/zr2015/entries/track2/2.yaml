@@ -1,0 +1,39 @@
+metadata:
+  after: 'no'
+  author: "R\xE4s\xE4nen et al."
+  team: Aalto & Stanford
+scores:
+  NED_english: 89.6
+  NED_xitsonga: 78.4
+  boundary_F_english: '41.4'
+  boundary_F_xitsonga: 26.3
+  boundary_prec_english: '76.1'
+  boundary_prec_xitsonga: 26.2
+  boundary_rec_english: '28.5'
+  boundary_rec_xitsonga: 26.3
+  cov_english: 40.6
+  cov_xitsonga: 77.7
+  grouping_F_english: '5.7'
+  grouping_F_xitsonga: 4.3
+  grouping_prec_english: '4.0'
+  grouping_prec_xitsonga: 6.2
+  grouping_rec_english: '10.8'
+  grouping_rec_xitsonga: 3.2
+  matching_F_english: ''
+  matching_F_xitsonga: ''
+  matching_prec_english: ''
+  matching_prec_xitsonga: ''
+  matching_rec_english: ''
+  matching_rec_xitsonga: ''
+  token_F_english: '7.9'
+  token_F_xitsonga: 1.8
+  token_prec_english: '21.6'
+  token_prec_xitsonga: 1.8
+  token_rec_english: '4.8'
+  token_rec_xitsonga: 1.8
+  type_F_english: '12.3'
+  type_F_xitsonga: 2.4
+  type_prec_english: '13.5'
+  type_prec_xitsonga: 1.7
+  type_rec_english: '11.3'
+  type_rec_xitsonga: 4.1

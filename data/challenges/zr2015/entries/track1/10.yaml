@@ -1,0 +1,16 @@
+metadata:
+  after_challenge: 'no'
+  author: Chen et al.
+  bib: <a class="reference internal" href="#chen_parallel_2015" id="id7">[7]</a>
+  binary: 'no'
+  main_idea: PhonePosteriors
+  reference: 'Chen, H., Leung, C. C., Xie, L., Ma, B., & Li, H. (2015). Parallel inference
+    of dirichlet process gaussian mixture models for unsupervised acoustic modeling:
+    A feasibility study. In Proceedings of Interspeech.'
+  supervision: yes, Czek Hungarian Russian
+  team: NPU & I2R
+scores:
+  english_across: '15.8'
+  english_within: '10.4'
+  xitsonga_across: '15.5'
+  xitsonga_within: '12.0'

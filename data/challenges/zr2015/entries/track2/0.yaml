@@ -1,0 +1,39 @@
+metadata:
+  after: 'no'
+  author: <b>Baseline</b>
+  team: CoML Team
+scores:
+  NED_english: 21.9
+  NED_xitsonga: 12.0
+  boundary_F_english: '8.6'
+  boundary_F_xitsonga: 8.9
+  boundary_prec_english: '44.1'
+  boundary_prec_xitsonga: 22.3
+  boundary_rec_english: '4.7'
+  boundary_rec_xitsonga: 5.6
+  cov_english: 16.3
+  cov_xitsonga: 16.2
+  grouping_F_english: '33.3'
+  grouping_F_xitsonga: 62.2
+  grouping_prec_english: '21.4'
+  grouping_prec_xitsonga: 52.1
+  grouping_rec_english: '84.6'
+  grouping_rec_xitsonga: 77.4
+  matching_F_english: '3.1'
+  matching_F_xitsonga: 0.5
+  matching_prec_english: '39.4'
+  matching_prec_xitsonga: 69.1
+  matching_rec_english: '1.6'
+  matching_rec_xitsonga: 0.3
+  token_F_english: '0.8'
+  token_F_xitsonga: 0.8
+  token_prec_english: '5.5'
+  token_prec_xitsonga: 2.6
+  token_rec_english: '0.4'
+  token_rec_xitsonga: 0.5
+  type_F_english: '2.9'
+  type_F_xitsonga: 2.0
+  type_prec_english: '6.2'
+  type_prec_xitsonga: 3.2
+  type_rec_english: '1.9'
+  type_rec_xitsonga: 1.4

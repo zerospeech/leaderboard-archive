@@ -1,0 +1,83 @@
+'2019':
+  audio_samples:
+    english_1: english_1_20200424154827_benjaminvan.wav
+    english_2: english_2_20200424154827_benjaminvan.wav
+    surprise_1: surprise_1_20200424154827_benjaminvan.wav
+    surprise_2: surprise_2_20200424154827_benjaminvan.wav
+  english:
+    details_abx:
+      auxiliary_embedding1:
+        KL: 50.0
+        cosine: 12.47
+        levenshtein: 43.91
+      auxiliary_embedding2:
+        KL: 50.0
+        cosine: 12.29
+        levenshtein: 44.3
+      test:
+        KL: 50.0
+        cosine: 13.44
+        levenshtein: 27.84
+    details_bitrate:
+      auxiliary_embedding1: 817.37
+      auxiliary_embedding2: 817.69
+      test: 421.33
+    scores:
+      abx: 13.44
+      bitrate: 421.33
+      cer: 0.38
+      mos: 3.64
+      similarity: 3.8
+  metadata:
+    abx_distance: dtw_cosine
+    auxiliary1_description: Continuous context vectors (output of the autoregressive
+      model).
+    auxiliary2_description: Continuous features after projecting but prior to quantization.
+    hyperparameters: All hyperparameters used for training the models can be found
+      in the config folder at https://github.com/bshall/VectorQuantizedCPC. The same
+      hyperparameters are used across languages, i.e. no language-specific hyperparameter
+      tuning is necessary.
+    system description: To learn a discrete representation of speech we propose vector-quantized
+      contrastive predictive coding. The encoder maps input speech into a sequence
+      of latent vectors with 2x downsampling. Latent vectors are then quantized using
+      a codebook of size 512. Next, an autoregressive model summarises the latent
+      representation (up until time t) into a context vector. Using this context,
+      the model learns to discriminate future frames from negative examples sampled
+      randomly from other utterances. Finally, an RNN based vocoder is trained to
+      generate audio from the discretized representation. Code to train and evaluate
+      the models is available at https://github.com/bshall/VectorQuantizedCPC.
+    using_external_data: false
+    using_parallel_train: false
+  surprise:
+    details_abx:
+      auxiliary_embedding1:
+        KL: 50.0
+        cosine: 4.89
+        levenshtein: 46.83
+      auxiliary_embedding2:
+        KL: 50.0
+        cosine: 5.4
+        levenshtein: 47.17
+      test:
+        KL: 50.0
+        cosine: 5.13
+        levenshtein: 21.0
+    details_bitrate:
+      auxiliary_embedding1: 816.64
+      auxiliary_embedding2: 821.68
+      test: 419.62
+    scores:
+      abx: 5.13
+      bitrate: 419.62
+      cer: 0.27
+      mos: 3.49
+      similarity: 2.68
+metadata:
+  affiliation: Stellenbosch University
+  author: Benjamin van Niekerk, Leanne Nortje, Herman Kamper
+  author_short: Niekerk <i>et al.</i>
+  directory: /mnt/zs2020_submissions/20200424154827_benjaminvan
+  open_source: true
+  submission_index: 15
+  submitted_at: '2020-04-24T15:48:27+00:00'
+  submitted_by: benjaminvan

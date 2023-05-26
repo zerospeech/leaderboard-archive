@@ -1,0 +1,47 @@
+description: The pre-trained RoBERTa large model trained on 50K subword units on a
+  huge dataset of total 160GB, 3000 times bigger than the transcription of the LibriSpeech
+  960h dataset.
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '24576'
+  parameters:
+    frame_shift: '-'
+    metric: '-'
+    visually_grounded: false
+  train_set: 50K subword units on a huge dataset of total 160GB
+extras: null
+index: 3
+model_id: topline21a
+publication:
+  DOI: null
+  author_short: <b>RoBERTa topline</b>
+  authors: null
+  bib_ref: null
+  code: null
+  institution: EHESS, ENS, PSL Research Univerity, CNRS and Inria
+  open_science: false
+  paper_ref: null
+  paper_title: null
+  paper_url: null
+  pub_year: null
+  team_name: null
+scores:
+  clean:
+    dev:
+      across: null
+      within: null
+    test:
+      across: null
+      within: null
+  other:
+    dev:
+      across: null
+      within: null
+    test:
+      across: null
+      within: null
+submission_date: '2020-11-24T11:51:09+00:00'
+submission_id: 'topline21a'
+submitted_by: null

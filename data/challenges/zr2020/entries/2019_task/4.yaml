@@ -1,0 +1,75 @@
+'2019':
+  audio_samples:
+    english_1: english_1_20200423182652_mingjiechen.wav
+    english_2: english_2_20200423182652_mingjiechen.wav
+    surprise_1: surprise_1_20200423182652_mingjiechen.wav
+    surprise_2: surprise_2_20200423182652_mingjiechen.wav
+  english:
+    details_abx:
+      auxiliary_embedding1:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 50.0
+        cosine: 20.19
+        levenshtein: 44.9
+    details_bitrate:
+      auxiliary_embedding1: '-'
+      auxiliary_embedding2: '-'
+      test: 385.75
+    scores:
+      abx: 20.19
+      bitrate: 385.75
+      cer: 0.18
+      mos: 3.61
+      similarity: 2.57
+  metadata:
+    abx_distance: dtw_cosine
+    hyperparameters:
+      dimension: 64
+      frame rate: 25
+    system description: Followed by Chorowski et al.(2019), wavenet autoencoder is
+      used. Instance Normalization layers are used in encoder. Adaptive Instance Normalization
+      is used in decoder. Frame rate is 25 hz, dimension is 64. Speaker encoder is
+      used to encode speaker information. English data is trained for 610k steps and
+      surprise language data is trained for 300k steps. Batch size is 10.
+    using_external_data: false
+    using_parallel_train: false
+  surprise:
+    details_abx:
+      auxiliary_embedding1:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 50.0
+        cosine: 12.5
+        levenshtein: 46.92
+    details_bitrate:
+      auxiliary_embedding1: '-'
+      auxiliary_embedding2: '-'
+      test: 387.83
+    scores:
+      abx: 12.5
+      bitrate: 387.83
+      cer: 0.15
+      mos: 4.06
+      similarity: 2.67
+metadata:
+  affiliation: University of Sheffield
+  author: Mingjie Chen, Thomas Hain
+  author_short: Chen <i>et al.</i>
+  directory: /mnt/zs2020_submissions/20200423182652_mingjiechen
+  open_source: false
+  submission_index: 8
+  submitted_at: '2020-04-23T18:26:52+00:00'
+  submitted_by: mingjiechen

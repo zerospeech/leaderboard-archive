@@ -1,0 +1,309 @@
+author_label: van Niekerk <i>et al.</i>
+index: 9
+lexical_all:
+- 0.642825
+- 0.65055625
+lexical_invocab:
+- 0.7234176999999999
+- 0.72858918
+more:
+  description:
+    affiliation: Stellenbosch University
+    author: Benjamin van Niekerk, Mathew Baas, Leanne Nortje, Herman Kamper
+    description: CPC-big (from the zerospeech2021 baseline), speaker normalization,
+      kmeans (trained on a subset of LibriSpeech 100), LSTM language model (from the
+      zerospeech2021 baseline).
+    gpu_budget: 60
+    open_source: false
+    parameters:
+      phonetic:
+        frame_shift: 0.01
+        metric: cosine
+      semantic:
+        metric: cosine
+        pooling: min
+    submitted_at: '2021-03-22T23:00:44+00:00'
+    train_set: LibriSpeech 960
+  lexical:
+    by_frequency:
+    - frequency: oov
+      n_dev: 5000
+      n_test: 20000
+      score_dev: 0.5623
+      score_test: 0.5725
+      std_dev: 0.3426
+      std_test: 0.3399
+    - frequency: 1-5
+      n_dev: 1656
+      n_test: 6788
+      score_dev: 0.6654
+      score_test: 0.661
+      std_dev: 0.324
+      std_test: 0.3301
+    - frequency: 6-20
+      n_dev: 1563
+      n_test: 6170
+      score_dev: 0.6998
+      score_test: 0.7171
+      std_dev: 0.3182
+      std_test: 0.3103
+    - frequency: 21-100
+      n_dev: 1251
+      n_test: 4998
+      score_dev: 0.7747
+      score_test: 0.7915
+      std_dev: 0.2818
+      std_test: 0.2773
+    - frequency: '>100'
+      n_dev: 530
+      n_test: 2044
+      score_dev: 0.8533
+      score_test: 0.8339
+      std_dev: 0.2327
+      std_test: 0.247
+    by_length:
+    - length: 4
+      n_dev: 345
+      n_test: 1460
+      score_dev: 0.5978
+      score_test: 0.5838
+      std_dev: 0.3384
+      std_test: 0.3439
+    - length: 5
+      n_dev: 1626
+      n_test: 6608
+      score_dev: 0.588
+      score_test: 0.5951
+      std_dev: 0.3405
+      std_test: 0.3366
+    - length: 6
+      n_dev: 2492
+      n_test: 9898
+      score_dev: 0.6138
+      score_test: 0.6241
+      std_dev: 0.3364
+      std_test: 0.3368
+    - length: 7
+      n_dev: 2102
+      n_test: 8205
+      score_dev: 0.6425
+      score_test: 0.6454
+      std_dev: 0.3304
+      std_test: 0.3325
+    - length: 8
+      n_dev: 1497
+      n_test: 6096
+      score_dev: 0.6602
+      score_test: 0.6714
+      std_dev: 0.3395
+      std_test: 0.3335
+    - length: 9
+      n_dev: 955
+      n_test: 3514
+      score_dev: 0.6966
+      score_test: 0.7055
+      std_dev: 0.3326
+      std_test: 0.3224
+    - length: 10
+      n_dev: 490
+      n_test: 2054
+      score_dev: 0.7388
+      score_test: 0.7402
+      std_dev: 0.3102
+      std_test: 0.3088
+    - length: 11
+      n_dev: 298
+      n_test: 1184
+      score_dev: 0.745
+      score_test: 0.7568
+      std_dev: 0.3063
+      std_test: 0.2998
+    - length: 12
+      n_dev: 132
+      n_test: 602
+      score_dev: 0.7538
+      score_test: 0.7944
+      std_dev: 0.3135
+      std_test: 0.2837
+    - length: 13
+      n_dev: 51
+      n_test: 301
+      score_dev: 0.8088
+      score_test: 0.8015
+      std_dev: 0.2376
+      std_test: 0.2713
+    - length: 14
+      n_dev: 12
+      n_test: 78
+      score_dev: 0.625
+      score_test: 0.7404
+      std_dev: 0.2919
+      std_test: 0.3158
+  semantic:
+  - dataset: mturk-771
+    librispeech: 7.6915
+    set: dev
+    synthetic: 4.2908
+  - dataset: MEN
+    librispeech: 4.4226
+    set: test
+    synthetic: 7.8524
+  - dataset: WordSim-353
+    librispeech: -0.2912
+    set: test
+    synthetic: 11.8294
+  - dataset: WordSim-353-REL
+    librispeech: -4.5632
+    set: test
+    synthetic: 5.7293
+  - dataset: WordSim-353-SIM
+    librispeech: 8.1958
+    set: test
+    synthetic: 16.2421
+  - dataset: YP-130
+    librispeech: 11.008
+    set: test
+    synthetic: -9.8132
+  - dataset: mc-30
+    librispeech: -11.4412
+    set: test
+    synthetic: 15.8896
+  - dataset: mturk-287
+    librispeech: -24.6047
+    set: test
+    synthetic: -2.7473
+  - dataset: rg-65
+    librispeech: -35.1031
+    set: test
+    synthetic: 17.2389
+  - dataset: rw
+    librispeech: 30.9194
+    set: test
+    synthetic: 18.152
+  - dataset: simLex999
+    librispeech: 8.1895
+    set: test
+    synthetic: 2.1738
+  - dataset: simverb-3500
+    librispeech: -0.229
+    set: test
+    synthetic: -0.6827
+  - dataset: verb-143
+    librispeech: -0.1807
+    set: test
+    synthetic: 28.9352
+  syntactic:
+  - n_dev: 200
+    n_test: 2000
+    score_dev: 0.5587
+    score_test: 0.5395
+    std_dev: 0.37
+    std_test: 0.4986
+    type: anaphor_agreement
+  - n_dev: 900
+    n_test: 9000
+    score_dev: 0.5267
+    score_test: 0.5226
+    std_dev: 0.3911
+    std_test: 0.4995
+    type: argument_structure
+  - n_dev: 500
+    n_test: 5000
+    score_dev: 0.6535
+    score_test: 0.6366
+    std_dev: 0.3561
+    std_test: 0.4809
+    type: binding
+  - n_dev: 500
+    n_test: 5000
+    score_dev: 0.4928
+    score_test: 0.5134
+    std_dev: 0.3791
+    std_test: 0.4999
+    type: control_raising
+  - n_dev: 800
+    n_test: 8000
+    score_dev: 0.5356
+    score_test: 0.5321
+    std_dev: 0.3464
+    std_test: 0.499
+    type: determiner_noun_agreement
+  - n_dev: 100
+    n_test: 1000
+    score_dev: 0.58
+    score_test: 0.555
+    std_dev: 0.3874
+    std_test: 0.4972
+    type: ellipsis
+  - n_dev: 800
+    n_test: 8000
+    score_dev: 0.5697
+    score_test: 0.5625
+    std_dev: 0.3916
+    std_test: 0.4961
+    type: filler_gap_dependency
+  - n_dev: 200
+    n_test: 2000
+    score_dev: 0.58
+    score_test: 0.5965
+    std_dev: 0.3082
+    std_test: 0.4859
+    type: irregular_forms
+  - n_dev: 700
+    n_test: 7000
+    score_dev: 0.5579
+    score_test: 0.5283
+    std_dev: 0.3293
+    std_test: 0.4992
+    type: island_effects
+  - n_dev: 700
+    n_test: 7000
+    score_dev: 0.4132
+    score_test: 0.4239
+    std_dev: 0.3413
+    std_test: 0.4942
+    type: npi_licensing
+  - n_dev: 300
+    n_test: 3000
+    score_dev: 0.6675
+    score_test: 0.6613
+    std_dev: 0.3068
+    std_test: 0.4733
+    type: quantifiers
+  - n_dev: 600
+    n_test: 6000
+    score_dev: 0.5033
+    score_test: 0.5125
+    std_dev: 0.3152
+    std_test: 0.4999
+    type: subject_verb_agreement
+phonetic_clean_across:
+- 0.0663
+- 0.0689
+phonetic_clean_within:
+- 0.0537
+- 0.0541
+phonetic_other_across:
+- 0.1289
+- 0.1314
+phonetic_other_within:
+- 0.088
+- 0.0867
+semantic_librispeech:
+- 7.6915
+- -1.1398166666666663
+semantic_synthetic:
+- 4.2908
+- 9.233291666666666
+set:
+- dev
+- test
+syntactic:
+- 0.5395436507936507
+- 0.5358888888888889
+weighted_semantic_librispeech:
+- 7.6915
+- 2.7235081001865176
+weighted_semantic_synthetic:
+- 4.2908
+- 5.60015702996716

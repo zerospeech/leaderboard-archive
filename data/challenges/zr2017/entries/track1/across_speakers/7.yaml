@@ -1,0 +1,22 @@
+metadata:
+  DOI: <a href="https://zenodo.org/record/815089">815089</a>
+  affiliation: Tokyo Institute of Technology
+  author: Shibata et al.
+  rank: ''
+  supervision: 'Yes'
+scores:
+  LANG1_10s: '9.9'
+  LANG1_120s: '8.7'
+  LANG1_1s: '11.6'
+  LANG2_10s: '10.2'
+  LANG2_120s: '8.6'
+  LANG2_1s: '11.5'
+  english_10s: '9.2'
+  english_120s: '8.2'
+  english_1s: '10.1'
+  french_10s: '12.4'
+  french_120s: '10.8'
+  french_1s: '13.7'
+  mandarin_10s: '9.5'
+  mandarin_120s: '8.0'
+  mandarin_1s: '10.4'

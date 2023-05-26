@@ -1,0 +1,16 @@
+metadata:
+  after_challenge: 'no'
+  author: Badino et al
+  bib: <a class="reference internal" href="#badino_discovering_2015" id="id4">[4]</a>
+  binary: 'yes'
+  main_idea: Autoencoder (12) Bin1 (soft)
+  reference: Badino, L., Mereta, A., & Rosasco, L. (2015). Discovering discrete subword
+    units with binarized autoencoders and hidden-markov-model encoders. In Proceedings
+    of Interspeech.
+  supervision: 'no'
+  team: RBCS
+scores:
+  english_across: '28.7'
+  english_within: '19.7'
+  xitsonga_across: '26.4'
+  xitsonga_within: '17.1'

@@ -1,0 +1,320 @@
+author_label: Chorowski <i>et al.</i>
+index: 10
+lexical_all:
+- 0.6302125
+- 0.63764375
+lexical_invocab:
+- 0.72431768
+- 0.7229778
+more:
+  description:
+    affiliation: University of Wroclaw
+    author: "Jan Chorowski, Grzegorz Ciesielski, Jaros\u0142aw Dzikowski, Adrian \u0141\
+      ancucki, Ricard Marxer, Mateusz Opala, Piotr Pusz, Pawe\u0142 Rychlikowski,\
+      \ Micha\u0142 Stypu\u0142kowski"
+    description: Information Retrieval to ZeroSpeech 2021. In our submission we have
+      decided to verify the limits of information retrieval approaches to acoustic
+      representations, word-spotting and word semantics discovery. For ABX we use
+      baseline representations. For other tasks we use baseline k-means clustering
+      for quantization. For sWUGGY we provide for each query word the minimum cost
+      of edit-distance matching a given word to the Librispeech960 corpus. This essentially
+      attempts to perform a dictionary lookup - real words should match with a low
+      score, while artificial words should match with a higher one. For sSIMI we segment
+      the sequences of pseudophonemes into words using SentencePiece, we then learn
+      the embeddings of discovered pseudo-words using word embedding approaches. We
+      then map the pseudophones of the query word to the nearest discovered pseudoword.
+      For sBLIMP we provide LM scores, similarly to the baseline.
+    gpu_budget: 60
+    open_source: true
+    parameters:
+      phonetic:
+        frame_shift: 0.01
+        metric: cosine
+      semantic:
+        metric: cosine
+        pooling: last
+    submitted_at: '2021-03-23T02:11:00+00:00'
+    train_set: LibriSpeech
+  lexical:
+    by_frequency:
+    - frequency: oov
+      n_dev: 5000
+      n_test: 20000
+      score_dev: 0.5361
+      score_test: 0.5523
+      std_dev: 0.3291
+      std_test: 0.3714
+    - frequency: 1-5
+      n_dev: 1656
+      n_test: 6788
+      score_dev: 0.6464
+      score_test: 0.6276
+      std_dev: 0.3586
+      std_test: 0.363
+    - frequency: 6-20
+      n_dev: 1563
+      n_test: 6170
+      score_dev: 0.7089
+      score_test: 0.7151
+      std_dev: 0.3328
+      std_test: 0.341
+    - frequency: 21-100
+      n_dev: 1251
+      n_test: 4998
+      score_dev: 0.7853
+      score_test: 0.7997
+      std_dev: 0.2991
+      std_test: 0.2976
+    - frequency: '>100'
+      n_dev: 530
+      n_test: 2044
+      score_dev: 0.8693
+      score_test: 0.8759
+      std_dev: 0.246
+      std_test: 0.2428
+    by_length:
+    - length: 4
+      n_dev: 345
+      n_test: 1460
+      score_dev: 0.5986
+      score_test: 0.5921
+      std_dev: 0.3427
+      std_test: 0.3633
+    - length: 5
+      n_dev: 1626
+      n_test: 6608
+      score_dev: 0.5782
+      score_test: 0.5957
+      std_dev: 0.3416
+      std_test: 0.3627
+    - length: 6
+      n_dev: 2492
+      n_test: 9898
+      score_dev: 0.5983
+      score_test: 0.6073
+      std_dev: 0.3412
+      std_test: 0.3685
+    - length: 7
+      n_dev: 2102
+      n_test: 8205
+      score_dev: 0.6378
+      score_test: 0.6332
+      std_dev: 0.3447
+      std_test: 0.3703
+    - length: 8
+      n_dev: 1497
+      n_test: 6096
+      score_dev: 0.6347
+      score_test: 0.6568
+      std_dev: 0.3548
+      std_test: 0.364
+    - length: 9
+      n_dev: 955
+      n_test: 3514
+      score_dev: 0.6817
+      score_test: 0.6832
+      std_dev: 0.337
+      std_test: 0.3615
+    - length: 10
+      n_dev: 490
+      n_test: 2054
+      score_dev: 0.7413
+      score_test: 0.7162
+      std_dev: 0.3162
+      std_test: 0.3507
+    - length: 11
+      n_dev: 298
+      n_test: 1184
+      score_dev: 0.7299
+      score_test: 0.7309
+      std_dev: 0.3244
+      std_test: 0.3433
+    - length: 12
+      n_dev: 132
+      n_test: 602
+      score_dev: 0.7197
+      score_test: 0.7757
+      std_dev: 0.3151
+      std_test: 0.3205
+    - length: 13
+      n_dev: 51
+      n_test: 301
+      score_dev: 0.7941
+      score_test: 0.7857
+      std_dev: 0.2859
+      std_test: 0.3191
+    - length: 14
+      n_dev: 12
+      n_test: 78
+      score_dev: 0.5417
+      score_test: 0.6923
+      std_dev: 0.2787
+      std_test: 0.3321
+  semantic:
+  - dataset: mturk-771
+    librispeech: 10.1967
+    set: dev
+    synthetic: 5.9046
+  - dataset: MEN
+    librispeech: -2.0677
+    set: test
+    synthetic: -1.7137
+  - dataset: WordSim-353
+    librispeech: 13.5342
+    set: test
+    synthetic: 17.8411
+  - dataset: WordSim-353-REL
+    librispeech: 18.0709
+    set: test
+    synthetic: 10.4739
+  - dataset: WordSim-353-SIM
+    librispeech: -1.5155
+    set: test
+    synthetic: 15.7609
+  - dataset: YP-130
+    librispeech: 32.4311
+    set: test
+    synthetic: -0.4842
+  - dataset: mc-30
+    librispeech: -0.22
+    set: test
+    synthetic: -8.6347
+  - dataset: mturk-287
+    librispeech: 1.7793
+    set: test
+    synthetic: 4.3538
+  - dataset: rg-65
+    librispeech: 6.4063
+    set: test
+    synthetic: -19.2189
+  - dataset: rw
+    librispeech: 19.7646
+    set: test
+    synthetic: 6.07
+  - dataset: simLex999
+    librispeech: 2.5406
+    set: test
+    synthetic: 3.8092
+  - dataset: simverb-3500
+    librispeech: 1.0532
+    set: test
+    synthetic: -0.8908
+  - dataset: verb-143
+    librispeech: 16.488
+    set: test
+    synthetic: 1.6141
+  syntactic:
+  - n_dev: 200
+    n_test: 2000
+    score_dev: 0.55
+    score_test: 0.53
+    std_dev: 0.3615
+    std_test: 0.4992
+    type: anaphor_agreement
+  - n_dev: 900
+    n_test: 9000
+    score_dev: 0.5138
+    score_test: 0.5141
+    std_dev: 0.389
+    std_test: 0.4998
+    type: argument_structure
+  - n_dev: 500
+    n_test: 5000
+    score_dev: 0.615
+    score_test: 0.601
+    std_dev: 0.3599
+    std_test: 0.4897
+    type: binding
+  - n_dev: 500
+    n_test: 5000
+    score_dev: 0.4738
+    score_test: 0.4882
+    std_dev: 0.3783
+    std_test: 0.4999
+    type: control_raising
+  - n_dev: 800
+    n_test: 8000
+    score_dev: 0.4894
+    score_test: 0.487
+    std_dev: 0.3305
+    std_test: 0.4999
+    type: determiner_noun_agreement
+  - n_dev: 100
+    n_test: 1000
+    score_dev: 0.525
+    score_test: 0.507
+    std_dev: 0.3362
+    std_test: 0.5002
+    type: ellipsis
+  - n_dev: 800
+    n_test: 8000
+    score_dev: 0.5881
+    score_test: 0.5784
+    std_dev: 0.3745
+    std_test: 0.4939
+    type: filler_gap_dependency
+  - n_dev: 200
+    n_test: 2000
+    score_dev: 0.5081
+    score_test: 0.5445
+    std_dev: 0.2874
+    std_test: 0.4949
+    type: irregular_forms
+  - n_dev: 700
+    n_test: 7000
+    score_dev: 0.565
+    score_test: 0.5636
+    std_dev: 0.3157
+    std_test: 0.496
+    type: island_effects
+  - n_dev: 700
+    n_test: 7000
+    score_dev: 0.4282
+    score_test: 0.4307
+    std_dev: 0.3208
+    std_test: 0.4952
+    type: npi_licensing
+  - n_dev: 300
+    n_test: 3000
+    score_dev: 0.5975
+    score_test: 0.6423
+    std_dev: 0.3085
+    std_test: 0.4794
+    type: quantifiers
+  - n_dev: 600
+    n_test: 6000
+    score_dev: 0.4646
+    score_test: 0.507
+    std_dev: 0.313
+    std_test: 0.5
+    type: subject_verb_agreement
+phonetic_clean_across:
+- 0.0413
+- 0.0425
+phonetic_clean_within:
+- 0.0338
+- 0.0329
+phonetic_other_across:
+- 0.0761
+- 0.0789
+phonetic_other_within:
+- 0.048
+- 0.0479
+semantic_librispeech:
+- 10.1967
+- 9.022083333333333
+semantic_synthetic:
+- 5.9046
+- 2.4150583333333335
+set:
+- dev
+- test
+syntactic:
+- 0.5216071428571428
+- 0.5266825396825396
+weighted_semantic_librispeech:
+- 10.1967
+- 2.2503605115907277
+weighted_semantic_synthetic:
+- 5.9046
+- 1.4059226087848933

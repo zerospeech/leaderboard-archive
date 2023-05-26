@@ -1,0 +1,77 @@
+'2019':
+  audio_samples:
+    english_1: english_1_20200424220530_androstj.wav
+    english_2: english_2_20200424220530_androstj.wav
+    surprise_1: surprise_1_20200424220530_androstj.wav
+    surprise_2: surprise_2_20200424220530_androstj.wav
+  english:
+    details_abx:
+      auxiliary_embedding1:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 50.0
+        cosine: 20.71
+        levenshtein: 37.95
+    details_bitrate:
+      auxiliary_embedding1: '-'
+      auxiliary_embedding2: '-'
+      test: 167.02
+    scores:
+      abx: 20.71
+      bitrate: 167.02
+      cer: '-'
+      mos: '-'
+      similarity: '-'
+  metadata:
+    abx_distance: dtw_cosine
+    hyperparameters: 4 time stride in the encoder
+    system description: 'This system consisted of two seperated components:<br> 1)
+      VQ-VAE [1] to learn unsupervised discrete codebook representations.<br> The
+      encoder is consisted of residual convolution 1D (with stride > 1) + Transformers
+      [2].<br> The decoder is consisted of convolution 1D + upsampling block.<br>
+      2) Transformer inverter to re-synthesize the linear spectrogram from the codebook
+      representation<br>     The inverter is consisted of several multiscale convolution
+      + Transformers block.<br>  References: <br>     [1] Neural Discrete Representation
+      Learning (Oord et al, NIPS 2017)<br>     [2] Attention is all you need (Vaswani
+      et al, NIPS 2017)'
+    using_external_data: false
+    using_parallel_train: false
+  surprise:
+    details_abx:
+      auxiliary_embedding1:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 50.0
+        cosine: 14.17
+        levenshtein: 37.25
+    details_bitrate:
+      auxiliary_embedding1: '-'
+      auxiliary_embedding2: '-'
+      test: 170.92
+    scores:
+      abx: 14.17
+      bitrate: 170.92
+      cer: '-'
+      mos: '-'
+      similarity: '-'
+metadata:
+  affiliation: NAIST
+  author: Andros Tjandra, Sakriani Sakti, Satoshi Nakamura
+  author_short: Tjandra <i>et al.</i>*
+  directory: /mnt/zs2020_submissions/20200424220530_androstj
+  open_source: false
+  submission_index: 17
+  submitted_at: '2020-05-12T11:13:23+00:00'
+  submitted_by: androstj

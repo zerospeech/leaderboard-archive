@@ -1,0 +1,14 @@
+metadata:
+  after_challenge: 'no'
+  author: Renshaw et al.
+  bib: <a class="reference internal" href="#renshaw_comparison_2015" id="id5">[5]</a>
+  binary: 'no'
+  main_idea: STD+CAE (Xitsonga)
+  reference: ''
+  supervision: 'no'
+  team: Edinburgh & JHU
+scores:
+  english_across: ''
+  english_within: ''
+  xitsonga_across: '18.5'
+  xitsonga_within: '11.6'

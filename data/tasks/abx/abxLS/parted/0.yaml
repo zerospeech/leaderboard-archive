@@ -1,0 +1,46 @@
+description: The BERT model trained on the force-aligned frames of the LibriSpeech
+  960h dataset.
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '1536'
+  parameters:
+    frame_shift: '-'
+    metric: '-'
+    visually_grounded: false
+  train_set: LibriSpeech 960h dataset
+extras: null
+index: 1
+model_id: topline21b
+publication:
+  DOI: null
+  author_short: <b>Forced align topline</b>
+  authors: null
+  bib_ref: null
+  code: null
+  institution: EHESS, ENS, PSL Research Univerity, CNRS and Inria
+  open_science: false
+  paper_ref: null
+  paper_title: null
+  paper_url: null
+  pub_year: null
+  team_name: null
+scores:
+  clean:
+    dev:
+      across: null
+      within: null
+    test:
+      across: null
+      within: null
+  other:
+    dev:
+      across: null
+      within: null
+    test:
+      across: null
+      within: null
+submission_date: '2020-11-23T11:51:09+00:00'
+submission_id: 'topline21b'
+submitted_by: null

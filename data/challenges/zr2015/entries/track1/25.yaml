@@ -1,0 +1,17 @@
+metadata:
+  after_challenge: 'yes'
+  author: Srivastava et al.
+  bib: <a class="reference internal" href="#srivastava2016articulatory" id="id13">[13]</a>
+  binary: 'no'
+  main_idea: ConvAE
+  reference: Srivastava, B. M. L., & Shrivastava, M. (2016, October). Articulatory
+    Gesture Rich Representation Learning of Phonological Units in Low Resource Settings.
+    In International Conference on Statistical Language and Speech Processing (pp.
+    80-95). Springer.
+  supervision: ''
+  team: IIT Hyderabad
+scores:
+  english_across: '28'
+  english_within: '15.5'
+  xitsonga_across: '30.0'
+  xitsonga_within: '19.1'

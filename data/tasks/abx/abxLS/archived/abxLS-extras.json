@@ -1,0 +1,397 @@
+{
+    "last_modified": "2022-08-01T13:14:34.975287",
+    "data": [
+        {
+            "model_id": "Gan21g",
+            "submission_id": "",
+            "index": 36,
+            "submission_date": "2022-07-31T19:11:04.418026",
+            "submitted_by": "varun",
+            "description": "jm_mean30",
+            "publication": {
+                "author_short": "Dr.Sriram Ganapathy et al.",
+                "authors": null,
+                "paper_title": null,
+                "paper_ref": null,
+                "bib_ref": null,
+                "paper_url": null,
+                "pub_year": null,
+                "team_name": null,
+                "institution": "Indian Institute of Science",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 100 and 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0303,
+                        "across": 0.037
+                    },
+                    "test": {
+                        "within": 0.0292,
+                        "across": 0.0382
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0461,
+                        "across": 0.072
+                    },
+                    "test": {
+                        "within": 0.0461,
+                        "across": 0.0746
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Gan21h",
+            "submission_id": "",
+            "index": 37,
+            "submission_date": "2022-07-30T18:54:59.107292",
+            "submitted_by": "varun",
+            "description": "wav2vec_vq",
+            "publication": {
+                "author_short": "Dr.Sriram Ganapathy et al.",
+                "authors": null,
+                "paper_title": null,
+                "paper_ref": null,
+                "bib_ref": null,
+                "paper_url": null,
+                "pub_year": null,
+                "team_name": null,
+                "institution": "Indian Institute of Science",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 100 and 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.1064,
+                        "across": 0.1199
+                    },
+                    "test": {
+                        "within": 0.1001,
+                        "across": 0.1207
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.1316,
+                        "across": 0.1757
+                    },
+                    "test": {
+                        "within": 0.1316,
+                        "across": 0.1868
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Gan21f",
+            "submission_id": "",
+            "index": 35,
+            "submission_date": "2022-07-30T15:46:27.601528",
+            "submitted_by": "varun",
+            "description": "jm_mean30_prune",
+            "publication": {
+                "author_short": "Dr.Sriram Ganapathy et al.",
+                "authors": null,
+                "paper_title": null,
+                "paper_ref": null,
+                "bib_ref": null,
+                "paper_url": null,
+                "pub_year": null,
+                "team_name": null,
+                "institution": "Indian Institute of Science",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 100 and 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0292,
+                        "across": 0.0352
+                    },
+                    "test": {
+                        "within": 0.0292,
+                        "across": 0.0367
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.045,
+                        "across": 0.0699
+                    },
+                    "test": {
+                        "within": 0.045,
+                        "across": 0.0717
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Gan21i",
+            "submission_id": "",
+            "index": 38,
+            "submission_date": "2022-07-31T15:39:14.597319",
+            "submitted_by": "varun",
+            "description": "wav2vec",
+            "publication": {
+                "author_short": "Dr.Sriram Ganapathy et al.",
+                "authors": null,
+                "paper_title": null,
+                "paper_ref": null,
+                "bib_ref": null,
+                "paper_url": null,
+                "pub_year": null,
+                "team_name": null,
+                "institution": "Indian Institute of Science",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 100 and 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0946,
+                        "across": 0.1168
+                    },
+                    "test": {
+                        "within": 0.0902,
+                        "across": 0.1133
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.1235,
+                        "across": 0.1763
+                    },
+                    "test": {
+                        "within": 0.1235,
+                        "across": 0.1844
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Gan21d",
+            "submission_id": "",
+            "index": 33,
+            "submission_date": "2022-03-29T17:18:33.544340",
+            "submitted_by": "varun",
+            "description": "CPC-big (trained on librispeech 960), kmeans (trained on librispeech 100), LSTM. See https://zerospeech.com/2021 for more details.\n",
+            "publication": {
+                "author_short": "Dr.Sriram Ganapathy et al.",
+                "authors": null,
+                "paper_title": null,
+                "paper_ref": null,
+                "bib_ref": null,
+                "paper_url": null,
+                "pub_year": null,
+                "team_name": null,
+                "institution": "Indian Institute of Science",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 100 and 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0317,
+                        "across": 0.0399
+                    },
+                    "test": {
+                        "within": 0.0309,
+                        "across": 0.0393
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0479,
+                        "across": 0.0778
+                    },
+                    "test": {
+                        "within": 0.0479,
+                        "across": 0.0806
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Gan21j",
+            "submission_id": "",
+            "index": 39,
+            "submission_date": "2022-07-31T19:21:36.418733",
+            "submitted_by": "varun",
+            "description": "wav2vec2",
+            "publication": {
+                "author_short": "Dr.Sriram Ganapathy et al.",
+                "authors": null,
+                "paper_title": null,
+                "paper_ref": null,
+                "bib_ref": null,
+                "paper_url": null,
+                "pub_year": null,
+                "team_name": null,
+                "institution": "Indian Institute of Science",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 100 and 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0848,
+                        "across": 0.0976
+                    },
+                    "test": {
+                        "within": 0.0775,
+                        "across": 0.0956
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.1034,
+                        "across": 0.1422
+                    },
+                    "test": {
+                        "within": 0.1034,
+                        "across": 0.1504
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Gan21e",
+            "submission_id": "",
+            "index": 34,
+            "submission_date": "2022-07-30T15:35:29.855073",
+            "submitted_by": "varun",
+            "description": "jm_mean",
+            "publication": {
+                "author_short": "Dr.Sriram Ganapathy et al.",
+                "authors": null,
+                "paper_title": null,
+                "paper_ref": null,
+                "bib_ref": null,
+                "paper_url": null,
+                "pub_year": null,
+                "team_name": null,
+                "institution": "Indian Institute of Science",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 100 and 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0317,
+                        "across": 0.0397
+                    },
+                    "test": {
+                        "within": 0.0309,
+                        "across": 0.0399
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0479,
+                        "across": 0.0778
+                    },
+                    "test": {
+                        "within": 0.0479,
+                        "across": 0.0804
+                    }
+                }
+            },
+            "extras": null
+        }
+    ]
+}

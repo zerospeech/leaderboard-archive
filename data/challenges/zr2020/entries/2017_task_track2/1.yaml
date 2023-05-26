@@ -1,0 +1,181 @@
+metadata:
+  affiliation: JHU
+  author: Saurabhchand Bhati
+  author_short: Bhati
+  directory: /mnt/zs2020_submissions/20200423100057_Saurabhati
+  open_source: false
+  submission_index: 3
+  submitted_at: '2020-04-23T10:00:57+00:00'
+  submitted_by: Saurabhati
+track1_2017:
+  LANG1:
+    10s:
+      across: '-'
+      within: '-'
+    120s:
+      across: '-'
+      within: '-'
+    1s:
+      across: '-'
+      within: '-'
+  LANG2:
+    10s:
+      across: '-'
+      within: '-'
+    120s:
+      across: '-'
+      within: '-'
+    1s:
+      across: '-'
+      within: '-'
+  english:
+    10s:
+      across: '-'
+      within: '-'
+    120s:
+      across: '-'
+      within: '-'
+    1s:
+      across: '-'
+      within: '-'
+  french:
+    10s:
+      across: '-'
+      within: '-'
+    120s:
+      across: '-'
+      within: '-'
+    1s:
+      across: '-'
+      within: '-'
+  mandarin:
+    10s:
+      across: '-'
+      within: '-'
+    120s:
+      across: '-'
+      within: '-'
+    1s:
+      across: '-'
+      within: '-'
+  metadata:
+    hyperparameters: '-'
+    system_description: '-'
+    track1_supervised: '-'
+    track2_supervised: '-'
+track2_2017:
+  LANG1:
+    details:
+      boundary_fscore: 0.3624
+      boundary_precision: 0.2336
+      boundary_recall: 0.8071
+      coverage: 0.9982
+      grouping_fscore: 0.154
+      grouping_precision: 0.144
+      grouping_recall: 0.1655
+      ned: 0.8964
+      pairs: 54802813
+      token_fscore: 0.063
+      token_precision: 0.0402
+      token_recall: 0.1458
+      type_fscore: 0.0265
+      type_precision: 0.0153
+      type_recall: 0.1001
+      words: 158045
+    scores:
+      coverage: 0.9982
+      ned: 0.8964
+      words: 158045
+  LANG2:
+    details:
+      boundary_fscore: 0.5057
+      boundary_precision: 0.3566
+      boundary_recall: 0.8696
+      coverage: 0.9985
+      grouping_fscore: '-'
+      grouping_precision: '-'
+      grouping_recall: '-'
+      ned: 0.8266
+      pairs: 7413975
+      token_fscore: 0.1261
+      token_precision: 0.0848
+      token_recall: 0.2464
+      type_fscore: 0.1014
+      type_precision: 0.0594
+      type_recall: 0.3469
+      words: 32935
+    scores:
+      coverage: 0.9985
+      ned: 0.8266
+      words: 32935
+  english:
+    details:
+      boundary_fscore: 0.4013
+      boundary_precision: 0.2728
+      boundary_recall: 0.7587
+      coverage: 0.9945
+      grouping_fscore: 0.1679
+      grouping_precision: 0.1555
+      grouping_recall: 0.1823
+      ned: 0.895
+      pairs: 124227660
+      token_fscore: 0.0659
+      token_precision: 0.0444
+      token_recall: 0.1282
+      type_fscore: 0.0318
+      type_precision: 0.0173
+      type_recall: 0.1976
+      words: 240033
+    scores:
+      coverage: 0.9945
+      ned: 0.895
+      words: 240033
+  french:
+    details:
+      boundary_fscore: 0.4193
+      boundary_precision: 0.2827
+      boundary_recall: 0.8111
+      coverage: 0.9975
+      grouping_fscore: '-'
+      grouping_precision: '-'
+      grouping_recall: '-'
+      ned: 0.8895
+      pairs: 57278584
+      token_fscore: 0.0626
+      token_precision: 0.0412
+      token_recall: 0.1298
+      type_fscore: 0.0358
+      type_precision: 0.0208
+      type_recall: 0.1293
+      words: 135048
+    scores:
+      coverage: 0.9975
+      ned: 0.8895
+      words: 135048
+  mandarin:
+    details:
+      boundary_fscore: 0.5223
+      boundary_precision: 0.3649
+      boundary_recall: 0.9188
+      coverage: 0.9994
+      grouping_fscore: 0.0407
+      grouping_precision: 0.0342
+      grouping_recall: 0.0502
+      ned: 0.9466
+      pairs: 294303
+      token_fscore: 0.121
+      token_precision: 0.0794
+      token_recall: 0.2543
+      type_fscore: 0.1114
+      type_precision: 0.0689
+      type_recall: 0.2908
+      words: 37457
+    scores:
+      coverage: 0.9994
+      ned: 0.9466
+      words: 37457
+  metadata:
+    hyperparameters: 6 bottlneck Resnetblocks with 500 neuron for encoder and decoder
+    system_description: Self clustering Autoencoder for unsupervised features learning
+    track1_supervised: false
+    track2_supervised: false

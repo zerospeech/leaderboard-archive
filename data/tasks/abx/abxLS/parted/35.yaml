@@ -1,0 +1,45 @@
+description: jm_mean30
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '60'
+  parameters:
+    frame_shift: 0.01
+    metric: cosine
+    visually_grounded: false
+  train_set: librispeech 100 and 960
+extras: null
+index: 36
+model_id: Gan21g
+publication:
+  DOI: null
+  author_short: Dr.Sriram Ganapathy et al.
+  authors: Dr.Sriram Ganapathy, Varun Krishna
+  bib_ref: '-'
+  code: null
+  institution: Indian Institute of Science
+  open_science: false
+  paper_ref: Dr.Sriram Ganapathy, Varun Krishna (2021.0) -
+  paper_title: '-'
+  paper_url: '-'
+  pub_year: 2021
+  team_name: null
+scores:
+  clean:
+    dev:
+      across: 0.037
+      within: 0.0303
+    test:
+      across: 0.0382
+      within: 0.0292
+  other:
+    dev:
+      across: 0.072
+      within: 0.0461
+    test:
+      across: 0.0746
+      within: 0.0461
+submission_date: '2022-07-31T19:11:04.418026'
+submission_id: 'Gan21g'
+submitted_by: varun

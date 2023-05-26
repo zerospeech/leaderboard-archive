@@ -1,0 +1,39 @@
+metadata:
+  after: 'no'
+  author: <b>Topline</b>
+  team: CoML Team
+scores:
+  NED_english: 0.0
+  NED_xitsonga: 0.0
+  boundary_F_english: '87.5'
+  boundary_F_xitsonga: 77.2
+  boundary_prec_english: '88.4'
+  boundary_prec_xitsonga: 66.6
+  boundary_rec_english: '86.7'
+  boundary_rec_xitsonga: 91.9
+  cov_english: 100.0
+  cov_xitsonga: 100.0
+  grouping_F_english: '99.7'
+  grouping_F_xitsonga: 100.0
+  grouping_prec_english: '99.5'
+  grouping_prec_xitsonga: 100.0
+  grouping_rec_english: '100.0'
+  grouping_rec_xitsonga: 100.0
+  matching_F_english: '31.1'
+  matching_F_xitsonga: 12.7
+  matching_prec_english: '98.3'
+  matching_prec_xitsonga: 100.0
+  matching_rec_english: '18.5'
+  matching_rec_xitsonga: 6.8
+  token_F_english: '64.3'
+  token_F_xitsonga: 40.4
+  token_prec_english: '68.2'
+  token_prec_xitsonga: 34.1
+  token_rec_english: '60.8'
+  token_rec_xitsonga: 49.7
+  type_F_english: '53.1'
+  type_F_xitsonga: 16.5
+  type_prec_english: '50.3'
+  type_prec_xitsonga: 15.1
+  type_rec_english: '56.2'
+  type_rec_xitsonga: 18.1

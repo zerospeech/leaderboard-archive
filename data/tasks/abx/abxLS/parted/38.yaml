@@ -1,0 +1,45 @@
+description: wav2vec2
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '60'
+  parameters:
+    frame_shift: 0.01
+    metric: cosine
+    visually_grounded: false
+  train_set: librispeech 100 and 960
+extras: null
+index: 39
+model_id: Gan21j
+publication:
+  DOI: null
+  author_short: Dr.Sriram Ganapathy et al.
+  authors: Dr.Sriram Ganapathy, Varun Krishna
+  bib_ref: '-'
+  code: null
+  institution: Indian Institute of Science
+  open_science: false
+  paper_ref: Dr.Sriram Ganapathy, Varun Krishna (2021.0) -
+  paper_title: '-'
+  paper_url: '-'
+  pub_year: 2021
+  team_name: null
+scores:
+  clean:
+    dev:
+      across: 0.0976
+      within: 0.0848
+    test:
+      across: 0.0956
+      within: 0.0775
+  other:
+    dev:
+      across: 0.1422
+      within: 0.1034
+    test:
+      across: 0.1504
+      within: 0.1034
+submission_date: '2022-07-31T19:21:36.418733'
+submission_id: 'Gan21j'
+submitted_by: varun

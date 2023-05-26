@@ -1,0 +1,328 @@
+author_label: Chorowski <i>et al.</i>
+index: 11
+lexical_all:
+- 0.643575
+- 0.64151875
+lexical_invocab:
+- 0.7404348
+- 0.7246921399999999
+more:
+  description:
+    affiliation: University of Wroclaw
+    author: "Jan Chorowski, Grzegorz Ciesielski, Jaros\u0142aw Dzikowski, Adrian \u0141\
+      ancucki, Ricard Marxer, Mateusz Opala, Piotr Pusz, Pawe\u0142 Rychlikowski,\
+      \ Micha\u0142 Stypu\u0142kowski"
+    description: Information Retrieval to ZeroSpeech 2021. In our submission we have
+      decided to verify the limits of information retrieval approaches to acoustic
+      representations, word-spotting and word semantics discovery. For ABX we have
+      projected the embeddings of the baseline model into the nullspace of a speaker
+      classification model, to make the embeddings less speaker sensitive. We perform
+      a k-means clustering of embeddings (based on cosine distances) for quantization
+      for other tasks. Additionally, we apply the following technique for ABX on top
+      of embeddings -  we use the centers of the obtained clusters, and we move each
+      embedding a part of the distance (e.g. half) in the direction of the closest
+      cluster's center. This aims to include information about the whole dataset coming
+      from clustering without substantial loss of local information, as a kind of
+      denoising. For sWUGGY we provide for each query word the negative of the minimum
+      dynamic time warping cost of matching a given word to the subsequences of the
+      Librispeech960 corpus. This essentially attempts to perform a dictionary lookup
+      - real words should match with a low score, while artificial words should match
+      with a higher one. For sSIMI we segment the sequences of pseudophonemes into
+      words using SentencePiece, we then learn the embeddings of discovered pseudo-words
+      using word embedding approaches. We then map the pseudophones of the query word
+      to the nearest discovered pseudoword. For sBLIMP we provide LM scores, similarly
+      to the baseline.
+    gpu_budget: 60
+    open_source: true
+    parameters:
+      phonetic:
+        frame_shift: 0.01
+        metric: cosine
+      semantic:
+        metric: cosine
+        pooling: last
+    submitted_at: '2021-03-23T04:42:00+00:00'
+    train_set: LibriSpeech
+  lexical:
+    by_frequency:
+    - frequency: oov
+      n_dev: 5000
+      n_test: 20000
+      score_dev: 0.5467
+      score_test: 0.5583
+      std_dev: 0.3292
+      std_test: 0.3609
+    - frequency: 1-5
+      n_dev: 1656
+      n_test: 6788
+      score_dev: 0.6629
+      score_test: 0.6366
+      std_dev: 0.3573
+      std_test: 0.3565
+    - frequency: 6-20
+      n_dev: 1563
+      n_test: 6170
+      score_dev: 0.7191
+      score_test: 0.7181
+      std_dev: 0.3338
+      std_test: 0.3349
+    - frequency: 21-100
+      n_dev: 1251
+      n_test: 4998
+      score_dev: 0.8203
+      score_test: 0.7955
+      std_dev: 0.284
+      std_test: 0.2966
+    - frequency: '>100'
+      n_dev: 530
+      n_test: 2044
+      score_dev: 0.8571
+      score_test: 0.864
+      std_dev: 0.2599
+      std_test: 0.2472
+    by_length:
+    - length: 4
+      n_dev: 345
+      n_test: 1460
+      score_dev: 0.5848
+      score_test: 0.5923
+      std_dev: 0.3472
+      std_test: 0.3586
+    - length: 5
+      n_dev: 1626
+      n_test: 6608
+      score_dev: 0.5979
+      score_test: 0.591
+      std_dev: 0.3443
+      std_test: 0.3621
+    - length: 6
+      n_dev: 2492
+      n_test: 9898
+      score_dev: 0.6084
+      score_test: 0.6109
+      std_dev: 0.3421
+      std_test: 0.3557
+    - length: 7
+      n_dev: 2102
+      n_test: 8205
+      score_dev: 0.6518
+      score_test: 0.6421
+      std_dev: 0.3388
+      std_test: 0.3576
+    - length: 8
+      n_dev: 1497
+      n_test: 6096
+      score_dev: 0.6561
+      score_test: 0.6614
+      std_dev: 0.3443
+      std_test: 0.3569
+    - length: 9
+      n_dev: 955
+      n_test: 3514
+      score_dev: 0.6846
+      score_test: 0.6909
+      std_dev: 0.3521
+      std_test: 0.3487
+    - length: 10
+      n_dev: 490
+      n_test: 2054
+      score_dev: 0.7388
+      score_test: 0.7254
+      std_dev: 0.3298
+      std_test: 0.3421
+    - length: 11
+      n_dev: 298
+      n_test: 1184
+      score_dev: 0.7567
+      score_test: 0.7306
+      std_dev: 0.307
+      std_test: 0.3438
+    - length: 12
+      n_dev: 132
+      n_test: 602
+      score_dev: 0.7765
+      score_test: 0.782
+      std_dev: 0.3139
+      std_test: 0.3135
+    - length: 13
+      n_dev: 51
+      n_test: 301
+      score_dev: 0.8382
+      score_test: 0.7857
+      std_dev: 0.2684
+      std_test: 0.3037
+    - length: 14
+      n_dev: 12
+      n_test: 78
+      score_dev: 0.5833
+      score_test: 0.6891
+      std_dev: 0.3077
+      std_test: 0.3608
+  semantic:
+  - dataset: mturk-771
+    librispeech: 4.5968
+    set: dev
+    synthetic: -7.7479
+  - dataset: MEN
+    librispeech: 3.7125
+    set: test
+    synthetic: 1.9549
+  - dataset: WordSim-353
+    librispeech: -3.1335
+    set: test
+    synthetic: 2.7669
+  - dataset: WordSim-353-REL
+    librispeech: -7.4557
+    set: test
+    synthetic: -3.7612
+  - dataset: WordSim-353-SIM
+    librispeech: 8.9152
+    set: test
+    synthetic: 9.6102
+  - dataset: YP-130
+    librispeech: 7.9918
+    set: test
+    synthetic: 1.783
+  - dataset: mc-30
+    librispeech: -19.3619
+    set: test
+    synthetic: 7.0991
+  - dataset: mturk-287
+    librispeech: -7.1473
+    set: test
+    synthetic: 5.695
+  - dataset: rg-65
+    librispeech: -11.8473
+    set: test
+    synthetic: 13.2941
+  - dataset: rw
+    librispeech: 8.9605
+    set: test
+    synthetic: 11.8586
+  - dataset: simLex999
+    librispeech: 1.9311
+    set: test
+    synthetic: -7.3512
+  - dataset: simverb-3500
+    librispeech: -3.7239
+    set: test
+    synthetic: -3.5855
+  - dataset: verb-143
+    librispeech: 10.9745
+    set: test
+    synthetic: 22.381
+  syntactic:
+  - n_dev: 200
+    n_test: 2000
+    score_dev: 0.5238
+    score_test: 0.548
+    std_dev: 0.3274
+    std_test: 0.4978
+    type: anaphor_agreement
+  - n_dev: 900
+    n_test: 9000
+    score_dev: 0.5247
+    score_test: 0.5142
+    std_dev: 0.3882
+    std_test: 0.4998
+    type: argument_structure
+  - n_dev: 500
+    n_test: 5000
+    score_dev: 0.617
+    score_test: 0.6032
+    std_dev: 0.3551
+    std_test: 0.4892
+    type: binding
+  - n_dev: 500
+    n_test: 5000
+    score_dev: 0.4798
+    score_test: 0.4882
+    std_dev: 0.3693
+    std_test: 0.4999
+    type: control_raising
+  - n_dev: 800
+    n_test: 8000
+    score_dev: 0.5003
+    score_test: 0.4809
+    std_dev: 0.3215
+    std_test: 0.4997
+    type: determiner_noun_agreement
+  - n_dev: 100
+    n_test: 1000
+    score_dev: 0.5625
+    score_test: 0.542
+    std_dev: 0.3264
+    std_test: 0.4985
+    type: ellipsis
+  - n_dev: 800
+    n_test: 8000
+    score_dev: 0.5906
+    score_test: 0.5877
+    std_dev: 0.3784
+    std_test: 0.4923
+    type: filler_gap_dependency
+  - n_dev: 200
+    n_test: 2000
+    score_dev: 0.5537
+    score_test: 0.5737
+    std_dev: 0.3079
+    std_test: 0.493
+    type: irregular_forms
+  - n_dev: 700
+    n_test: 7000
+    score_dev: 0.5504
+    score_test: 0.5446
+    std_dev: 0.3177
+    std_test: 0.498
+    type: island_effects
+  - n_dev: 700
+    n_test: 7000
+    score_dev: 0.4379
+    score_test: 0.4336
+    std_dev: 0.3279
+    std_test: 0.4956
+    type: npi_licensing
+  - n_dev: 300
+    n_test: 3000
+    score_dev: 0.6175
+    score_test: 0.6187
+    std_dev: 0.3123
+    std_test: 0.4858
+    type: quantifiers
+  - n_dev: 600
+    n_test: 6000
+    score_dev: 0.4921
+    score_test: 0.4972
+    std_dev: 0.3079
+    std_test: 0.5
+    type: subject_verb_agreement
+phonetic_clean_across:
+- 0.036
+- 0.0369
+phonetic_clean_within:
+- 0.0295
+- 0.0285
+phonetic_other_across:
+- 0.0699
+- 0.0728
+phonetic_other_within:
+- 0.045
+- 0.0444
+semantic_librispeech:
+- 4.5968
+- -0.8486666666666666
+semantic_synthetic:
+- -7.7479
+- 5.145408333333333
+set:
+- dev
+- test
+syntactic:
+- 0.5297420634920635
+- 0.5254841269841269
+weighted_semantic_librispeech:
+- 4.5968
+- 0.20120628830269116
+weighted_semantic_synthetic:
+- -7.7479
+- 0.740793637110016

@@ -1,0 +1,52 @@
+description: WPBERT, a BERT-small based language model trained using both word and
+  phonetic representations. Used pretrained ResDAVEnet-VQ vq3 embeddings as word representations,
+  vq2 embeddings as phonetic representations. Instead of directly using the embeddigns,
+  for this version of the submission, we first changed them to integer values based
+  on the codebook, then trained the language model. Also, we took the representations
+  from the layer that gave less biased result for librispeech and synthetic datatset
+  compared to the earlier submission.
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '7'
+  parameters:
+    frame_shift: 0.02
+    metric: cosine
+    visually_grounded: true
+  train_set: ResDAVEnet-VQ was pretrained on PlacesAudio. WPBERT was trained on LibriSpeech960.
+    Not along with VAD.
+extras: null
+index: 19
+model_id: Lee21b
+publication:
+  DOI: null
+  author_short: Kim et al.
+  authors: Kyogu Lee, Jaeyeon Kim, Injune Hwang
+  bib_ref: '-'
+  code: null
+  institution: Seoul National University
+  open_science: false
+  paper_ref: Kyogu Lee, Jaeyeon Kim, Injune Hwang (2021.0) -
+  paper_title: '-'
+  paper_url: '-'
+  pub_year: 2021
+  team_name: null
+scores:
+  clean:
+    dev:
+      across: 0.093
+      within: 0.0717
+    test:
+      across: 0.0904
+      within: 0.065
+  other:
+    dev:
+      across: 0.1489
+      within: 0.0956
+    test:
+      across: 0.1544
+      within: 0.0956
+submission_date: '2021-11-03T23:55:34+00:00'
+submission_id: '20211104105120_Injune'
+submitted_by: null

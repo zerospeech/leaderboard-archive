@@ -1,0 +1,74 @@
+'2019':
+  audio_samples:
+    english_1: english_1_20190319093259_mmmaat.wav
+    english_2: english_2_20190319093259_mmmaat.wav
+    surprise_1: surprise_1_20190319093259_mmmaat.wav
+    surprise_2: surprise_2_20190319093259_mmmaat.wav
+  english:
+    details_abx:
+      auxiliary_embedding1:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 30.28
+        cosine: 29.85
+        levenshtein: 29.41
+    details_bitrate:
+      auxiliary_embedding1: '-'
+      auxiliary_embedding2: '-'
+      test: 37.73
+    scores:
+      abx: 29.85
+      bitrate: 37.73
+      cer: 0.43
+      mos: 2.52
+      similarity: 3.1
+  metadata:
+    abx_distance: dtw_cosine
+    affiliation: PSL University, CNRS, ENS, EHESS, INRIA
+    author: ZeroSpeech organizers, CoML Team
+    auxiliary1_description: not used
+    auxiliary2_description: not used
+    open source: false
+    system description: ASR system (Kaldi) piped to a trained TTS system (Merlin),
+      both trained using supervision (on gold labels).
+    using_external_data: false
+    using_parallel_train: false
+  surprise:
+    details_abx:
+      auxiliary_embedding1:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 15.62
+        cosine: 16.09
+        levenshtein: 19.14
+    details_bitrate:
+      auxiliary_embedding1: '-'
+      auxiliary_embedding2: '-'
+      test: 35.2
+    scores:
+      abx: 16.09
+      bitrate: 35.2
+      cer: 0.33
+      mos: 3.49
+      similarity: 3.77
+metadata:
+  affiliation: PSL University, CNRS, ENS, EHESS, INRIA
+  author: ZeroSpeech organizers, CoML team
+  author_short: <b>Topline</b>
+  directory: /mnt/zs2020_submissions/20190319093259_mmmaat
+  open_source: false
+  submission_index: 1
+  submitted_at: '2019-03-19T09:32:59+00:00'
+  submitted_by: mmmaat

@@ -1,0 +1,22 @@
+metadata:
+  DOI: <a href="https://zenodo.org/record/814335">814335</a>
+  affiliation: ' Northwestern Polytechnical University'
+  author: Yuan et al.
+  rank: '9'
+  supervision: 'No'
+scores:
+  LANG1_10s: '6.2'
+  LANG1_120s: '6.2'
+  LANG1_1s: '8.2'
+  LANG2_10s: '10.1'
+  LANG2_120s: '9.9'
+  LANG2_1s: '12.7'
+  english_10s: '7.1'
+  english_120s: '7.1'
+  english_1s: '8.9'
+  french_10s: '9.6'
+  french_120s: '9.7'
+  french_1s: '12.2'
+  mandarin_10s: '8.6'
+  mandarin_120s: '8.3'
+  mandarin_1s: '11.3'

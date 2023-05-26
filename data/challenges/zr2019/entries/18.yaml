@@ -1,0 +1,62 @@
+audio_samples:
+  english_1: english_1_20190316115857_Sakti.wav
+  english_2: english_2_20190316115857_Sakti.wav
+  surprise_1: surprise_1_20190316115857_Sakti.wav
+  surprise_2: surprise_2_20190316115857_Sakti.wav
+details_abx:
+  english_auxiliary1_abx_dtw_cosine: '-'
+  english_auxiliary1_abx_dtw_kl: '-'
+  english_auxiliary1_abx_levenshtein: '-'
+  english_auxiliary2_abx_dtw_cosine: '-'
+  english_auxiliary2_abx_dtw_kl: '-'
+  english_auxiliary2_abx_levenshtein: '-'
+  english_test_abx_dtw_cosine: 24.17
+  english_test_abx_dtw_kl: 50.0
+  english_test_abx_levenshtein: 41.46
+  surprise_auxiliary1_abx_dtw_cosine: '-'
+  surprise_auxiliary1_abx_dtw_kl: '-'
+  surprise_auxiliary1_abx_levenshtein: '-'
+  surprise_auxiliary2_abx_dtw_cosine: '-'
+  surprise_auxiliary2_abx_dtw_kl: '-'
+  surprise_auxiliary2_abx_levenshtein: '-'
+  surprise_test_abx_dtw_cosine: 17.8
+  surprise_test_abx_dtw_kl: 50.0
+  surprise_test_abx_levenshtein: 38.46
+details_bitrate:
+  english_auxiliary1_bitrate: '-'
+  english_auxiliary2_bitrate: '-'
+  english_test_bitrate: 184.32
+  surprise_auxiliary1_bitrate: '-'
+  surprise_auxiliary2_bitrate: '-'
+  surprise_test_bitrate: 151.77
+metadata:
+  abx_distance: dtw_cosine
+  affiliation: NAIST (Japan), RIKEN AIP (Japan), NUS (Singapore)
+  author: Andros Tjandra, Berrak Sisman, Mingyang Zhang, Sakriani Sakti, Haizhou Li,
+    Satoshi Nakamura
+  author_short: Tjandra <i>et al.</i>
+  auxiliary1_description: not used
+  auxiliary2_description: not used
+  directory: /home/zerospeech/2019/submissions/20190316115857_Sakti
+  open_source: false
+  submission_index: 19
+  submitted_at: '2019-03-16T11:58:57+00:00'
+  submitted_by: Sakti
+  system_description: We proposed VQVAE + Multiscale inverter + GAN enhancement approach.<br>Input
+    -- MFCC features (including deltas) with 39 dimension. VQVAE (To<br>generate embedding)
+    -- 256 codebook, 64 embedding dimension, 4x time<br>reduction. Inverter (To generate
+    speech from codebook) -- multiscale<br>1D convolution. GAN (To enhance inverter
+    output)
+  using_external_data: false
+  using_parallel_train: false
+scores:
+  english_abx: 24.17
+  english_bitrate: 184.32
+  english_cer: 0.37
+  english_mos: 2.66
+  english_similarity: 2.32
+  surprise_abx: 17.8
+  surprise_bitrate: 151.77
+  surprise_cer: 0.35
+  surprise_mos: 3.25
+  surprise_similarity: 2.67

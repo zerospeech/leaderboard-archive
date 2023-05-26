@@ -1,0 +1,52 @@
+description: 'CPC-big (trained on librispeech 960), kmeans (trained on librispeech
+  100), LSTM. See https://zerospeech.com/2021 for more details.
+
+  '
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '60'
+  parameters:
+    frame_shift: 0.01
+    metric: cosine
+    visually_grounded: false
+  train_set: librispeech 100 and 960
+extras: null
+index: 6
+model_id: Baseline4-lg
+publication:
+  DOI: null
+  author_short: <b>LSTM baseline</b>
+  authors: "Nguyen, T., Seyssel, M., Roz\xE9, P., Rivi\xE8re, M., Kharitonov, E.,\
+    \ Baevski, A., Dunbar, E. & Dupoux, E. "
+  bib_ref: nguyen2020zero
+  code: null
+  institution: EHESS, ENS, PSL Research Univerity, CNRS and Inria
+  open_science: true
+  paper_ref: "Nguyen, T., Seyssel, M., Roz\xE9, P., Rivi\xE8re, M., Kharitonov, E.,\
+    \ Baevski, A., Dunbar, E. & Dupoux, E.  (2020.0) The zero resource speech benchmark\
+    \ 2021: Metrics and baselines for unsupervised spoken language modeling."
+  paper_title: 'The zero resource speech benchmark 2021: Metrics and baselines for
+    unsupervised spoken language modeling.'
+  paper_url: https://arxiv.org/abs/2011.11589
+  pub_year: 2020
+  team_name: null
+scores:
+  clean:
+    dev:
+      across: 0.0417
+      within: 0.0343
+    test:
+      across: 0.0431
+      within: 0.0328
+  other:
+    dev:
+      across: 0.0759
+      within: 0.0484
+    test:
+      across: 0.0792
+      within: 0.0484
+submission_date: '2020-12-06T15:16:16+00:00'
+submission_id: 'zr2021-baseline-lstm'
+submitted_by: null

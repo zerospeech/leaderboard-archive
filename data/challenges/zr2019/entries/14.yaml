@@ -1,0 +1,58 @@
+audio_samples:
+  english_1: english_1_20190316080728_ywt52.wav
+  english_2: english_2_20190316080728_ywt52.wav
+  surprise_1: surprise_1_20190316080728_ywt52.wav
+  surprise_2: surprise_2_20190316080728_ywt52.wav
+details_abx:
+  english_auxiliary1_abx_dtw_cosine: 38.24
+  english_auxiliary1_abx_dtw_kl: 37.45
+  english_auxiliary1_abx_levenshtein: 35.62
+  english_auxiliary2_abx_dtw_cosine: '-'
+  english_auxiliary2_abx_dtw_kl: '-'
+  english_auxiliary2_abx_levenshtein: '-'
+  english_test_abx_dtw_cosine: 39.31
+  english_test_abx_dtw_kl: 39.02
+  english_test_abx_levenshtein: 38.09
+  surprise_auxiliary1_abx_dtw_cosine: 27.44
+  surprise_auxiliary1_abx_dtw_kl: 27.5
+  surprise_auxiliary1_abx_levenshtein: 29.45
+  surprise_auxiliary2_abx_dtw_cosine: '-'
+  surprise_auxiliary2_abx_dtw_kl: '-'
+  surprise_auxiliary2_abx_levenshtein: '-'
+  surprise_test_abx_dtw_cosine: 28.41
+  surprise_test_abx_dtw_kl: 28.54
+  surprise_test_abx_levenshtein: 29.9
+details_bitrate:
+  english_auxiliary1_bitrate: 539.51
+  english_auxiliary2_bitrate: '-'
+  english_test_bitrate: 58.19
+  surprise_auxiliary1_bitrate: 546.17
+  surprise_auxiliary2_bitrate: '-'
+  surprise_test_bitrate: 71.42
+metadata:
+  abx_distance: dtw_cosine
+  affiliation: Carnegie Mellon University
+  author: Sai Krishna Rallabandi, Wenting Ye, Steven Hillis, Elizabeth Salesky, Alan
+    W. Black
+  author_short: Rallabandi <i>et al.</i>
+  auxiliary1_description: None
+  auxiliary2_description: None
+  directory: /home/zerospeech/2019/submissions/20190316080728_ywt52
+  open_source: false
+  submission_index: 15
+  submitted_at: '2019-03-16T08:07:28+00:00'
+  submitted_by: ywt52
+  system_description: DPGMM + Merlin
+  using_external_data: false
+  using_parallel_train: false
+scores:
+  english_abx: 39.31
+  english_bitrate: 58.19
+  english_cer: 0.82
+  english_mos: 2.02
+  english_similarity: 2.88
+  surprise_abx: 28.41
+  surprise_bitrate: 71.42
+  surprise_cer: 0.71
+  surprise_mos: 1.89
+  surprise_similarity: 3.02

@@ -1,0 +1,276 @@
+'2019':
+  audio_samples:
+    english_1: english_1_20200416082658_mmmaat.wav
+    english_2: english_2_20200416082658_mmmaat.wav
+    surprise_1: surprise_1_20200416082658_mmmaat.wav
+    surprise_2: surprise_2_20200416082658_mmmaat.wav
+  english:
+    details_abx:
+      auxiliary_embedding1:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 35.97
+        cosine: 35.63
+        levenshtein: 34.74
+    details_bitrate:
+      auxiliary_embedding1: '-'
+      auxiliary_embedding2: '-'
+      test: 71.98
+    scores:
+      abx: 35.63
+      bitrate: 71.98
+      cer: 0.77
+      mos: 2.14
+      similarity: 2.98
+  metadata:
+    abx_distance: dtw_cosine
+    auxiliary1_description: Embeddings discovered by the Ondel algorithm, before conversion
+      to one-hot vectors
+    auxiliary2_description: not used
+    hyperparameters: See <a href="https://zerospeech.com/2019/getting_started.html#baseline-system">Baseline
+      of ZeroSpeech 2019</a>
+    system description: <a href="https://zerospeech.com/2019/getting_started.html#baseline-system">Baseline
+      of ZeroSpeech 2019</a>
+    using_external_data: false
+    using_parallel_train: false
+  surprise:
+    details_abx:
+      auxiliary_embedding1:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 28.29
+        cosine: 27.46
+        levenshtein: 29.21
+    details_bitrate:
+      auxiliary_embedding1: '-'
+      auxiliary_embedding2: '-'
+      test: 74.55
+    scores:
+      abx: 27.46
+      bitrate: 74.55
+      cer: 0.67
+      mos: 2.23
+      similarity: 3.26
+metadata:
+  affiliation: PSL University, CNRS, ENS, EHESS, INRIA
+  author: ZeroSpeech organizers, CoML team
+  author_short: <b>Baseline</b>
+  directory: /mnt/zs2020_submissions/20200416082658_mmmaat
+  open_source: true
+  submission_index: 2
+  submitted_at: '2020-04-16T08:26:58+00:00'
+  submitted_by: mmmaat
+track1_2017:
+  LANG1:
+    10s:
+      across: 45.62
+      within: 40.77
+    120s:
+      across: 48.32
+      within: 49.16
+    1s:
+      across: 24.08
+      within: 11.1
+  LANG2:
+    10s:
+      across: 48.15
+      within: 45.42
+    120s:
+      across: 48.61
+      within: 49.15
+    1s:
+      across: 30.72
+      within: 15.16
+  english:
+    10s:
+      across: 34.13
+      within: 28.08
+    120s:
+      across: 48.95
+      within: 45.41
+    1s:
+      across: 23.04
+      within: 12.02
+  french:
+    10s:
+      across: 37.43
+      within: 32.11
+    120s:
+      across: 48.38
+      within: 46.41
+    1s:
+      across: 25.29
+      within: 12.57
+  mandarin:
+    10s:
+      across: 35.85
+      within: 30.9
+    120s:
+      across: 46.4
+      within: 38.76
+    1s:
+      across: 21.25
+      within: 11.7
+  metadata:
+    hyperparameters:
+      track2:
+      - S: 64
+      - P: 8
+      - B: 100
+      - D: 10
+      - DTWTHR: 0.9
+      - OLAPTHR: 0.97
+      - DEDUPTHR: 0.9
+      - DURTHR: 50
+      - RHOTHR: 500
+      - PAR: par
+    system description: 'For the 2017 track1 baseline, we used 39 dimensions MFCC+Delta+Delta2
+      features computed every 10ms and the ABX score was computed using the frame-wise
+      cosine distance averaged along the DTW path.
+
+      Baseline for the 2017 track2 is computed using the software from https://github.com/arenjansen/ZRTools.'
+    track1 supervised: false
+    track2 supervised: false
+track2_2017:
+  LANG1:
+    details:
+      boundary_fscore: 0.03
+      boundary_precision: 0.29
+      boundary_recall: 0.01
+      coverage: 0.03
+      grouping_fscore: 0.34
+      grouping_precision: 0.22
+      grouping_recall: 0.72
+      ned: 0.32
+      pairs: 3312
+      token_fscore: 0.0
+      token_precision: 0.03
+      token_recall: 0.0
+      type_fscore: 0.01
+      type_precision: 0.03
+      type_recall: 0.01
+      words: 4370
+    scores:
+      coverage: 0.03
+      ned: 0.32
+      words: 4370
+  LANG2:
+    details:
+      boundary_fscore: 0.01
+      boundary_precision: 0.19
+      boundary_recall: 0.0
+      coverage: 0.01
+      grouping_fscore: 0.04
+      grouping_precision: 0.02
+      grouping_recall: 0.12
+      ned: 0.93
+      pairs: 544
+      token_fscore: 0.0
+      token_precision: 0.01
+      token_recall: 0.0
+      type_fscore: 0.0
+      type_precision: 0.02
+      type_recall: 0.0
+      words: 604
+    scores:
+      coverage: 0.01
+      ned: 0.93
+      words: 604
+  english:
+    details:
+      boundary_fscore: 0.06
+      boundary_precision: 0.32
+      boundary_recall: 0.03
+      coverage: 0.08
+      grouping_fscore: 0.32
+      grouping_precision: 0.21
+      grouping_recall: 0.71
+      ned: 0.32
+      pairs: 15730
+      token_fscore: 0.0
+      token_precision: 0.02
+      token_recall: 0.0
+      type_fscore: 0.02
+      type_precision: 0.02
+      type_recall: 0.02
+      words: 18821
+    scores:
+      coverage: 0.08
+      ned: 0.32
+      words: 18821
+  french:
+    details:
+      boundary_fscore: 0.01
+      boundary_precision: 0.33
+      boundary_recall: 0.01
+      coverage: 0.02
+      grouping_fscore: 0.45
+      grouping_precision: 0.31
+      grouping_recall: 0.86
+      ned: 0.69
+      pairs: 3860
+      token_fscore: 0.0
+      token_precision: 0.01
+      token_recall: 0.0
+      type_fscore: 0.0
+      type_precision: 0.03
+      type_recall: 0.0
+      words: 1963
+    scores:
+      coverage: 0.02
+      ned: 0.69
+      words: 1963
+  mandarin:
+    details:
+      boundary_fscore: 0.02
+      boundary_precision: 0.54
+      boundary_recall: 0.01
+      coverage: 0.03
+      grouping_fscore: 0.41
+      grouping_precision: 0.26
+      grouping_recall: 0.99
+      ned: 0.29
+      pairs: 160
+      token_fscore: 0.0
+      token_precision: 0.06
+      token_recall: 0.0
+      type_fscore: 0.0
+      type_precision: 0.05
+      type_recall: 0.0
+      words: 267
+    scores:
+      coverage: 0.03
+      ned: 0.29
+      words: 267
+  metadata:
+    hyperparameters:
+      track2:
+      - S: 64
+      - P: 8
+      - B: 100
+      - D: 10
+      - DTWTHR: 0.9
+      - OLAPTHR: 0.97
+      - DEDUPTHR: 0.9
+      - DURTHR: 50
+      - RHOTHR: 500
+      - PAR: par
+    system description: 'For the 2017 track1 baseline, we used 39 dimensions MFCC+Delta+Delta2
+      features computed every 10ms and the ABX score was computed using the frame-wise
+      cosine distance averaged along the DTW path.
+
+      Baseline for the 2017 track2 is computed using the software from https://github.com/arenjansen/ZRTools.'
+    track1 supervised: false
+    track2 supervised: false

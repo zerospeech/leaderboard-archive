@@ -1,0 +1,16 @@
+metadata:
+  after_challenge: 'yes'
+  author: Heck et al. 2016
+  bib: <a class="reference internal" href="#heck2016unsupervised" id="id12">[12]</a>
+  binary: 'no'
+  main_idea: MFCC+D+DD+VTLN
+  reference: Heck, M., Sakti, S. & Nakamura, S. (2016). Unsupervised linear discriminant
+    analysis for supporting DPGMM clustering in the Zero Resource Scenario. Proceedings
+    of SLTU
+  supervision: 'no'
+  team: NAIST
+scores:
+  english_across: '25.5'
+  english_within: '15.7'
+  xitsonga_across: '30.0'
+  xitsonga_within: '19.7'

@@ -1,0 +1,52 @@
+description: Our model is a variant of the FaST-VGS (https://arxiv.org/abs/2109.08186).
+  Which augments the audio encoder of FaST-VGS with additional transformer layers
+  and the loss with wav2vec2.0-type contrastive loss. We jointly trained the model
+  on SpokenCOCO for speech-image matching and LibriSpeech for audio frame-level contrastive
+  modeling. The language modeling part (i.e. KMeans quantization and BERT training)
+  is the same as the high budget VG baseline.
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '468'
+  parameters:
+    frame_shift: 0.02
+    metric: cosine
+    visually_grounded: true
+  train_set: LibriSpeech and SpokenCOCO
+extras: null
+index: 17
+model_id: Pen21
+publication:
+  DOI: null
+  author_short: Harwath et al.
+  authors: 'Peng, P. & Harwath, D. '
+  bib_ref: peng2022self
+  code: null
+  institution: UT Austin
+  open_science: false
+  paper_ref: Peng, P. & Harwath, D.  (2021.0) Self-supervised representation learning
+    for speech using visual grounding and masked language modeling.
+  paper_title: Self-supervised representation learning for speech using visual grounding
+    and masked language modeling.
+  paper_url: https://arxiv.org/abs/2202.03543
+  pub_year: 2021
+  team_name: null
+scores:
+  clean:
+    dev:
+      across: 0.0491
+      within: 0.0423
+    test:
+      across: 0.0508
+      within: 0.0424
+  other:
+    dev:
+      across: 0.0787
+      within: 0.0558
+    test:
+      across: 0.0791
+      within: 0.0558
+submission_date: '2021-11-04T10:09:42+00:00'
+submission_id: '20211104100942_harwath'
+submitted_by: null

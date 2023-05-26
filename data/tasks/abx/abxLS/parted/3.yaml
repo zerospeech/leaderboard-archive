@@ -1,0 +1,45 @@
+description: Purely random submission
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '0'
+  parameters:
+    frame_shift: 0.1
+    metric: euclidean
+    visually_grounded: false
+  train_set: nothing
+extras: null
+index: 4
+model_id: baseline21a
+publication:
+  DOI: null
+  author_short: <b>Random baseline</b>
+  authors: null
+  bib_ref: null
+  code: null
+  institution: EHESS, ENS, PSL Research Univerity, CNRS and Inria
+  open_science: false
+  paper_ref: null
+  paper_title: null
+  paper_url: null
+  pub_year: null
+  team_name: null
+scores:
+  clean:
+    dev:
+      across: 0.4994
+      within: 0.4939
+    test:
+      across: 0.5023
+      within: 0.4979
+  other:
+    dev:
+      across: 0.5017
+      within: 0.4997
+    test:
+      across: 0.5011
+      within: 0.4997
+submission_date: '2020-11-24T11:51:09+00:00'
+submission_id: 'baseline21a'
+submitted_by: null

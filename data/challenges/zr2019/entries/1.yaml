@@ -1,0 +1,58 @@
+audio_samples:
+  english_1: english_1_20190314042652_pandia.wav
+  english_2: english_2_20190314042652_pandia.wav
+  surprise_1: surprise_1_20190314042652_pandia.wav
+  surprise_2: surprise_2_20190314042652_pandia.wav
+details_abx:
+  english_auxiliary1_abx_dtw_cosine: '-'
+  english_auxiliary1_abx_dtw_kl: '-'
+  english_auxiliary1_abx_levenshtein: '-'
+  english_auxiliary2_abx_dtw_cosine: '-'
+  english_auxiliary2_abx_dtw_kl: '-'
+  english_auxiliary2_abx_levenshtein: '-'
+  english_test_abx_dtw_cosine: 29.66
+  english_test_abx_dtw_kl: 28.75
+  english_test_abx_levenshtein: 29.91
+  surprise_auxiliary1_abx_dtw_cosine: '-'
+  surprise_auxiliary1_abx_dtw_kl: '-'
+  surprise_auxiliary1_abx_levenshtein: '-'
+  surprise_auxiliary2_abx_dtw_cosine: '-'
+  surprise_auxiliary2_abx_dtw_kl: '-'
+  surprise_auxiliary2_abx_levenshtein: '-'
+  surprise_test_abx_dtw_cosine: 23.56
+  surprise_test_abx_dtw_kl: 23.92
+  surprise_test_abx_levenshtein: 25.51
+details_bitrate:
+  english_auxiliary1_bitrate: '-'
+  english_auxiliary2_bitrate: '-'
+  english_test_bitrate: 138.59
+  surprise_auxiliary1_bitrate: '-'
+  surprise_auxiliary2_bitrate: '-'
+  surprise_test_bitrate: 115.43
+metadata:
+  abx_distance: dtw_cosine
+  affiliation: Indian Institute of Technology Madras
+  author: Karthik Pandia D, Hema A Murthy
+  author_short: Pandia <i>et al.</i>
+  auxiliary1_description: '-'
+  auxiliary2_description: '-'
+  directory: /home/zerospeech/2019/submissions/20190314042652_pandia
+  open_source: false
+  submission_index: 2
+  submitted_at: '2019-03-14T04:26:52+00:00'
+  submitted_by: pandia
+  system_description: Speech units of the form CV, VC transients and steady-state
+    regions<br>are modelled using GMM-HMM
+  using_external_data: false
+  using_parallel_train: false
+scores:
+  english_abx: 29.66
+  english_bitrate: 138.59
+  english_cer: 0.55
+  english_mos: 2.82
+  english_similarity: 2.76
+  surprise_abx: 23.56
+  surprise_bitrate: 115.43
+  surprise_cer: 0.43
+  surprise_mos: 2.53
+  surprise_similarity: 3.58

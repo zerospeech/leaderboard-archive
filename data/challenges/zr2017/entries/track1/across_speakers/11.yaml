@@ -1,0 +1,22 @@
+metadata:
+  DOI: <a href="https://zenodo.org/record/821246">821246</a>
+  affiliation: NAIST
+  author: Heck et al.
+  rank: '1'
+  supervision: 'No'
+scores:
+  LANG1_10s: '10.0'
+  LANG1_120s: '9.7'
+  LANG1_1s: '11.9'
+  LANG2_10s: '10.0'
+  LANG2_120s: '9.9'
+  LANG2_1s: '13.0'
+  english_10s: '8.7'
+  english_120s: '8.5'
+  english_1s: '10.1'
+  french_10s: '11.7'
+  french_120s: '11.3'
+  french_1s: '13.6'
+  mandarin_10s: '7.4'
+  mandarin_120s: '7.3'
+  mandarin_1s: '8.8'

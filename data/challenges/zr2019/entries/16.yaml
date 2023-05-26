@@ -1,0 +1,75 @@
+audio_samples:
+  english_1: english_1_20190316092256_murat.saraclar.wav
+  english_2: english_2_20190316092256_murat.saraclar.wav
+  surprise_1: surprise_1_20190316092256_murat.saraclar.wav
+  surprise_2: surprise_2_20190316092256_murat.saraclar.wav
+details_abx:
+  english_auxiliary1_abx_dtw_cosine: 30.35
+  english_auxiliary1_abx_dtw_kl: 30.61
+  english_auxiliary1_abx_levenshtein: 28.94
+  english_auxiliary2_abx_dtw_cosine: 18.57
+  english_auxiliary2_abx_dtw_kl: 20.72
+  english_auxiliary2_abx_levenshtein: 44.3
+  english_test_abx_dtw_cosine: 35.86
+  english_test_abx_dtw_kl: 36.87
+  english_test_abx_levenshtein: 36.78
+  surprise_auxiliary1_abx_dtw_cosine: 22.21
+  surprise_auxiliary1_abx_dtw_kl: 22.82
+  surprise_auxiliary1_abx_levenshtein: 23.43
+  surprise_auxiliary2_abx_dtw_cosine: 10.87
+  surprise_auxiliary2_abx_dtw_kl: 12.46
+  surprise_auxiliary2_abx_levenshtein: 47.1
+  surprise_test_abx_dtw_cosine: 27.26
+  surprise_test_abx_dtw_kl: 27.17
+  surprise_test_abx_levenshtein: 30.28
+details_bitrate:
+  english_auxiliary1_bitrate: 275.85
+  english_auxiliary2_bitrate: 1216.31
+  english_test_bitrate: 34.66
+  surprise_auxiliary1_bitrate: 279.48
+  surprise_auxiliary2_bitrate: 1732.67
+  surprise_test_bitrate: 29.46
+metadata:
+  abx_distance: dtw_cosine
+  affiliation: Bogazici University
+  author: Alican Gok, Batuhan Gundogdu, Oyku Deniz Kose, Bolaji Yusuf, Murat Saraclar
+  author_short: Gok <i>et al.</i>
+  auxiliary1_description: Frame-level softmax outputs, converted to one-hot vectors.
+  auxiliary2_description: Frame-level softmax outputs (unquantized) from the encoder
+    RNN.
+  directory: /home/zerospeech/2019/submissions/20190316092256_murat.saraclar
+  open_source: true
+  submission_index: 17
+  submitted_at: '2019-03-16T09:22:56+00:00'
+  submitted_by: murat.saraclar
+  system_description: A recurrent sparse autoencoder is trained to obtain an alternative
+    and<br>compressible frame-level representation. This representation is<br>obtained
+    through an intermediate feed-forward softmax layer, using the<br>hidden state
+    activations of the network at each timestep, yielding a<br>posteriorgram-like
+    structure. This network is then fine tuned in<br>similar fashion to the correspondence
+    autoencoder [1], with pairs of<br>acoustic segments belonging to the same cluster.
+    These pairs are<br>obtained using an unsupervised term discovery system [2], and
+    the<br>frames of each pair are aligned through dynamic time warping. The<br>intermediate
+    representation is penalized with negative L2-norm during<br>training, to force
+    the representation to become closer to one-hot<br>vectors, hence reducing the
+    quantization error when they are<br>eventually converted to one-hot vectors for
+    compression and baseline<br>synthesizer training. The final embeddings are calculated
+    by passing<br>the one-hot vectors through a median filter to discard possibly<br>erroneous
+    states lasting only one or two frames and enforce<br>continuity, then removing
+    the repetitions. [1] H. Kamper, Truly<br>unsupervised acoustic word embeddings
+    using weak top-down constraints<br>in encoder-decoder models. arXiv preprint arXiv
+    1811.00403, 2018 [2]<br>A. Jansen and B. Van Durme, Efficient spoken term discovery
+    using<br>randomized algorithms, in Proc. ASRU, 2011
+  using_external_data: false
+  using_parallel_train: false
+scores:
+  english_abx: 35.86
+  english_bitrate: 34.66
+  english_cer: 0.9
+  english_mos: 2.02
+  english_similarity: 2.93
+  surprise_abx: 27.26
+  surprise_bitrate: 29.46
+  surprise_cer: 0.86
+  surprise_mos: 1.46
+  surprise_similarity: 3.03

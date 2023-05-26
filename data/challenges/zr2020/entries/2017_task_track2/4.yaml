@@ -1,0 +1,182 @@
+metadata:
+  affiliation: JHU
+  author: Saurabhchand Bhati
+  author_short: Bhati
+  directory: /mnt/zs2020_submissions/20200424205152_Saurabhati
+  open_source: false
+  submission_index: 16
+  submitted_at: '2020-04-24T20:51:52+00:00'
+  submitted_by: Saurabhati
+track1_2017:
+  LANG1:
+    10s:
+      across: '-'
+      within: '-'
+    120s:
+      across: '-'
+      within: '-'
+    1s:
+      across: '-'
+      within: '-'
+  LANG2:
+    10s:
+      across: '-'
+      within: '-'
+    120s:
+      across: '-'
+      within: '-'
+    1s:
+      across: '-'
+      within: '-'
+  english:
+    10s:
+      across: '-'
+      within: '-'
+    120s:
+      across: '-'
+      within: '-'
+    1s:
+      across: '-'
+      within: '-'
+  french:
+    10s:
+      across: '-'
+      within: '-'
+    120s:
+      across: '-'
+      within: '-'
+    1s:
+      across: '-'
+      within: '-'
+  mandarin:
+    10s:
+      across: '-'
+      within: '-'
+    120s:
+      across: '-'
+      within: '-'
+    1s:
+      across: '-'
+      within: '-'
+  metadata:
+    hyperparameters: '-'
+    system_description: '-'
+    track1_supervised: '-'
+    track2_supervised: '-'
+track2_2017:
+  LANG1:
+    details:
+      boundary_fscore: 0.3813
+      boundary_precision: 0.2724
+      boundary_recall: 0.6353
+      coverage: 0.9967
+      grouping_fscore: '-'
+      grouping_precision: '-'
+      grouping_recall: '-'
+      ned: 0.9376
+      pairs: 1033325388
+      token_fscore: 0.0608
+      token_precision: 0.0442
+      token_recall: 0.0977
+      type_fscore: 0.0285
+      type_precision: 0.0165
+      type_recall: 0.1042
+      words: 152456
+    scores:
+      coverage: 0.9967
+      ned: 0.9376
+      words: 152456
+  LANG2:
+    details:
+      boundary_fscore: '-'
+      boundary_precision: '-'
+      boundary_recall: '-'
+      coverage: '-'
+      grouping_fscore: '-'
+      grouping_precision: '-'
+      grouping_recall: '-'
+      ned: '-'
+      pairs: '-'
+      token_fscore: '-'
+      token_precision: '-'
+      token_recall: '-'
+      type_fscore: '-'
+      type_precision: '-'
+      type_recall: '-'
+      words: '-'
+    scores:
+      coverage: '-'
+      ned: '-'
+      words: '-'
+  english:
+    details:
+      boundary_fscore: 0.3996
+      boundary_precision: 0.3025
+      boundary_recall: 0.5887
+      coverage: 0.9916
+      grouping_fscore: '-'
+      grouping_precision: '-'
+      grouping_recall: '-'
+      ned: 0.9398
+      pairs: 1963014148
+      token_fscore: 0.0625
+      token_precision: 0.0486
+      token_recall: 0.0877
+      type_fscore: 0.0292
+      type_precision: 0.0159
+      type_recall: 0.1755
+      words: 231919
+    scores:
+      coverage: 0.9916
+      ned: 0.9398
+      words: 231919
+  french:
+    details:
+      boundary_fscore: 0.4308
+      boundary_precision: 0.3157
+      boundary_recall: 0.6779
+      coverage: 0.9972
+      grouping_fscore: '-'
+      grouping_precision: '-'
+      grouping_recall: '-'
+      ned: 0.9312
+      pairs: 360575731
+      token_fscore: 0.061
+      token_precision: 0.0456
+      token_recall: 0.092
+      type_fscore: 0.0352
+      type_precision: 0.02
+      type_recall: 0.1433
+      words: 155471
+    scores:
+      coverage: 0.9972
+      ned: 0.9312
+      words: 155471
+  mandarin:
+    details:
+      boundary_fscore: 0.5572
+      boundary_precision: 0.4254
+      boundary_recall: 0.8073
+      coverage: 0.9984
+      grouping_fscore: 0.0209
+      grouping_precision: 0.0134
+      grouping_recall: 0.048
+      ned: 0.9728
+      pairs: 2994432
+      token_fscore: 0.1228
+      token_precision: 0.0929
+      token_recall: 0.1809
+      type_fscore: 0.1296
+      type_precision: 0.0836
+      type_recall: 0.2885
+      words: 30611
+    scores:
+      coverage: 0.9984
+      ned: 0.9728
+      words: 30611
+  metadata:
+    hyperparameters: Layer-wise pretraining for the RNNs, KGM segmentation for the
+      phone segmentation
+    system_description: seq2seq RNN for features learning with UAD pairs
+    track1_supervised: false
+    track2_supervised: false

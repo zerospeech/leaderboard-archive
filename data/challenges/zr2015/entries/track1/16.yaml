@@ -1,0 +1,16 @@
+metadata:
+  after_challenge: 'no'
+  author: Baljekar et al.
+  bib: <a class="reference internal" href="#baljekar_using_2015" id="id8">[8]</a>
+  binary: 'no'
+  main_idea: SPTK Z-scored MFCCs
+  reference: Baljekar, P., Sitaram, S., Muthukumar, P. K., & Black, A. (2015). Using
+    articulatory features and inferred phonological segments in zero resource speech
+    processing. In Proceedings of Interspeech.
+  supervision: 'no'
+  team: CMU
+scores:
+  english_across: '28'
+  english_within: '17'
+  xitsonga_across: '30.7'
+  xitsonga_within: '19.7'

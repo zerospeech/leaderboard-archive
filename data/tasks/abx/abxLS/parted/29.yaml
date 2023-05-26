@@ -1,0 +1,48 @@
+description: In this model, we use a CPC segmentation module to generate boundaries
+  of audios (removed most silence segments by VAD). Then we average the features from
+  pretrained CPC-big within the adjacent boundaries and use kmeans to get pseudo units.
+  A small bert model is used to train the language models.
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '35'
+  parameters:
+    frame_shift: 0.01
+    metric: cosine
+    visually_grounded: false
+  train_set: librispeech 960
+extras: null
+index: 30
+model_id: Gao21c
+publication:
+  DOI: null
+  author_short: Lingyun Gao et al.
+  authors: Lingyun Gao, Siyuan Feng, Odette Scharenborg
+  bib_ref: '-'
+  code: null
+  institution: Delft University of Technology
+  open_science: false
+  paper_ref: Lingyun Gao, Siyuan Feng, Odette Scharenborg (2021.0) -
+  paper_title: '-'
+  paper_url: '-'
+  pub_year: 2021
+  team_name: null
+scores:
+  clean:
+    dev:
+      across: 0.1142
+      within: 0.0736
+    test:
+      across: 0.1094
+      within: 0.0745
+  other:
+    dev:
+      across: 0.1853
+      within: 0.1119
+    test:
+      across: 0.1931
+      within: 0.1119
+submission_date: '2022-01-12T15:50:31+00:00'
+submission_id: '20220112155031_dura10'
+submitted_by: null

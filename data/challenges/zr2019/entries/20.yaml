@@ -1,0 +1,58 @@
+audio_samples:
+  english_1: english_1_20190319093259_mmmaat.wav
+  english_2: english_2_20190319093259_mmmaat.wav
+  surprise_1: surprise_1_20190319093259_mmmaat.wav
+  surprise_2: surprise_2_20190319093259_mmmaat.wav
+details_abx:
+  english_auxiliary1_abx_dtw_cosine: '-'
+  english_auxiliary1_abx_dtw_kl: '-'
+  english_auxiliary1_abx_levenshtein: '-'
+  english_auxiliary2_abx_dtw_cosine: '-'
+  english_auxiliary2_abx_dtw_kl: '-'
+  english_auxiliary2_abx_levenshtein: '-'
+  english_test_abx_dtw_cosine: 29.85
+  english_test_abx_dtw_kl: 30.28
+  english_test_abx_levenshtein: 29.41
+  surprise_auxiliary1_abx_dtw_cosine: '-'
+  surprise_auxiliary1_abx_dtw_kl: '-'
+  surprise_auxiliary1_abx_levenshtein: '-'
+  surprise_auxiliary2_abx_dtw_cosine: '-'
+  surprise_auxiliary2_abx_dtw_kl: '-'
+  surprise_auxiliary2_abx_levenshtein: '-'
+  surprise_test_abx_dtw_cosine: 16.09
+  surprise_test_abx_dtw_kl: 15.62
+  surprise_test_abx_levenshtein: 19.14
+details_bitrate:
+  english_auxiliary1_bitrate: '-'
+  english_auxiliary2_bitrate: '-'
+  english_test_bitrate: 37.73
+  surprise_auxiliary1_bitrate: '-'
+  surprise_auxiliary2_bitrate: '-'
+  surprise_test_bitrate: 35.2
+metadata:
+  abx_distance: dtw_cosine
+  affiliation: PSL University, CNRS, ENS, EHESS, INRIA
+  author: ZeroSpeech organizers, CoML team
+  author_short: <b>Topline</b>
+  auxiliary1_description: not used
+  auxiliary2_description: not used
+  directory: /home/zerospeech/2019/submissions/20190319093259_mmmaat
+  open_source: true
+  submission_index: 21
+  submitted_at: '2019-03-19T09:32:59+00:00'
+  submitted_by: mmmaat
+  system_description: ASR system (Kaldi) piped to a trained TTS system (Merlin), both<br>trained
+    using supervision (on gold labels).
+  using_external_data: false
+  using_parallel_train: false
+scores:
+  english_abx: 29.85
+  english_bitrate: 37.73
+  english_cer: 0.44
+  english_mos: 2.77
+  english_similarity: 2.99
+  surprise_abx: 16.09
+  surprise_bitrate: 35.2
+  surprise_cer: 0.28
+  surprise_mos: 3.92
+  surprise_similarity: 3.95

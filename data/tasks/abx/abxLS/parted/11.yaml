@@ -1,0 +1,48 @@
+description: 'Mockingjay with cluster re-train (trained on librispeech 100) K-means.
+  LSTM.
+
+  '
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '60'
+  parameters:
+    frame_shift: 0.01
+    metric: cosine
+    visually_grounded: false
+  train_set: librispeech 100
+extras: null
+index: 12
+model_id: Liu21
+publication:
+  DOI: null
+  author_short: Liu <i>et al.</i>
+  authors: liu
+  bib_ref: '-'
+  code: null
+  institution: Information Engineering University
+  open_science: false
+  paper_ref: liu (2021.0) -
+  paper_title: '-'
+  paper_url: '-'
+  pub_year: 2021
+  team_name: null
+scores:
+  clean:
+    dev:
+      across: 0.2452
+      within: 0.1696
+    test:
+      across: 0.2387
+      within: 0.1714
+  other:
+    dev:
+      across: 0.2989
+      within: 0.1965
+    test:
+      across: 0.3057
+      within: 0.1965
+submission_date: '2021-03-23T09:01:51+00:00'
+submission_id: '20210323090151_liucodalab'
+submitted_by: null

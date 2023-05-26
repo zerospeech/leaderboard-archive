@@ -1,0 +1,65 @@
+audio_samples:
+  english_1: english_1_20190316091850_murat.saraclar.wav
+  english_2: english_2_20190316091850_murat.saraclar.wav
+  surprise_1: surprise_1_20190316091850_murat.saraclar.wav
+  surprise_2: surprise_2_20190316091850_murat.saraclar.wav
+details_abx:
+  english_auxiliary1_abx_dtw_cosine: 18.92
+  english_auxiliary1_abx_dtw_kl: 21.06
+  english_auxiliary1_abx_levenshtein: 44.3
+  english_auxiliary2_abx_dtw_cosine: 28.37
+  english_auxiliary2_abx_dtw_kl: 28.26
+  english_auxiliary2_abx_levenshtein: 30.24
+  english_test_abx_dtw_cosine: 25.69
+  english_test_abx_dtw_kl: 25.95
+  english_test_abx_levenshtein: 28.7
+  surprise_auxiliary1_abx_dtw_cosine: 12.29
+  surprise_auxiliary1_abx_dtw_kl: 12.92
+  surprise_auxiliary1_abx_levenshtein: 47.1
+  surprise_auxiliary2_abx_dtw_cosine: 24.46
+  surprise_auxiliary2_abx_dtw_kl: 24.36
+  surprise_auxiliary2_abx_levenshtein: 24.96
+  surprise_test_abx_dtw_cosine: 24.16
+  surprise_test_abx_dtw_kl: 24.07
+  surprise_test_abx_levenshtein: 26.64
+details_bitrate:
+  english_auxiliary1_bitrate: 1216.31
+  english_auxiliary2_bitrate: 49.97
+  english_test_bitrate: 92.37
+  surprise_auxiliary1_bitrate: 1732.67
+  surprise_auxiliary2_bitrate: 66.86
+  surprise_test_bitrate: 121.03
+metadata:
+  abx_distance: dtw_cosine
+  affiliation: Bogazici University
+  author: Bolaji Yusuf, Alican Gok, Batuhan Gundogdu, Oyku Deniz Kose, Murat Saraclar
+  author_short: Yusuf <i>et al.</i>
+  auxiliary1_description: We represent each frame as a function of the distance between
+    the PLP<br>features and each SOM unit. The distances are softmax-ed to obtain
+    a<br>probability distribution which is used as the embedding.
+  auxiliary2_description: We train the GRU with fewer initial SOM units and obtain
+    the quantized<br>(hard max) outputs.
+  directory: /home/zerospeech/2019/submissions/20190316091850_murat.saraclar
+  open_source: true
+  submission_index: 16
+  submitted_at: '2019-03-16T09:18:50+00:00'
+  submitted_by: murat.saraclar
+  system_description: We train a temporal-proximity-aware self-organizing map to discover<br>units
+    from PLP features. Since the SOM units are spatially related, we<br>pool consecutive
+    units and then train a GRU to predict each pooled<br>unit from the PLP features.
+    The test embeddings are obtained by using<br>a hard max on the output (softmax)
+    of the GRU, followed by removing of<br>repeated labels. We use the baseline (Ossian)
+    system for synthesis.
+  using_external_data: false
+  using_parallel_train: false
+scores:
+  english_abx: 25.69
+  english_bitrate: 92.37
+  english_cer: 0.86
+  english_mos: 2.42
+  english_similarity: 2.88
+  surprise_abx: 24.16
+  surprise_bitrate: 121.03
+  surprise_cer: 0.8
+  surprise_mos: 1.84
+  surprise_similarity: 2.84

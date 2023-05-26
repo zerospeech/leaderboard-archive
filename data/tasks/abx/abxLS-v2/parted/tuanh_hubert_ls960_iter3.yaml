@@ -1,0 +1,207 @@
+description: 'HuBERT model (https://arxiv.org/abs/2106.07447) trained on librispeech
+  960,  3rd iteration. 1st iteration: discrete targets obtained by clustering MFCC  features
+  with k-means (k=100). 2nd iteration: discrete targets obtained  by clustering 6th-layer
+  features of 1st iteration with k-means (k=500). 3rd iteration: discrete targets
+  obtained by clustering 12th-layer features  of 2nd iteration with k-means (k=500).
+  ABX is reported on the targets features  used to train the 3rd iteration.
+
+  '
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '3424'
+  parameters:
+    frame_shift: 0.02
+    metric: cosine
+    visually_grounded: false
+  train_set: librispeech 960
+extras: null
+index: 23
+model_id: Ngu21c
+publication:
+  DOI: null
+  author_short: Tu Anh et al.
+  authors: 'Nguyen, T., Sagot, B. & Dupoux, E. '
+  bib_ref: nguyen22discrete
+  code: null
+  institution: Inria & EHESS, ENS, PSL Research Univerity, CNRS
+  open_science: false
+  paper_ref: 'Nguyen, T., Sagot, B. & Dupoux, E.  (2021.0) Are discrete units necessary
+    for spoken language modeling? '
+  paper_title: 'Are discrete units necessary for spoken language modeling? '
+  paper_url: https://arxiv.org/abs/2203.05936
+  pub_year: 2021
+  team_name: null
+scores:
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.0769898816943168
+  seed: 3459
+  speaker_mode: within
+  subset: dev-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.0806202590465545
+  seed: 3459
+  speaker_mode: across
+  subset: dev-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0210787132382392
+  seed: 3459
+  speaker_mode: across
+  subset: dev-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0156376995146274
+  seed: 3459
+  speaker_mode: within
+  subset: dev-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.0924775078892707
+  seed: 3459
+  speaker_mode: within
+  subset: dev-other
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.1008126139640808
+  seed: 3459
+  speaker_mode: across
+  subset: dev-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0479565523564815
+  seed: 3459
+  speaker_mode: across
+  subset: dev-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0308406297117471
+  seed: 3459
+  speaker_mode: within
+  subset: dev-other
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.077449232339859
+  seed: 3459
+  speaker_mode: within
+  subset: test-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.0802442878484726
+  seed: 3459
+  speaker_mode: across
+  subset: test-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0250334944576025
+  seed: 3459
+  speaker_mode: across
+  subset: test-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0160506591200828
+  seed: 3459
+  speaker_mode: within
+  subset: test-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.0933659449219703
+  seed: 3459
+  speaker_mode: within
+  subset: test-other
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.101258784532547
+  seed: 3459
+  speaker_mode: across
+  subset: test-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0467257723212242
+  seed: 3459
+  speaker_mode: across
+  subset: test-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0283012557774782
+  seed: 3459
+  speaker_mode: within
+  subset: test-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0326
+  seed: none
+  speaker_mode: within
+  subset: dev-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0381
+  seed: none
+  speaker_mode: across
+  subset: dev-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.04
+  seed: none
+  speaker_mode: within
+  subset: dev-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0591
+  seed: none
+  speaker_mode: across
+  subset: dev-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0303
+  seed: none
+  speaker_mode: within
+  subset: test-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0383
+  seed: none
+  speaker_mode: across
+  subset: test-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.04
+  seed: none
+  speaker_mode: within
+  subset: test-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0563
+  seed: none
+  speaker_mode: across
+  subset: test-other
+submission_date: '2021-11-22T11:16:16+00:00'
+submission_id: tuanh_hubert_ls960_iter3
+submitted_by: null

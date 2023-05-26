@@ -1,0 +1,59 @@
+audio_samples:
+  english_1: english_1_20190205160754_mmmaat.wav
+  english_2: english_2_20190205160754_mmmaat.wav
+  surprise_1: surprise_1_20190205160754_mmmaat.wav
+  surprise_2: surprise_2_20190205160754_mmmaat.wav
+details_abx:
+  english_auxiliary1_abx_dtw_cosine: 34.66
+  english_auxiliary1_abx_dtw_kl: 34.51
+  english_auxiliary1_abx_levenshtein: 33.28
+  english_auxiliary2_abx_dtw_cosine: '-'
+  english_auxiliary2_abx_dtw_kl: '-'
+  english_auxiliary2_abx_levenshtein: '-'
+  english_test_abx_dtw_cosine: 35.63
+  english_test_abx_dtw_kl: 35.7
+  english_test_abx_levenshtein: 34.74
+  surprise_auxiliary1_abx_dtw_cosine: 27.75
+  surprise_auxiliary1_abx_dtw_kl: 27.65
+  surprise_auxiliary1_abx_levenshtein: 29.14
+  surprise_auxiliary2_abx_dtw_cosine: '-'
+  surprise_auxiliary2_abx_dtw_kl: '-'
+  surprise_auxiliary2_abx_levenshtein: '-'
+  surprise_test_abx_dtw_cosine: 27.46
+  surprise_test_abx_dtw_kl: 27.72
+  surprise_test_abx_levenshtein: 29.21
+details_bitrate:
+  english_auxiliary1_bitrate: 561.47
+  english_auxiliary2_bitrate: '-'
+  english_test_bitrate: 71.98
+  surprise_auxiliary1_bitrate: 556.41
+  surprise_auxiliary2_bitrate: '-'
+  surprise_test_bitrate: 74.55
+metadata:
+  abx_distance: dtw_cosine
+  affiliation: PSL University, CNRS, ENS, EHESS, INRIA
+  author: ZeroSpeech organizers, CoML team
+  author_short: <b>Baseline</b>
+  auxiliary1_description: Embeddings discovered by the Ondel algorithm, before conversion
+    to<br>one-hot vectors
+  auxiliary2_description: not used
+  directory: /home/zerospeech/2019/submissions/20190205160754_mmmaat
+  open_source: true
+  submission_index: 1
+  submitted_at: '2019-02-05T16:07:54+00:00'
+  submitted_by: mmmaat
+  system_description: <a href="https://zerospeech.com/2019/getting_started.html#baseline-system">Baseline
+    of ZeroSpeech 2019</a>
+  using_external_data: false
+  using_parallel_train: false
+scores:
+  english_abx: 35.63
+  english_bitrate: 71.98
+  english_cer: 0.75
+  english_mos: 2.5
+  english_similarity: 2.97
+  surprise_abx: 27.46
+  surprise_bitrate: 74.55
+  surprise_cer: 0.62
+  surprise_mos: 2.07
+  surprise_similarity: 3.41

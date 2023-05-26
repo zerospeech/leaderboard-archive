@@ -1,0 +1,18 @@
+metadata:
+  after_challenge: 'yes'
+  author: Zeghidour et al.
+  bib: <a class="reference internal" href="#zeghidour2016deep" id="id11">[11]</a>
+  binary: 'no'
+  main_idea: STD+ScatABnet
+  reference: Zeghidour, N., Synnaeve, G., Versteegh, M., & Dupoux, E. (2016, March).
+    A Deep Scattering Spectrum - Deep Siamese network Pipeline For Unsupervised Acoustic
+    Modeling. In ICASSP, (pp. 4965-4969). IEEE.
+  supervision: 'no'
+  team: 'ENS-PSL, Paris
+
+    '
+scores:
+  english_across: '17'
+  english_within: '11'
+  xitsonga_across: '15.8'
+  xitsonga_within: '12'

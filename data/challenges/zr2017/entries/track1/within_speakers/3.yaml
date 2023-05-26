@@ -1,0 +1,22 @@
+metadata:
+  DOI: <a href="https://zenodo.org/record/810808">810808</a>
+  affiliation: Aalto University
+  author: "R\xE4s\xE4nen et al."
+  rank: ''
+  supervision: 'No'
+scores:
+  LANG1_10s: '6.6'
+  LANG1_120s: ''
+  LANG1_1s: ''
+  LANG2_10s: '11.3'
+  LANG2_120s: ''
+  LANG2_1s: ''
+  english_10s: '7.7'
+  english_120s: ''
+  english_1s: ''
+  french_10s: '9.3'
+  french_120s: ''
+  french_1s: ''
+  mandarin_10s: '8.7'
+  mandarin_120s: ''
+  mandarin_1s: ''

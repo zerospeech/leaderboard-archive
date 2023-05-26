@@ -1,0 +1,15 @@
+metadata:
+  after_challenge: 'no'
+  author: Renshaw et al.
+  bib: <a class="reference internal" href="#renshaw_comparison_2015" id="id5">[5]</a>
+  binary: 'no'
+  main_idea: "STD+AE+B\xDB\xB2\xDA\u2020NF\xD9\u201A\xDB\xB7&**^*\xEF\xB7\xBC\xE2\u201A\
+    \xA9\xEF\xB7\xBC\xD9\xAA\xC2\xA3\xC2\xA3\xC2\xA3\xC2\xA3-"
+  reference: ''
+  supervision: yes, English
+  team: Edinburgh & JHU
+scores:
+  english_across: '18.1'
+  english_within: '12.8'
+  xitsonga_across: '19.3'
+  xitsonga_within: '14.4'

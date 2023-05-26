@@ -1,0 +1,49 @@
+description: 'Reimplementation of ZeroSpeech 2021 baseline (CPC-big + kmeans + BERT),  slightly
+  modified by using NCE loss instead of NLL loss in the output  of the BERT model.
+
+  '
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '2720'
+  parameters:
+    frame_shift: 0.01
+    metric: cosine
+    visually_grounded: false
+  train_set: librispeech 100 and 960
+extras: null
+index: 24
+model_id: Ngu21d
+publication:
+  DOI: null
+  author_short: Tu Anh et al.
+  authors: 'Nguyen, T., Sagot, B. & Dupoux, E. '
+  bib_ref: nguyen22discrete
+  code: null
+  institution: Inria & EHESS, ENS, PSL Research Univerity, CNRS
+  open_science: false
+  paper_ref: 'Nguyen, T., Sagot, B. & Dupoux, E.  (2021.0) Are discrete units necessary
+    for spoken language modeling? '
+  paper_title: 'Are discrete units necessary for spoken language modeling? '
+  paper_url: https://arxiv.org/abs/2203.05936
+  pub_year: 2021
+  team_name: null
+scores:
+  clean:
+    dev:
+      across: 0.0455
+      within: 0.0374
+    test:
+      across: 0.0455
+      within: 0.0349
+  other:
+    dev:
+      across: 0.0869
+      within: 0.0552
+    test:
+      across: 0.092
+      within: 0.0552
+submission_date: '2021-11-22T11:16:16+00:00'
+submission_id: 'tuanh_zs2021_baseline_reimpl'
+submitted_by: null

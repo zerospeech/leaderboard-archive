@@ -1,0 +1,61 @@
+audio_samples:
+  english_1: english_1_20190314161322_syfeng.wav
+  english_2: english_2_20190314161322_syfeng.wav
+  surprise_1: surprise_1_20190314161322_syfeng.wav
+  surprise_2: surprise_2_20190314161322_syfeng.wav
+details_abx:
+  english_auxiliary1_abx_dtw_cosine: '-'
+  english_auxiliary1_abx_dtw_kl: '-'
+  english_auxiliary1_abx_levenshtein: '-'
+  english_auxiliary2_abx_dtw_cosine: '-'
+  english_auxiliary2_abx_dtw_kl: '-'
+  english_auxiliary2_abx_levenshtein: '-'
+  english_test_abx_dtw_cosine: 25.87
+  english_test_abx_dtw_kl: 25.3
+  english_test_abx_levenshtein: 28.59
+  surprise_auxiliary1_abx_dtw_cosine: '-'
+  surprise_auxiliary1_abx_dtw_kl: '-'
+  surprise_auxiliary1_abx_levenshtein: '-'
+  surprise_auxiliary2_abx_dtw_cosine: '-'
+  surprise_auxiliary2_abx_dtw_kl: '-'
+  surprise_auxiliary2_abx_levenshtein: '-'
+  surprise_test_abx_dtw_cosine: 17.65
+  surprise_test_abx_dtw_kl: 16.87
+  surprise_test_abx_levenshtein: 23.98
+details_bitrate:
+  english_auxiliary1_bitrate: '-'
+  english_auxiliary2_bitrate: '-'
+  english_test_bitrate: 320.01
+  surprise_auxiliary1_bitrate: '-'
+  surprise_auxiliary2_bitrate: '-'
+  surprise_test_bitrate: 299.21
+metadata:
+  abx_distance: dtw_kl
+  affiliation: The Chinese University of Hong Kong
+  author: Siyuan Feng, Zhiyuan Peng, Tan Lee
+  author_short: Feng <i>et al.</i>
+  auxiliary1_description: '-'
+  auxiliary2_description: '-'
+  directory: /home/zerospeech/2019/submissions/20190314161322_syfeng
+  open_source: true
+  submission_index: 5
+  submitted_at: '2019-03-14T16:13:22+00:00'
+  submitted_by: syfeng
+  system_description: The only difference between this system and our team's other
+    system is<br>that, we perform text filtering towards test ont-hot embeddings.
+    The<br>motivation is to filter out 'very short' symbolic representation. This<br>should
+    reduce bit rate of test embeddings. As this process is done<br>towards test embedding
+    only, auxiliary embeddings do not change as<br>compared to our another system.
+  using_external_data: false
+  using_parallel_train: false
+scores:
+  english_abx: 25.3
+  english_bitrate: 320.01
+  english_cer: 0.76
+  english_mos: 1.78
+  english_similarity: 2.33
+  surprise_abx: 16.87
+  surprise_bitrate: 299.21
+  surprise_cer: 0.66
+  surprise_mos: 1.67
+  surprise_similarity: 2.6

@@ -1,0 +1,206 @@
+description: Our model is a variant of the FaST-VGS (https://arxiv.org/abs/2109.08186).
+  Which augments the audio encoder of FaST-VGS with additional transformer layers
+  and the loss with wav2vec2.0-type contrastive loss. We jointly trained the model
+  on SpokenCOCO for speech-image matching and LibriSpeech for audio frame-level contrastive
+  modeling. The language modeling part (i.e. KMeans quantization and BERT training)
+  is the same as the high budget VG baseline.
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '468'
+  parameters:
+    frame_shift: 0.02
+    metric: cosine
+    visually_grounded: true
+  train_set: LibriSpeech and SpokenCOCO
+extras: null
+index: 17
+model_id: Pen21
+publication:
+  DOI: null
+  author_short: Harwath et al.
+  authors: 'Peng, P. & Harwath, D. '
+  bib_ref: peng2022self
+  code: null
+  institution: UT Austin
+  open_science: false
+  paper_ref: Peng, P. & Harwath, D.  (2021.0) Self-supervised representation learning
+    for speech using visual grounding and masked language modeling.
+  paper_title: Self-supervised representation learning for speech using visual grounding
+    and masked language modeling.
+  paper_url: https://arxiv.org/abs/2202.03543
+  pub_year: 2021
+  team_name: null
+scores:
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.097409039735794
+  seed: 3459
+  speaker_mode: within
+  subset: dev-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.1026363670825958
+  seed: 3459
+  speaker_mode: across
+  subset: dev-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0280347634106874
+  seed: 3459
+  speaker_mode: across
+  subset: dev-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0232039373368024
+  seed: 3459
+  speaker_mode: within
+  subset: dev-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.1192318871617317
+  seed: 3459
+  speaker_mode: within
+  subset: dev-other
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.132873073220253
+  seed: 3459
+  speaker_mode: across
+  subset: dev-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0655081868171691
+  seed: 3459
+  speaker_mode: across
+  subset: dev-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0408108308911323
+  seed: 3459
+  speaker_mode: within
+  subset: dev-other
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.0973619669675827
+  seed: 3459
+  speaker_mode: within
+  subset: test-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.1028317660093307
+  seed: 3459
+  speaker_mode: across
+  subset: test-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0319035723805427
+  seed: 3459
+  speaker_mode: across
+  subset: test-clean
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.022367862984538
+  seed: 3459
+  speaker_mode: within
+  subset: test-clean
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.1200509145855903
+  seed: 3459
+  speaker_mode: within
+  subset: test-other
+- context_mode: any
+  granularity: phoneme
+  pooling: none
+  score: 0.1338244527578354
+  seed: 3459
+  speaker_mode: across
+  subset: test-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0628807619214057
+  seed: 3459
+  speaker_mode: across
+  subset: test-other
+- context_mode: within
+  granularity: phoneme
+  pooling: none
+  score: 0.0385605618357658
+  seed: 3459
+  speaker_mode: within
+  subset: test-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0423
+  seed: none
+  speaker_mode: within
+  subset: dev-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0491
+  seed: none
+  speaker_mode: across
+  subset: dev-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0558
+  seed: none
+  speaker_mode: within
+  subset: dev-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0787
+  seed: none
+  speaker_mode: across
+  subset: dev-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0424
+  seed: none
+  speaker_mode: within
+  subset: test-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0508
+  seed: none
+  speaker_mode: across
+  subset: test-clean
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0558
+  seed: none
+  speaker_mode: within
+  subset: test-other
+- context_mode: within
+  granularity: triphone
+  pooling: none
+  score: 0.0791
+  seed: none
+  speaker_mode: across
+  subset: test-other
+submission_date: '2021-11-04T10:09:42+00:00'
+submission_id: 20211104100942_harwath
+submitted_by: null

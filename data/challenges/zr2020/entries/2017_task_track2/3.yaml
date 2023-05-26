@@ -1,0 +1,183 @@
+metadata:
+  affiliation: Tampere University, Unit of Computing Sciences
+  author: Okko Rasanen, Maria Andrea Cruz Blandon
+  author_short: Rasanen <i>et al.</i>
+  directory: /mnt/zs2020_submissions/20200423151418_orasanen
+  open_source: true
+  submission_index: 5
+  submitted_at: '2020-04-23T15:14:18+00:00'
+  submitted_by: orasanen
+track1_2017:
+  LANG1:
+    10s:
+      across: '-'
+      within: '-'
+    120s:
+      across: '-'
+      within: '-'
+    1s:
+      across: '-'
+      within: '-'
+  LANG2:
+    10s:
+      across: '-'
+      within: '-'
+    120s:
+      across: '-'
+      within: '-'
+    1s:
+      across: '-'
+      within: '-'
+  english:
+    10s:
+      across: '-'
+      within: '-'
+    120s:
+      across: '-'
+      within: '-'
+    1s:
+      across: '-'
+      within: '-'
+  french:
+    10s:
+      across: '-'
+      within: '-'
+    120s:
+      across: '-'
+      within: '-'
+    1s:
+      across: '-'
+      within: '-'
+  mandarin:
+    10s:
+      across: '-'
+      within: '-'
+    120s:
+      across: '-'
+      within: '-'
+    1s:
+      across: '-'
+      within: '-'
+  metadata:
+    hyperparameters: '-'
+    system_description: '-'
+    track1_supervised: '-'
+    track2_supervised: '-'
+track2_2017:
+  LANG1:
+    details:
+      boundary_fscore: 0.2198
+      boundary_precision: 0.2216
+      boundary_recall: 0.218
+      coverage: 0.1539
+      grouping_fscore: 0.7083
+      grouping_precision: 0.7144
+      grouping_recall: 0.7023
+      ned: 0.2361
+      pairs: 117429
+      token_fscore: 0.0102
+      token_precision: 0.0104
+      token_recall: 0.0099
+      type_fscore: 0.0091
+      type_precision: 0.0345
+      type_recall: 0.0053
+      words: 3685
+    scores:
+      coverage: 0.1539
+      ned: 0.2361
+      words: 3685
+  LANG2:
+    details:
+      boundary_fscore: 0.0164
+      boundary_precision: 0.3386
+      boundary_recall: 0.0084
+      coverage: 0.0048
+      grouping_fscore: 0.847
+      grouping_precision: 0.8444
+      grouping_recall: 0.8497
+      ned: 0.1008
+      pairs: 414
+      token_fscore: 0.0004
+      token_precision: 0.0107
+      token_recall: 0.0002
+      type_fscore: 0.0018
+      type_precision: 0.0862
+      type_recall: 0.0009
+      words: 58
+    scores:
+      coverage: 0.0048
+      ned: 0.1008
+      words: 58
+  english:
+    details:
+      boundary_fscore: 0.2832
+      boundary_precision: 0.2601
+      boundary_recall: 0.3107
+      coverage: 0.2307
+      grouping_fscore: '-'
+      grouping_precision: '-'
+      grouping_recall: '-'
+      ned: 0.3044
+      pairs: 322593
+      token_fscore: 0.0238
+      token_precision: 0.0203
+      token_recall: 0.0286
+      type_fscore: 0.0233
+      type_precision: 0.0506
+      type_recall: 0.0152
+      words: 6308
+    scores:
+      coverage: 0.2307
+      ned: 0.3044
+      words: 6308
+  french:
+    details:
+      boundary_fscore: 0.2645
+      boundary_precision: 0.2795
+      boundary_recall: 0.2511
+      coverage: 0.1747
+      grouping_fscore: '-'
+      grouping_precision: '-'
+      grouping_recall: '-'
+      ned: 0.2031
+      pairs: 141404
+      token_fscore: 0.035
+      token_precision: 0.0364
+      token_recall: 0.0338
+      type_fscore: 0.0136
+      type_precision: 0.0634
+      type_recall: 0.0076
+      words: 2604
+    scores:
+      coverage: 0.1747
+      ned: 0.2031
+      words: 2604
+  mandarin:
+    details:
+      boundary_fscore: 0.2144
+      boundary_precision: 0.3466
+      boundary_recall: 0.1552
+      coverage: 0.1035
+      grouping_fscore: 0.6712
+      grouping_precision: 0.6617
+      grouping_recall: 0.6809
+      ned: 0.3494
+      pairs: 5910
+      token_fscore: 0.0153
+      token_precision: 0.0248
+      token_recall: 0.011
+      type_fscore: 0.0215
+      type_precision: 0.1453
+      type_recall: 0.0116
+      words: 709
+    scores:
+      coverage: 0.1035
+      ned: 0.3494
+      words: 709
+  metadata:
+    hyperparameters: alpha = 0.0001, L = 20, S = 10, M = 4, k = 5, feature=MFCC
+    system_description: Probabilistic DTW (PDTW) algorithm from O. Rasanen and M.A.
+      Cruz Blandon, "Unsupervised discovery of recurring speech patterns using probabilistic
+      adaptive metrics", to be submitted to Interspeech-2020.
+    track1_supervised: false
+    track2_supervised: false

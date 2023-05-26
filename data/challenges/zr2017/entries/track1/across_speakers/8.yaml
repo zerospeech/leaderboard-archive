@@ -1,0 +1,22 @@
+metadata:
+  DOI: <a href="https://zenodo.org/record/819892">819892</a>
+  affiliation: IRIT Toulouse
+  author: Pellegrini et al.
+  rank: '11'
+  supervision: 'No'
+scores:
+  LANG1_10s: '16.2'
+  LANG1_120s: '15.9'
+  LANG1_1s: '19.4'
+  LANG2_10s: '23.1'
+  LANG2_120s: '23.1'
+  LANG2_1s: '22.8'
+  english_10s: '16.3'
+  english_120s: '16.4'
+  english_1s: '17.6'
+  french_10s: '17.6'
+  french_120s: '17.3'
+  french_1s: '20.3'
+  mandarin_10s: '13.5'
+  mandarin_120s: '13.4'
+  mandarin_1s: '14.7'

@@ -1,0 +1,89 @@
+'2019':
+  audio_samples:
+    english_1: english_1_20200425105026_tmorita.wav
+    english_2: english_2_20200425105026_tmorita.wav
+    surprise_1: surprise_1_20200425105026_tmorita.wav
+    surprise_2: surprise_2_20200425105026_tmorita.wav
+  english:
+    details_abx:
+      auxiliary_embedding1:
+        KL: 35.46
+        cosine: 38.44
+        levenshtein: 46.06
+      auxiliary_embedding2:
+        KL: 50.0
+        cosine: 37.54
+        levenshtein: 39.3
+      test:
+        KL: 40.72
+        cosine: 40.76
+        levenshtein: 39.3
+    details_bitrate:
+      auxiliary_embedding1: 405.37
+      auxiliary_embedding2: 137.58
+      test: 137.58
+    scores:
+      abx: 39.3
+      bitrate: 137.58
+      cer: 0.67
+      mos: 1.19
+      similarity: 1.14
+  metadata:
+    abx_distance: levenshtein
+    auxiliary1_description: The posterior classification probability (best evaluated
+      by dtw_kl).
+    auxiliary2_description: The classification logits (best evaluated by dtw_cosine).
+    hyperparameters: --iterations 36000 --pretrain_iters 4000 --saving_interval 1000
+      --milestones 16000 24000 32000 -l 0.0004 --other_hidden_size 128 --feature_dim
+      128 --esn_hidden_size 2048 --articulatory_channels 64 --num_feature_categories
+      256 --batch_size 16 --num_workers 16 --max_duration 1.0
+    system description: We explored the TTS w/o T task using more biologically/psychologically
+      motivated modules (encoder, discrete VAE, decoder) than popular mechanical networks.
+      The encoder processed 13 MFCCs and their 1st & 2nd derivatives with an echo-state
+      network (ESN), which is said to model computations in cortical microcircuits
+      (Jaeger & Haas, 2004). The encoded features were discretized by our original
+      VAE, named the ABCD-VAE (whose first four letters stand for the Attention-Based
+      Categorical sampling with the Dirichlet prior). The ABCD-VAE combined the the
+      Dirichlet prior and the categorical VAE (sampling approximated by the Gumbel-Softmax;
+      Jang et al., 2017), and implemented the Bayesian clustering, which is popular
+      in computational linguistics/psychology, within the end-to-end system. Thanks
+      to the Dirichlet prior, the system discovered the optimal number of the latent
+      categories (under an arbitrary upper bound, which we set as 256). The decoder
+      was the neural source-filter model proposed by Wang et al. (2020), which we
+      considered to be closer to human's vocal production than WaveNet. The code is
+      available at https://github.com/tkc-morita/ZeroSpeech2020_TTSwoT.
+    using_external_data: false
+    using_parallel_train: false
+  surprise:
+    details_abx:
+      auxiliary_embedding1:
+        KL: 18.87
+        cosine: 27.97
+        levenshtein: 45.89
+      auxiliary_embedding2:
+        KL: 50.0
+        cosine: 27.79
+        levenshtein: 34.41
+      test:
+        KL: 31.41
+        cosine: 31.81
+        levenshtein: 34.41
+    details_bitrate:
+      auxiliary_embedding1: 409.8
+      auxiliary_embedding2: 151.03
+      test: 151.03
+    scores:
+      abx: 34.41
+      bitrate: 151.03
+      cer: 0.46
+      mos: 1.77
+      similarity: 1.22
+metadata:
+  affiliation: Primate Research Institute, Kyoto University
+  author: Takashi Morita, Hiroki Koda
+  author_short: Morita <i>et al.</i>
+  directory: /mnt/zs2020_submissions/20200425105026_tmorita
+  open_source: true
+  submission_index: 20
+  submitted_at: '2020-04-25T10:50:26+00:00'
+  submitted_by: tmorita

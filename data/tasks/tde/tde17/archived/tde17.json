@@ -1,0 +1,1972 @@
+{
+    "last_modified": "2022-06-08T11:01:05.056040",
+    "data": [
+        {
+            "model_id": "Gar17a",
+            "submission_date": null,
+            "index": 0,
+            "submission_id": "",
+            "submitted_by": null,
+            "description": "",
+            "scores": {
+                "english": {
+                    "grouping": {
+                        "precision": 7.68,
+                        "recall": 13.3,
+                        "fscore": 9.73
+                    },
+                    "token": {
+                        "precision": 4.26,
+                        "recall": 4.73,
+                        "fscore": 4.48
+                    },
+                    "type": {
+                        "precision": 1.95,
+                        "recall": 20.42,
+                        "fscore": 3.56
+                    },
+                    "boundary": {
+                        "precision": 30.66,
+                        "recall": 43.78,
+                        "fscore": 36.06
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 71.91,
+                        "coverage": 76.85,
+                        "nwords": 92544,
+                        "npairs": 864639
+                    }
+                },
+                "french": {
+                    "grouping": {
+                        "precision": 13.5,
+                        "recall": 22.23,
+                        "fscore": 16.8
+                    },
+                    "token": {
+                        "precision": 4.28,
+                        "recall": 4.82,
+                        "fscore": 4.27
+                    },
+                    "type": {
+                        "precision": 2.49,
+                        "recall": 15.1,
+                        "fscore": 4.27
+                    },
+                    "boundary": {
+                        "precision": 32.89,
+                        "recall": 47.83,
+                        "fscore": 38.98
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 63.79,
+                        "coverage": 77.74,
+                        "nwords": 58701,
+                        "npairs": 515507
+                    }
+                },
+                "mandarin": {
+                    "grouping": {
+                        "precision": 4.97,
+                        "recall": 28.72,
+                        "fscore": 8.48
+                    },
+                    "token": {
+                        "precision": 11.68,
+                        "recall": 6.47,
+                        "fscore": 8.32
+                    },
+                    "type": {
+                        "precision": 10.92,
+                        "recall": 11.95,
+                        "fscore": 11.41
+                    },
+                    "boundary": {
+                        "precision": 38.32,
+                        "recall": 29.14,
+                        "fscore": 33.11
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 80.14,
+                        "coverage": 41.96,
+                        "nwords": 2887,
+                        "npairs": 17845
+                    }
+                },
+                "german": {
+                    "grouping": {
+                        "precision": 13.64,
+                        "recall": 24.5,
+                        "fscore": 17.52
+                    },
+                    "token": {
+                        "precision": 3.52,
+                        "recall": 4.62,
+                        "fscore": 4.0
+                    },
+                    "type": {
+                        "precision": 1.75,
+                        "recall": 10.67,
+                        "fscore": 3.01
+                    },
+                    "boundary": {
+                        "precision": 25.55,
+                        "recall": 45.12,
+                        "fscore": 32.62
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 59.38,
+                        "coverage": 78.31,
+                        "nwords": 60648,
+                        "npairs": 582009
+                    }
+                },
+                "wolof": {
+                    "grouping": {
+                        "precision": 15.01,
+                        "recall": 32.91,
+                        "fscore": 20.62
+                    },
+                    "token": {
+                        "precision": 9.59,
+                        "recall": 5.57,
+                        "fscore": 7.05
+                    },
+                    "type": {
+                        "precision": 4.72,
+                        "recall": 27.63,
+                        "fscore": 8.06
+                    },
+                    "boundary": {
+                        "precision": 41.95,
+                        "recall": 36.1,
+                        "fscore": 38.81
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 57.12,
+                        "coverage": 56.33,
+                        "nwords": 14468,
+                        "npairs": 37191
+                    }
+                }
+            },
+            "publication": {
+                "author_short": "Garc\u00eda-Granada et al.",
+                "author": null,
+                "paper_title": null,
+                "paper_url": null,
+                "team_name": null,
+                "institution": "",
+                "open_science": false,
+                "code": null,
+                "DOI": null
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "TDE-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Ras17",
+            "submission_date": null,
+            "index": 0,
+            "submission_id": "",
+            "submitted_by": null,
+            "description": "",
+            "scores": {
+                "english": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": 1.88,
+                        "recall": 3.49,
+                        "fscore": 2.44
+                    },
+                    "type": {
+                        "precision": 4.5,
+                        "recall": 7.03,
+                        "fscore": 5.49
+                    },
+                    "boundary": {
+                        "precision": 23.94,
+                        "recall": 24.24,
+                        "fscore": 24.09
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 52.54,
+                        "coverage": 28.74,
+                        "nwords": 321603,
+                        "npairs": 277387
+                    }
+                },
+                "french": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": 2.57,
+                        "recall": 4.62,
+                        "fscore": 5.71
+                    },
+                    "type": {
+                        "precision": 5.7,
+                        "recall": 5.71,
+                        "fscore": 5.71
+                    },
+                    "boundary": {
+                        "precision": 26.45,
+                        "recall": 26.34,
+                        "fscore": 26.39
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 46.25,
+                        "coverage": 30.69,
+                        "nwords": 195959,
+                        "npairs": 168767
+                    }
+                },
+                "mandarin": {
+                    "grouping": {
+                        "precision": 47.15,
+                        "recall": 53.83,
+                        "fscore": 50.27
+                    },
+                    "token": {
+                        "precision": 2.34,
+                        "recall": 6.16,
+                        "fscore": 3.39
+                    },
+                    "type": {
+                        "precision": 9.75,
+                        "recall": 5.47,
+                        "fscore": 7.01
+                    },
+                    "boundary": {
+                        "precision": 29.69,
+                        "recall": 36.34,
+                        "fscore": 32.68
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 67.69,
+                        "coverage": 35.36,
+                        "nwords": 26529,
+                        "npairs": 22644
+                    }
+                },
+                "german": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": 1.23,
+                        "recall": 3.29,
+                        "fscore": 1.79
+                    },
+                    "type": {
+                        "precision": 3.42,
+                        "recall": 3.41,
+                        "fscore": 3.41
+                    },
+                    "boundary": {
+                        "precision": 20.96,
+                        "recall": 27.65,
+                        "fscore": 23.85
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 54.18,
+                        "coverage": 31.2,
+                        "nwords": 223188,
+                        "npairs": 191157
+                    }
+                },
+                "wolof": {
+                    "grouping": {
+                        "precision": 54.69,
+                        "recall": 57.17,
+                        "fscore": 55.9
+                    },
+                    "token": {
+                        "precision": 4.81,
+                        "recall": 3.19,
+                        "fscore": 3.84
+                    },
+                    "type": {
+                        "precision": 14.12,
+                        "recall": 12.01,
+                        "fscore": 12.98
+                    },
+                    "boundary": {
+                        "precision": 37.28,
+                        "recall": 21.4,
+                        "fscore": 27.19
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 25.96,
+                        "coverage": 19.9,
+                        "nwords": 2103,
+                        "npairs": 16589
+                    }
+                }
+            },
+            "publication": {
+                "author_short": "R\u00e4s\u00e4nen et al.",
+                "author": null,
+                "paper_title": null,
+                "paper_url": null,
+                "team_name": null,
+                "institution": "",
+                "open_science": false,
+                "code": null,
+                "DOI": null
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-17",
+                    "TDE-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Kam22",
+            "submission_date": null,
+            "index": 0,
+            "submission_id": "",
+            "submitted_by": null,
+            "description": "",
+            "scores": {
+                "english": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": 18.11,
+                        "recall": 20.42,
+                        "fscore": 19.2
+                    },
+                    "type": {
+                        "precision": 6.29,
+                        "recall": 25.96,
+                        "fscore": 10.13
+                    },
+                    "boundary": {
+                        "precision": 49.35,
+                        "recall": 66.75,
+                        "fscore": 56.74
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 73.21,
+                        "coverage": 99.98,
+                        "nwords": 42473,
+                        "npairs": 6803405
+                    }
+                },
+                "french": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": 5.7,
+                        "recall": 7.03,
+                        "fscore": 5.65
+                    },
+                    "type": {
+                        "precision": 3.96,
+                        "recall": 9.84,
+                        "fscore": 5.65
+                    },
+                    "boundary": {
+                        "precision": 37.03,
+                        "recall": 52.17,
+                        "fscore": 43.32
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 68.79,
+                        "coverage": 99.97,
+                        "nwords": 28733,
+                        "npairs": 4167064
+                    }
+                },
+                "mandarin": {
+                    "grouping": {
+                        "precision": 20.24,
+                        "recall": 31.48,
+                        "fscore": 24.64
+                    },
+                    "token": {
+                        "precision": 7.01,
+                        "recall": 9.61,
+                        "fscore": 8.11
+                    },
+                    "type": {
+                        "precision": 6.79,
+                        "recall": 10.88,
+                        "fscore": 8.36
+                    },
+                    "boundary": {
+                        "precision": 42.59,
+                        "recall": 75.64,
+                        "fscore": 54.49
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 88.07,
+                        "coverage": 100.0,
+                        "nwords": 2967,
+                        "npairs": 356585
+                    }
+                },
+                "german": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": 12.51,
+                        "recall": 17.25,
+                        "fscore": 14.51
+                    },
+                    "type": {
+                        "precision": 4.65,
+                        "recall": 10.24,
+                        "fscore": 6.39
+                    },
+                    "boundary": {
+                        "precision": 42.9,
+                        "recall": 66.89,
+                        "fscore": 52.27
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 66.22,
+                        "coverage": 99.92,
+                        "nwords": 28675,
+                        "npairs": 4258731
+                    }
+                },
+                "wolof": {
+                    "grouping": {
+                        "precision": 26.33,
+                        "recall": 35.69,
+                        "fscore": 30.31
+                    },
+                    "token": {
+                        "precision": 11.52,
+                        "recall": 10.3,
+                        "fscore": 10.88
+                    },
+                    "type": {
+                        "precision": 8.21,
+                        "recall": 41.87,
+                        "fscore": 13.73
+                    },
+                    "boundary": {
+                        "precision": 50.8,
+                        "recall": 54.99,
+                        "fscore": 52.81
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 72.42,
+                        "coverage": 99.94,
+                        "nwords": 12599,
+                        "npairs": 439321
+                    }
+                }
+            },
+            "publication": {
+                "author_short": "Kamper et al.",
+                "author": null,
+                "paper_title": null,
+                "paper_url": null,
+                "team_name": null,
+                "institution": "",
+                "open_science": false,
+                "code": null,
+                "DOI": "10.5281/zenodo.815005"
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "TDE-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Gar17b",
+            "submission_date": null,
+            "index": 0,
+            "submission_id": "",
+            "submitted_by": null,
+            "description": "",
+            "scores": {
+                "english": {
+                    "grouping": {
+                        "precision": 7.67,
+                        "recall": 13.29,
+                        "fscore": 9.73
+                    },
+                    "token": {
+                        "precision": 4.27,
+                        "recall": 4.74,
+                        "fscore": 4.49
+                    },
+                    "type": {
+                        "precision": 1.96,
+                        "recall": 20.5,
+                        "fscore": 3.58
+                    },
+                    "boundary": {
+                        "precision": 30.64,
+                        "recall": 43.75,
+                        "fscore": 36.04
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 71.83,
+                        "coverage": 76.84,
+                        "nwords": 92465,
+                        "npairs": 866170
+                    }
+                },
+                "french": {
+                    "grouping": {
+                        "precision": 13.55,
+                        "recall": 22.33,
+                        "fscore": 16.86
+                    },
+                    "token": {
+                        "precision": 4.28,
+                        "recall": 4.82,
+                        "fscore": 4.26
+                    },
+                    "type": {
+                        "precision": 2.48,
+                        "recall": 15.07,
+                        "fscore": 4.26
+                    },
+                    "boundary": {
+                        "precision": 32.89,
+                        "recall": 47.86,
+                        "fscore": 38.99
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 63.6,
+                        "coverage": 77.72,
+                        "nwords": 58716,
+                        "npairs": 518113
+                    }
+                },
+                "mandarin": {
+                    "grouping": {
+                        "precision": 4.95,
+                        "recall": 28.61,
+                        "fscore": 8.45
+                    },
+                    "token": {
+                        "precision": 11.58,
+                        "recall": 6.4,
+                        "fscore": 8.24
+                    },
+                    "type": {
+                        "precision": 10.87,
+                        "recall": 11.87,
+                        "fscore": 11.35
+                    },
+                    "boundary": {
+                        "precision": 38.25,
+                        "recall": 29.06,
+                        "fscore": 33.02
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 80.14,
+                        "coverage": 41.86,
+                        "nwords": 2882,
+                        "npairs": 17824
+                    }
+                },
+                "german": {
+                    "grouping": {
+                        "precision": 13.66,
+                        "recall": 24.55,
+                        "fscore": 17.56
+                    },
+                    "token": {
+                        "precision": 3.49,
+                        "recall": 4.59,
+                        "fscore": 3.96
+                    },
+                    "type": {
+                        "precision": 1.74,
+                        "recall": 10.6,
+                        "fscore": 2.99
+                    },
+                    "boundary": {
+                        "precision": 25.5,
+                        "recall": 45.11,
+                        "fscore": 32.58
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 59.2,
+                        "coverage": 78.33,
+                        "nwords": 60489,
+                        "npairs": 588162
+                    }
+                },
+                "wolof": {
+                    "grouping": {
+                        "precision": 15.1,
+                        "recall": 33.26,
+                        "fscore": 20.77
+                    },
+                    "token": {
+                        "precision": 9.72,
+                        "recall": 5.65,
+                        "fscore": 7.15
+                    },
+                    "type": {
+                        "precision": 4.74,
+                        "recall": 27.79,
+                        "fscore": 8.1
+                    },
+                    "boundary": {
+                        "precision": 42.13,
+                        "recall": 36.21,
+                        "fscore": 38.94
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 57.07,
+                        "coverage": 56.33,
+                        "nwords": 14489,
+                        "npairs": 37273
+                    }
+                }
+            },
+            "publication": {
+                "author_short": "Garc\u00eda-Granada et al.",
+                "author": null,
+                "paper_title": null,
+                "paper_url": null,
+                "team_name": null,
+                "institution": "",
+                "open_science": false,
+                "code": null,
+                "DOI": null
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "TDE-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Kam17",
+            "submission_date": null,
+            "index": 0,
+            "submission_id": "",
+            "submitted_by": null,
+            "description": "",
+            "scores": {
+                "english": {
+                    "grouping": {
+                        "precision": 99.9,
+                        "recall": 100.0,
+                        "fscore": 100.0
+                    },
+                    "token": {
+                        "precision": 60.7,
+                        "recall": 69.4,
+                        "fscore": 64.7
+                    },
+                    "type": {
+                        "precision": 48.7,
+                        "recall": 53.9,
+                        "fscore": 51.1
+                    },
+                    "boundary": {
+                        "precision": 84.3,
+                        "recall": 94.0,
+                        "fscore": 88.9
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.0,
+                        "coverage": 100.0,
+                        "nwords": 8881,
+                        "npairs": 4222990
+                    }
+                },
+                "french": {
+                    "grouping": {
+                        "precision": 99.8,
+                        "recall": 99.9,
+                        "fscore": 99.9
+                    },
+                    "token": {
+                        "precision": 54.6,
+                        "recall": 59.6,
+                        "fscore": 49.8
+                    },
+                    "type": {
+                        "precision": 46.0,
+                        "recall": 54.4,
+                        "fscore": 49.8
+                    },
+                    "boundary": {
+                        "precision": 83.1,
+                        "recall": 89.3,
+                        "fscore": 86.1
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.0,
+                        "coverage": 100.0,
+                        "nwords": 7215,
+                        "npairs": 3211559
+                    }
+                },
+                "mandarin": {
+                    "grouping": {
+                        "precision": 100.0,
+                        "recall": 100.0,
+                        "fscore": 100.0
+                    },
+                    "token": {
+                        "precision": 28.1,
+                        "recall": 46.1,
+                        "fscore": 34.9
+                    },
+                    "type": {
+                        "precision": 29.3,
+                        "recall": 29.3,
+                        "fscore": 29.3
+                    },
+                    "boundary": {
+                        "precision": 66.2,
+                        "recall": 100.0,
+                        "fscore": 79.7
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.0,
+                        "coverage": 100.0,
+                        "nwords": 1240,
+                        "npairs": 791707
+                    }
+                },
+                "german": {
+                    "grouping": {
+                        "precision": 100.0,
+                        "recall": 100.0,
+                        "fscore": 100.0
+                    },
+                    "token": {
+                        "precision": 42.3,
+                        "recall": 62.7,
+                        "fscore": 50.5
+                    },
+                    "type": {
+                        "precision": 28.4,
+                        "recall": 29.5,
+                        "fscore": 29.0
+                    },
+                    "boundary": {
+                        "precision": 70.0,
+                        "recall": 98.3,
+                        "fscore": 81.8
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.0,
+                        "coverage": 100.0,
+                        "nwords": 7664,
+                        "npairs": 2588808
+                    }
+                },
+                "wolof": {
+                    "grouping": {
+                        "precision": 100.0,
+                        "recall": 100.0,
+                        "fscore": 100.0
+                    },
+                    "token": {
+                        "precision": 55.6,
+                        "recall": 65.6,
+                        "fscore": 60.2
+                    },
+                    "type": {
+                        "precision": 43.0,
+                        "recall": 47.6,
+                        "fscore": 45.2
+                    },
+                    "boundary": {
+                        "precision": 81.3,
+                        "recall": 93.2,
+                        "fscore": 86.9
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.0,
+                        "coverage": 100.0,
+                        "nwords": 2472,
+                        "npairs": 602339
+                    }
+                }
+            },
+            "publication": {
+                "author_short": "Goldwater et al.",
+                "author": null,
+                "paper_title": null,
+                "paper_url": null,
+                "team_name": null,
+                "institution": "",
+                "open_science": false,
+                "code": null,
+                "DOI": null
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "TDE-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Baseline2",
+            "submission_date": null,
+            "index": 0,
+            "submission_id": "",
+            "submitted_by": null,
+            "description": "",
+            "scores": {
+                "english": {
+                    "grouping": {
+                        "precision": 20.83,
+                        "recall": 71.12,
+                        "fscore": 32.22
+                    },
+                    "token": {
+                        "precision": 5.2,
+                        "recall": 0.39,
+                        "fscore": 0.72
+                    },
+                    "type": {
+                        "precision": 4.14,
+                        "recall": 3.71,
+                        "fscore": 3.91
+                    },
+                    "boundary": {
+                        "precision": 41.37,
+                        "recall": 3.63,
+                        "fscore": 6.68
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 32.42,
+                        "coverage": 7.93,
+                        "nwords": 12886,
+                        "npairs": 15730
+                    }
+                },
+                "french": {
+                    "grouping": {
+                        "precision": 30.56,
+                        "recall": 85.54,
+                        "fscore": 45.04
+                    },
+                    "token": {
+                        "precision": 5.16,
+                        "recall": 0.13,
+                        "fscore": 1.37
+                    },
+                    "type": {
+                        "precision": 8.25,
+                        "recall": 0.75,
+                        "fscore": 1.37
+                    },
+                    "boundary": {
+                        "precision": 46.73,
+                        "recall": 0.77,
+                        "fscore": 1.51
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 69.5,
+                        "coverage": 1.59,
+                        "nwords": 1803,
+                        "npairs": 1636
+                    }
+                },
+                "mandarin": {
+                    "grouping": {
+                        "precision": 25.65,
+                        "recall": 98.75,
+                        "fscore": 40.72
+                    },
+                    "token": {
+                        "precision": 6.37,
+                        "recall": 0.1,
+                        "fscore": 0.2
+                    },
+                    "type": {
+                        "precision": 4.87,
+                        "recall": 0.15,
+                        "fscore": 0.28
+                    },
+                    "boundary": {
+                        "precision": 54.28,
+                        "recall": 1.28,
+                        "fscore": 2.49
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 28.6,
+                        "coverage": 2.71,
+                        "nwords": 156,
+                        "npairs": 160
+                    }
+                },
+                "german": {
+                    "grouping": {
+                        "precision": 22.46,
+                        "recall": 72.02,
+                        "fscore": 34.25
+                    },
+                    "token": {
+                        "precision": 6.28,
+                        "recall": 0.2,
+                        "fscore": 0.39
+                    },
+                    "type": {
+                        "precision": 4.97,
+                        "recall": 0.9,
+                        "fscore": 1.52
+                    },
+                    "boundary": {
+                        "precision": 36.28,
+                        "recall": 1.48,
+                        "fscore": 2.84
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 31.98,
+                        "coverage": 3.15,
+                        "nwords": 2973,
+                        "npairs": 3315
+                    }
+                },
+                "wolof": {
+                    "grouping": {
+                        "precision": 20.0,
+                        "recall": 83.33,
+                        "fscore": 32.26
+                    },
+                    "token": {
+                        "precision": 3.55,
+                        "recall": 0.09,
+                        "fscore": 0.18
+                    },
+                    "type": {
+                        "precision": 3.48,
+                        "recall": 0.81,
+                        "fscore": 1.31
+                    },
+                    "boundary": {
+                        "precision": 49.92,
+                        "recall": 1.41,
+                        "fscore": 2.74
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 29.57,
+                        "coverage": 3.39,
+                        "nwords": 575,
+                        "npairs": 545
+                    }
+                }
+            },
+            "publication": {
+                "author_short": "Jansen et al.",
+                "author": null,
+                "paper_title": null,
+                "paper_url": null,
+                "team_name": null,
+                "institution": "",
+                "open_science": false,
+                "code": null,
+                "DOI": null
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "TDE-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Ras20a",
+            "submission_date": "2020-04-23T15:14:18+00:00",
+            "index": 5,
+            "submission_id": "20200423151418_orasanen",
+            "submitted_by": "orasanen",
+            "description": "Probabilistic DTW (PDTW) algorithm from O. Rasanen and M.A. Cruz Blandon, \"Unsupervised discovery of recurring speech patterns using probabilistic adaptive metrics\", to be submitted to Interspeech-2020.",
+            "scores": {
+                "english": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": 0.0203,
+                        "recall": 0.0286,
+                        "fscore": 0.0238
+                    },
+                    "type": {
+                        "precision": 0.0506,
+                        "recall": 0.0152,
+                        "fscore": 0.0233
+                    },
+                    "boundary": {
+                        "precision": 0.2601,
+                        "recall": 0.3107,
+                        "fscore": 0.2832
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.3044,
+                        "coverage": 0.2307,
+                        "nwords": 6308,
+                        "npairs": 322593
+                    }
+                },
+                "french": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": 0.0364,
+                        "recall": 0.0338,
+                        "fscore": 0.035
+                    },
+                    "type": {
+                        "precision": 0.0634,
+                        "recall": 0.0076,
+                        "fscore": 0.0136
+                    },
+                    "boundary": {
+                        "precision": 0.2795,
+                        "recall": 0.2511,
+                        "fscore": 0.2645
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.2031,
+                        "coverage": 0.1747,
+                        "nwords": 2604,
+                        "npairs": 141404
+                    }
+                },
+                "mandarin": {
+                    "grouping": {
+                        "precision": 0.6617,
+                        "recall": 0.6809,
+                        "fscore": 0.6712
+                    },
+                    "token": {
+                        "precision": 0.0248,
+                        "recall": 0.011,
+                        "fscore": 0.0153
+                    },
+                    "type": {
+                        "precision": 0.1453,
+                        "recall": 0.0116,
+                        "fscore": 0.0215
+                    },
+                    "boundary": {
+                        "precision": 0.3466,
+                        "recall": 0.1552,
+                        "fscore": 0.2144
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.3494,
+                        "coverage": 0.1035,
+                        "nwords": 709,
+                        "npairs": 5910
+                    }
+                },
+                "german": {
+                    "grouping": {
+                        "precision": 0.7144,
+                        "recall": 0.7023,
+                        "fscore": 0.7083
+                    },
+                    "token": {
+                        "precision": 0.0104,
+                        "recall": 0.0099,
+                        "fscore": 0.0102
+                    },
+                    "type": {
+                        "precision": 0.0345,
+                        "recall": 0.0053,
+                        "fscore": 0.0091
+                    },
+                    "boundary": {
+                        "precision": 0.2216,
+                        "recall": 0.218,
+                        "fscore": 0.2198
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.2361,
+                        "coverage": 0.1539,
+                        "nwords": 3685,
+                        "npairs": 117429
+                    }
+                },
+                "wolof": {
+                    "grouping": {
+                        "precision": 0.8444,
+                        "recall": 0.8497,
+                        "fscore": 0.847
+                    },
+                    "token": {
+                        "precision": 0.0107,
+                        "recall": 0.0002,
+                        "fscore": 0.0004
+                    },
+                    "type": {
+                        "precision": 0.0862,
+                        "recall": 0.0009,
+                        "fscore": 0.0018
+                    },
+                    "boundary": {
+                        "precision": 0.3386,
+                        "recall": 0.0084,
+                        "fscore": 0.0164
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.1008,
+                        "coverage": 0.0048,
+                        "nwords": 58,
+                        "npairs": 414
+                    }
+                }
+            },
+            "publication": {
+                "author_short": "Okko Rasanen, Maria Andrea Cruz Blandon",
+                "author": "Okko Rasanen, Maria Andrea Cruz Blandon",
+                "paper_title": null,
+                "paper_url": null,
+                "team_name": null,
+                "institution": "Tampere University, Unit of Computing Sciences",
+                "open_science": true,
+                "code": null,
+                "DOI": null
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "TDE-17"
+                ],
+                "gpu_budget": null,
+                "parameters": {
+                    "hyperparameters": "alpha = 0.0001, L = 20, S = 10, M = 4, k = 5, feature=MFCC"
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Bha20a",
+            "submission_date": "2020-04-24T20:51:52+00:00",
+            "index": 16,
+            "submission_id": "20200424205152_Saurabhati",
+            "submitted_by": "Saurabhati",
+            "description": "seq2seq RNN for features learning with UAD pairs",
+            "scores": {
+                "english": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": 0.0486,
+                        "recall": 0.0877,
+                        "fscore": 0.0625
+                    },
+                    "type": {
+                        "precision": 0.0159,
+                        "recall": 0.1755,
+                        "fscore": 0.0292
+                    },
+                    "boundary": {
+                        "precision": 0.3025,
+                        "recall": 0.5887,
+                        "fscore": 0.3996
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.9398,
+                        "coverage": 0.9916,
+                        "nwords": 231919,
+                        "npairs": 1963014148
+                    }
+                },
+                "french": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": 0.0456,
+                        "recall": 0.092,
+                        "fscore": 0.061
+                    },
+                    "type": {
+                        "precision": 0.02,
+                        "recall": 0.1433,
+                        "fscore": 0.0352
+                    },
+                    "boundary": {
+                        "precision": 0.3157,
+                        "recall": 0.6779,
+                        "fscore": 0.4308
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.9312,
+                        "coverage": 0.9972,
+                        "nwords": 155471,
+                        "npairs": 360575731
+                    }
+                },
+                "mandarin": {
+                    "grouping": {
+                        "precision": 0.0134,
+                        "recall": 0.048,
+                        "fscore": 0.0209
+                    },
+                    "token": {
+                        "precision": 0.0929,
+                        "recall": 0.1809,
+                        "fscore": 0.1228
+                    },
+                    "type": {
+                        "precision": 0.0836,
+                        "recall": 0.2885,
+                        "fscore": 0.1296
+                    },
+                    "boundary": {
+                        "precision": 0.4254,
+                        "recall": 0.8073,
+                        "fscore": 0.5572
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.9728,
+                        "coverage": 0.9984,
+                        "nwords": 30611,
+                        "npairs": 2994432
+                    }
+                },
+                "german": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": 0.0442,
+                        "recall": 0.0977,
+                        "fscore": 0.0608
+                    },
+                    "type": {
+                        "precision": 0.0165,
+                        "recall": 0.1042,
+                        "fscore": 0.0285
+                    },
+                    "boundary": {
+                        "precision": 0.2724,
+                        "recall": 0.6353,
+                        "fscore": 0.3813
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.9376,
+                        "coverage": 0.9967,
+                        "nwords": 152456,
+                        "npairs": 1033325388
+                    }
+                },
+                "wolof": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "type": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "boundary": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": null,
+                        "coverage": null,
+                        "nwords": null,
+                        "npairs": null
+                    }
+                }
+            },
+            "publication": {
+                "author_short": "Saurabhchand Bhati",
+                "author": "Saurabhchand Bhati",
+                "paper_title": null,
+                "paper_url": null,
+                "team_name": null,
+                "institution": "JHU",
+                "open_science": false,
+                "code": null,
+                "DOI": null
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "TDE-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {
+                    "hyperparameters": "Layer-wise pretraining for the RNNs, KGM segmentation for the phone segmentation"
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Ras20b",
+            "submission_date": "2020-04-23T15:12:44+00:00",
+            "index": 4,
+            "submission_id": "20200423151244_orasanen",
+            "submitted_by": "orasanen",
+            "description": "Probabilistic DTW (PDTW) algorithm from O. Rasanen and M.A. Cruz Blandon, \"Unsupervised discovery of recurring speech patterns using probabilistic adaptive metrics\", to be submitted to Interspeech-2020.",
+            "scores": {
+                "english": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": 0.0197,
+                        "recall": 0.2487,
+                        "fscore": 0.0365
+                    },
+                    "type": {
+                        "precision": 0.0342,
+                        "recall": 0.139,
+                        "fscore": 0.0549
+                    },
+                    "boundary": {
+                        "precision": 0.2652,
+                        "recall": 0.8821,
+                        "fscore": 0.4078
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.4816,
+                        "coverage": 0.8541,
+                        "nwords": 85425,
+                        "npairs": 2573326
+                    }
+                },
+                "french": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": 0.025,
+                        "recall": 0.272,
+                        "fscore": 0.0458
+                    },
+                    "type": {
+                        "precision": 0.0419,
+                        "recall": 0.0828,
+                        "fscore": 0.0556
+                    },
+                    "boundary": {
+                        "precision": 0.2794,
+                        "recall": 0.8865,
+                        "fscore": 0.4248
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.3671,
+                        "coverage": 0.8348,
+                        "nwords": 42988,
+                        "npairs": 1415396
+                    }
+                },
+                "mandarin": {
+                    "grouping": {
+                        "precision": 0.4767,
+                        "recall": 0.5096,
+                        "fscore": 0.4926
+                    },
+                    "token": {
+                        "precision": 0.024,
+                        "recall": 0.239,
+                        "fscore": 0.0437
+                    },
+                    "type": {
+                        "precision": 0.1031,
+                        "recall": 0.1119,
+                        "fscore": 0.1073
+                    },
+                    "boundary": {
+                        "precision": 0.3418,
+                        "recall": 0.8741,
+                        "fscore": 0.4915
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.576,
+                        "coverage": 0.7965,
+                        "nwords": 9630,
+                        "npairs": 116093
+                    }
+                },
+                "german": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": 0.0146,
+                        "recall": 0.1761,
+                        "fscore": 0.0269
+                    },
+                    "type": {
+                        "precision": 0.0257,
+                        "recall": 0.0525,
+                        "fscore": 0.0345
+                    },
+                    "boundary": {
+                        "precision": 0.225,
+                        "recall": 0.8832,
+                        "fscore": 0.3587
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.4085,
+                        "coverage": 0.8193,
+                        "nwords": 49268,
+                        "npairs": 1305119
+                    }
+                },
+                "wolof": {
+                    "grouping": {
+                        "precision": 0.6644,
+                        "recall": 0.6661,
+                        "fscore": 0.6653
+                    },
+                    "token": {
+                        "precision": 0.0215,
+                        "recall": 0.0573,
+                        "fscore": 0.0313
+                    },
+                    "type": {
+                        "precision": 0.1247,
+                        "recall": 0.033,
+                        "fscore": 0.0522
+                    },
+                    "boundary": {
+                        "precision": 0.3132,
+                        "recall": 0.4947,
+                        "fscore": 0.3835
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.2884,
+                        "coverage": 0.3826,
+                        "nwords": 1491,
+                        "npairs": 52506
+                    }
+                }
+            },
+            "publication": {
+                "author_short": "Okko Rasanen, Maria Andrea Cruz Blandon",
+                "author": "Okko Rasanen, Maria Andrea Cruz Blandon",
+                "paper_title": null,
+                "paper_url": null,
+                "team_name": null,
+                "institution": "Tampere University, Unit of Computing Sciences",
+                "open_science": true,
+                "code": null,
+                "DOI": null
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "TDE-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {
+                    "hyperparameters": "alpha = 0.001, L = 20, S = 10, M = 4, k = 5, feature=MFCC"
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "baseline20a",
+            "submission_date": "2020-04-16T08:26:58+00:00",
+            "index": 2,
+            "submission_id": "20200416082658_mmmaat",
+            "submitted_by": "mmmaat",
+            "description": "For the 2017 track1 baseline, we used 39 dimensions MFCC+Delta+Delta2 features computed every 10ms and the ABX score was computed using the frame-wise cosine distance averaged along the DTW path.\nBaseline for the 2017 track2 is computed using the software from https://github.com/arenjansen/ZRTools.",
+            "scores": {
+                "english": {
+                    "grouping": {
+                        "precision": 0.2083,
+                        "recall": 0.7112,
+                        "fscore": 0.3222
+                    },
+                    "token": {
+                        "precision": 0.0188,
+                        "recall": 0.0014,
+                        "fscore": 0.0026
+                    },
+                    "type": {
+                        "precision": 0.0189,
+                        "recall": 0.0169,
+                        "fscore": 0.0178
+                    },
+                    "boundary": {
+                        "precision": 0.3207,
+                        "recall": 0.0323,
+                        "fscore": 0.0587
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.3242,
+                        "coverage": 0.0793,
+                        "nwords": 18821,
+                        "npairs": 15730
+                    }
+                },
+                "french": {
+                    "grouping": {
+                        "precision": 0.3056,
+                        "recall": 0.8554,
+                        "fscore": 0.4504
+                    },
+                    "token": {
+                        "precision": 0.0133,
+                        "recall": 0.0003,
+                        "fscore": 0.0007
+                    },
+                    "type": {
+                        "precision": 0.0295,
+                        "recall": 0.0027,
+                        "fscore": 0.0049
+                    },
+                    "boundary": {
+                        "precision": 0.3254,
+                        "recall": 0.0062,
+                        "fscore": 0.0122
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.695,
+                        "coverage": 0.0159,
+                        "nwords": 1963,
+                        "npairs": 3860
+                    }
+                },
+                "mandarin": {
+                    "grouping": {
+                        "precision": 0.2565,
+                        "recall": 0.9875,
+                        "fscore": 0.4072
+                    },
+                    "token": {
+                        "precision": 0.0637,
+                        "recall": 0.001,
+                        "fscore": 0.002
+                    },
+                    "type": {
+                        "precision": 0.0487,
+                        "recall": 0.0015,
+                        "fscore": 0.0028
+                    },
+                    "boundary": {
+                        "precision": 0.5428,
+                        "recall": 0.0128,
+                        "fscore": 0.0249
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.286,
+                        "coverage": 0.0271,
+                        "nwords": 267,
+                        "npairs": 160
+                    }
+                },
+                "german": {
+                    "grouping": {
+                        "precision": 0.2246,
+                        "recall": 0.7202,
+                        "fscore": 0.3425
+                    },
+                    "token": {
+                        "precision": 0.0284,
+                        "recall": 0.0009,
+                        "fscore": 0.0017
+                    },
+                    "type": {
+                        "precision": 0.0286,
+                        "recall": 0.0052,
+                        "fscore": 0.0088
+                    },
+                    "boundary": {
+                        "precision": 0.2876,
+                        "recall": 0.0133,
+                        "fscore": 0.0254
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.3208,
+                        "coverage": 0.0315,
+                        "nwords": 4370,
+                        "npairs": 3312
+                    }
+                },
+                "wolof": {
+                    "grouping": {
+                        "precision": 0.2,
+                        "recall": 0.8333,
+                        "fscore": 0.3226
+                    },
+                    "token": {
+                        "precision": 0.049,
+                        "recall": 0.0015,
+                        "fscore": 0.0029
+                    },
+                    "type": {
+                        "precision": 0.0435,
+                        "recall": 0.0044,
+                        "fscore": 0.008
+                    },
+                    "boundary": {
+                        "precision": 0.4578,
+                        "recall": 0.0148,
+                        "fscore": 0.0287
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.2957,
+                        "coverage": 0.0339,
+                        "nwords": 575,
+                        "npairs": 545
+                    }
+                }
+            },
+            "publication": {
+                "author_short": "ZeroSpeech organizers, CoML team",
+                "author": "ZeroSpeech organizers, CoML team",
+                "paper_title": null,
+                "paper_url": null,
+                "team_name": null,
+                "institution": "PSL University, CNRS, ENS, EHESS, INRIA",
+                "open_science": true,
+                "code": null,
+                "DOI": null
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "TDE-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {
+                    "hyperparameters": [
+                        {
+                            "S": 64
+                        },
+                        {
+                            "P": 8
+                        },
+                        {
+                            "B": 100
+                        },
+                        {
+                            "D": 10
+                        },
+                        {
+                            "DTWTHR": 0.9
+                        },
+                        {
+                            "OLAPTHR": 0.97
+                        },
+                        {
+                            "DEDUPTHR": 0.9
+                        },
+                        {
+                            "DURTHR": 50
+                        },
+                        {
+                            "RHOTHR": 500
+                        },
+                        {
+                            "PAR": "par"
+                        }
+                    ]
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Bha20b",
+            "submission_date": "2020-04-23T10:00:57+00:00",
+            "index": 3,
+            "submission_id": "20200423100057_Saurabhati",
+            "submitted_by": "Saurabhati",
+            "description": "Self clustering Autoencoder for unsupervised features learning",
+            "scores": {
+                "english": {
+                    "grouping": {
+                        "precision": 0.1555,
+                        "recall": 0.1823,
+                        "fscore": 0.1679
+                    },
+                    "token": {
+                        "precision": 0.0444,
+                        "recall": 0.1282,
+                        "fscore": 0.0659
+                    },
+                    "type": {
+                        "precision": 0.0173,
+                        "recall": 0.1976,
+                        "fscore": 0.0318
+                    },
+                    "boundary": {
+                        "precision": 0.2728,
+                        "recall": 0.7587,
+                        "fscore": 0.4013
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.895,
+                        "coverage": 0.9945,
+                        "nwords": 240033,
+                        "npairs": 124227660
+                    }
+                },
+                "french": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": 0.0412,
+                        "recall": 0.1298,
+                        "fscore": 0.0626
+                    },
+                    "type": {
+                        "precision": 0.0208,
+                        "recall": 0.1293,
+                        "fscore": 0.0358
+                    },
+                    "boundary": {
+                        "precision": 0.2827,
+                        "recall": 0.8111,
+                        "fscore": 0.4193
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.8895,
+                        "coverage": 0.9975,
+                        "nwords": 135048,
+                        "npairs": 57278584
+                    }
+                },
+                "mandarin": {
+                    "grouping": {
+                        "precision": 0.0342,
+                        "recall": 0.0502,
+                        "fscore": 0.0407
+                    },
+                    "token": {
+                        "precision": 0.0794,
+                        "recall": 0.2543,
+                        "fscore": 0.121
+                    },
+                    "type": {
+                        "precision": 0.0689,
+                        "recall": 0.2908,
+                        "fscore": 0.1114
+                    },
+                    "boundary": {
+                        "precision": 0.3649,
+                        "recall": 0.9188,
+                        "fscore": 0.5223
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.9466,
+                        "coverage": 0.9994,
+                        "nwords": 37457,
+                        "npairs": 294303
+                    }
+                },
+                "german": {
+                    "grouping": {
+                        "precision": 0.144,
+                        "recall": 0.1655,
+                        "fscore": 0.154
+                    },
+                    "token": {
+                        "precision": 0.0402,
+                        "recall": 0.1458,
+                        "fscore": 0.063
+                    },
+                    "type": {
+                        "precision": 0.0153,
+                        "recall": 0.1001,
+                        "fscore": 0.0265
+                    },
+                    "boundary": {
+                        "precision": 0.2336,
+                        "recall": 0.8071,
+                        "fscore": 0.3624
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.8964,
+                        "coverage": 0.9982,
+                        "nwords": 158045,
+                        "npairs": 54802813
+                    }
+                },
+                "wolof": {
+                    "grouping": {
+                        "precision": null,
+                        "recall": null,
+                        "fscore": null
+                    },
+                    "token": {
+                        "precision": 0.0848,
+                        "recall": 0.2464,
+                        "fscore": 0.1261
+                    },
+                    "type": {
+                        "precision": 0.0594,
+                        "recall": 0.3469,
+                        "fscore": 0.1014
+                    },
+                    "boundary": {
+                        "precision": 0.3566,
+                        "recall": 0.8696,
+                        "fscore": 0.5057
+                    },
+                    "matching": null,
+                    "nlp": {
+                        "ned": 0.8266,
+                        "coverage": 0.9985,
+                        "nwords": 32935,
+                        "npairs": 7413975
+                    }
+                }
+            },
+            "publication": {
+                "author_short": "Saurabhchand Bhati",
+                "author": "Saurabhchand Bhati",
+                "paper_title": null,
+                "paper_url": null,
+                "team_name": null,
+                "institution": "JHU",
+                "open_science": false,
+                "code": null,
+                "DOI": null
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "TDE-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {
+                    "hyperparameters": "6 bottlneck Resnetblocks with 500 neuron for encoder and decoder"
+                }
+            },
+            "extras": null
+        }
+    ]
+}

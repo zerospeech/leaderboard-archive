@@ -1,0 +1,67 @@
+description: Information Retrieval to ZeroSpeech 2021. In our submission we have decided
+  to verify the limits of information retrieval approaches to acoustic representations,
+  word-spotting and word semantics discovery. For ABX we have projected the embeddings
+  of the baseline model into the nullspace of a speaker classification model, to make
+  the embeddings less speaker sensitive. We perform a k-means clustering of embeddings
+  (based on cosine distances) for quantization for other tasks. Additionally, we apply
+  the following technique for ABX on top of embeddings -  we use the centers of the
+  obtained clusters, and we move each embedding a part of the distance (e.g. half)
+  in the direction of the closest cluster's center. This aims to include information
+  about the whole dataset coming from clustering without substantial loss of local
+  information, as a kind of denoising. For sWUGGY we provide for each query word the
+  negative of the minimum dynamic time warping cost of matching a given word to the
+  subsequences of the Librispeech960 corpus. This essentially attempts to perform
+  a dictionary lookup - real words should match with a low score, while artificial
+  words should match with a higher one. For sSIMI we segment the sequences of pseudophonemes
+  into words using SentencePiece, we then learn the embeddings of discovered pseudo-words
+  using word embedding approaches. We then map the pseudophones of the query word
+  to the nearest discovered pseudoword. For sBLIMP we provide LM scores, similarly
+  to the baseline.
+details:
+  benchmarks:
+  - sLM-21
+  - ABX-LS
+  gpu_budget: '60'
+  parameters:
+    frame_shift: 0.01
+    metric: cosine
+    visually_grounded: false
+  train_set: LibriSpeech
+extras: null
+index: 11
+model_id: Cho21b
+publication:
+  DOI: null
+  author_short: Chorowski <i>et al.</i>
+  authors: "Chorowski, J., Ciesielski, G., Dzikowski, J., \u0141a\u0144cucki, A.,\
+    \ Marxer, R., Opala, M., Pusz, P., Rychlikowski, P. & Stypu\u0142kowski, M."
+  bib_ref: chorowski2021information
+  code: null
+  institution: University of Wroclaw
+  open_science: true
+  paper_ref: "Chorowski, J., Ciesielski, G., Dzikowski, J., \u0141a\u0144cucki, A.,\
+    \ Marxer, R., Opala, M., Pusz, P., Rychlikowski, P. & Stypu\u0142kowski, M. (2021.0)\
+    \ Information retrieval for zerospeech 2021: The submission by university of wroclaw."
+  paper_title: 'Information retrieval for zerospeech 2021: The submission by university
+    of wroclaw.'
+  paper_url: https://arxiv.org/abs/2106.11604
+  pub_year: 2021
+  team_name: null
+scores:
+  clean:
+    dev:
+      across: 0.036
+      within: 0.0295
+    test:
+      across: 0.0369
+      within: 0.0285
+  other:
+    dev:
+      across: 0.0699
+      within: 0.045
+    test:
+      across: 0.0728
+      within: 0.045
+submission_date: '2021-03-23T04:42:00+00:00'
+submission_id: '20210323044200_chorowski'
+submitted_by: null

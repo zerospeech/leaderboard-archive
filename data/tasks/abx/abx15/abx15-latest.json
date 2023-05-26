@@ -1,0 +1,1153 @@
+{
+    "last_modified": "2022-07-26T16:03:47.653402",
+    "data": [
+        {
+            "model_id": "Bal15a",
+            "submission_id": "",
+            "index": 3,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "Binary phonological/articulatory features. Supervised with English.",
+            "publication": {
+                "author_short": "Baljekar et al.",
+                "authors": "Baljekar, P., Sitaram, S., Muthukumar, P. & Black, A. ",
+                "paper_title": "Using articulatory features and inferred phonological segments in zero resource speech processing.",
+                "paper_ref": "Baljekar, P., Sitaram, S., Muthukumar, P. K., & Black, A. (2015). Using articulatory features and inferred phonological segments in zero resource speech processing. In Proceedings of Interspeech.",
+                "bib_ref": "baljekar2015using",
+                "paper_url": "https://www.isca-speech.org/archive/pdfs/interspeech_2015/baljekar15_interspeech.pdf",
+                "pub_year": 2015,
+                "team_name": null,
+                "institution": "CMU",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 18.4,
+                    "across": 29.8
+                },
+                "xitsonga": {
+                    "within": 29.7,
+                    "across": 18.1
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Thi15",
+            "submission_id": "",
+            "index": 25,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "STD+ABnet",
+            "publication": {
+                "author_short": "Thiolli\u00e8re et al.",
+                "authors": "Thiolliere, R., Dunbar, E., Synnaeve, G., Versteegh, M. & Dupoux, E.",
+                "paper_title": "A hybrid dynamic time warping-deep neural network architecture for unsupervised acoustic modeling.",
+                "paper_ref": "Thiolliere, R., Dunbar, E., Synnaeve, G., Versteegh, M., & Dupoux, E. (2015). A hybrid dynamic time warping-deep neural network architecture for unsupervised acoustic modeling. In Proc. Interspeech.",
+                "bib_ref": "thiolliere2015hybrid",
+                "paper_url": "http://www.lscp.net/persons/dupoux/papers/Thioliere_DSVD_2015.Hybrid_DTW_DNN_acoustic_modeling.Interspeech.pdf",
+                "pub_year": 2015.0,
+                "team_name": null,
+                "institution": "ENS-PSL,Paris",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 12.0,
+                    "across": 17.9
+                },
+                "xitsonga": {
+                    "within": 16.6,
+                    "across": 11.7
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Ren15a",
+            "submission_id": "",
+            "index": 19,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "STD+CAE (English)",
+            "publication": {
+                "author_short": "Renshaw et al.",
+                "authors": "Renshaw, D., Kamper, H., Jansen, A. & Goldwater, S.",
+                "paper_title": "A comparison of neural network methods for unsupervised representation learning on the zero resource speech challenge.",
+                "paper_ref": "Renshaw, D., Kamper, H., Jansen, A., & Goldwater, S. (2015). A comparison of neural network methods for unsupervised representation learning on the zero resource speech challenge. In Proceedings of Interspeech.",
+                "bib_ref": "renshaw2015comparison",
+                "paper_url": "https://homepages.inf.ed.ac.uk/sgwater/papers/interspeech15-NNMethods.pdf",
+                "pub_year": 2015.0,
+                "team_name": null,
+                "institution": "Edinburgh & JHU",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 13.5,
+                    "across": 21.1
+                },
+                "xitsonga": {
+                    "within": 19.3,
+                    "across": 11.9
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "topline15a",
+            "submission_id": "",
+            "index": 26,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "Topline posteriorgrams. Supervised with yes.",
+            "publication": {
+                "author_short": "<b>Topline Kaldi</b>",
+                "authors": null,
+                "paper_title": null,
+                "paper_ref": "",
+                "bib_ref": null,
+                "paper_url": null,
+                "pub_year": null,
+                "team_name": null,
+                "institution": "CoML Team",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 12.1,
+                    "across": 16.0
+                },
+                "xitsonga": {
+                    "within": 4.5,
+                    "across": 3.5
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Ren15b",
+            "submission_id": "",
+            "index": 20,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "STD+CAE (Xitsonga)",
+            "publication": {
+                "author_short": "Renshaw et al.",
+                "authors": "Renshaw, D., Kamper, H., Jansen, A. & Goldwater, S.",
+                "paper_title": "A comparison of neural network methods for unsupervised representation learning on the zero resource speech challenge.",
+                "paper_ref": "",
+                "bib_ref": "renshaw2015comparison",
+                "paper_url": "https://homepages.inf.ed.ac.uk/sgwater/papers/interspeech15-NNMethods.pdf",
+                "pub_year": 2015.0,
+                "team_name": null,
+                "institution": "Edinburgh & JHU",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": null,
+                    "across": null
+                },
+                "xitsonga": {
+                    "within": 18.5,
+                    "across": 11.6
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Zeg15",
+            "submission_id": "",
+            "index": 27,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "STD+ScatABnet",
+            "publication": {
+                "author_short": "Zeghidour et al.",
+                "authors": "Zeghidour, N., Synnaeve, G., Versteegh, M. & Dupoux, E.",
+                "paper_title": "A deep scattering spectrum\u2014deep siamese network pipeline for unsupervised acoustic modeling. ",
+                "paper_ref": "Zeghidour, N., Synnaeve, G., Versteegh, M., & Dupoux, E. (2016, March). A Deep Scattering Spectrum - Deep Siamese network Pipeline For Unsupervised Acoustic Modeling. In ICASSP, (pp. 4965-4969). IEEE.",
+                "bib_ref": "zeghidour2016deep",
+                "paper_url": "http://www.lscp.net/persons/dupoux/papers/Zeghidour_SVD_2016_Deep_scat_ABnet.ICASSP.pdf",
+                "pub_year": 2016.0,
+                "team_name": null,
+                "institution": "ENS-PSL, Paris\n",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 11.0,
+                    "across": 17.0
+                },
+                "xitsonga": {
+                    "within": 15.8,
+                    "across": 12.0
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Che15a",
+            "submission_id": "",
+            "index": 10,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "DPGMM",
+            "publication": {
+                "author_short": "Chen et al.",
+                "authors": "Chen, H., Leung, C., Xie, L., Ma, B. & Li, H. ",
+                "paper_title": "Parallel inference of dirichlet process gaussian mixture models for unsupervised acoustic modeling: A feasibility study.",
+                "paper_ref": "Chen, H., Leung, C. C., Xie, L., Ma, B., & Li, H. (2015). Parallel inference of dirichlet process gaussian mixture models for unsupervised acoustic modeling: A feasibility study. In Proceedings of Interspeech.",
+                "bib_ref": "chen2015parallel",
+                "paper_url": "http://lxie.npu-aslp.org/papers/2015Interspeech_CHJ.pdf",
+                "pub_year": 2015.0,
+                "team_name": null,
+                "institution": "NPU & I2R",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 10.8,
+                    "across": 16.3
+                },
+                "xitsonga": {
+                    "within": 17.2,
+                    "across": 9.6
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Fah15",
+            "submission_id": "",
+            "index": 14,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "Siamese model on GMM posteriors",
+            "publication": {
+                "author_short": "Fahlstr\u00f6m Myrman and Salvi",
+                "authors": "Myrman, A. & Salvi, G. ",
+                "paper_title": "Partitioning of posteriorgrams using siamese models for unsupervised acoustic modelling.",
+                "paper_ref": "Arvid Fahlstr\u00f6m Myrman and Giampiero Salvi : Partitioning of Posteriorgrams using Siamese Models for Unsupervised Acoustic Modelling",
+                "bib_ref": "myrman2017partitioning",
+                "paper_url": "https://www.isca-speech.org/archive_v0/GLU_2017/pdfs/GLU2017_paper_6.pdf",
+                "pub_year": 2017.0,
+                "team_name": null,
+                "institution": "KTH Royal Institute of Technology",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 12.0,
+                    "across": 19.3
+                },
+                "xitsonga": {
+                    "within": 21.9,
+                    "across": 12.7
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Che15b",
+            "submission_id": "",
+            "index": 11,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "MFCC",
+            "publication": {
+                "author_short": "Chen et al.",
+                "authors": "Chen, H., Leung, C., Xie, L., Ma, B. & Li, H. ",
+                "paper_title": "Parallel inference of dirichlet process gaussian mixture models for unsupervised acoustic modeling: A feasibility study.",
+                "paper_ref": "Chen, H., Leung, C. C., Xie, L., Ma, B., & Li, H. (2015). Parallel inference of dirichlet process gaussian mixture models for unsupervised acoustic modeling: A feasibility study. In Proceedings of Interspeech.",
+                "bib_ref": "chen2015parallel",
+                "paper_url": "http://lxie.npu-aslp.org/papers/2015Interspeech_CHJ.pdf",
+                "pub_year": 2015.0,
+                "team_name": null,
+                "institution": "NPU & I2R",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 17.2,
+                    "across": 26.8
+                },
+                "xitsonga": {
+                    "within": 30.8,
+                    "across": 19.6
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Bal15b",
+            "submission_id": "",
+            "index": 4,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "57 Inferred phoneme labels. Supervised with .",
+            "publication": {
+                "author_short": "Baljekar et al.",
+                "authors": "Baljekar, P., Sitaram, S., Muthukumar, P. & Black, A. ",
+                "paper_title": "Using articulatory features and inferred phonological segments in zero resource speech processing.",
+                "paper_ref": "Baljekar, P., Sitaram, S., Muthukumar, P. K., & Black, A. (2015). Using articulatory features and inferred phonological segments in zero resource speech processing. In Proceedings of Interspeech.",
+                "bib_ref": "baljekar2015using",
+                "paper_url": "https://www.isca-speech.org/archive/pdfs/interspeech_2015/baljekar15_interspeech.pdf",
+                "pub_year": 2015.0,
+                "team_name": null,
+                "institution": "CMU",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": null,
+                    "across": null
+                },
+                "xitsonga": {
+                    "within": 46.4,
+                    "across": 44.1
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "baseline15a",
+            "submission_id": "",
+            "index": 8,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "Baseline MFCC",
+            "publication": {
+                "author_short": "<b>Baseline MFCC</b>",
+                "authors": null,
+                "paper_title": null,
+                "paper_ref": "",
+                "bib_ref": null,
+                "paper_url": null,
+                "pub_year": null,
+                "team_name": null,
+                "institution": "CoML Team",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 15.6,
+                    "across": 28.1
+                },
+                "xitsonga": {
+                    "within": 33.8,
+                    "across": 19.1
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Che15c",
+            "submission_id": "",
+            "index": 12,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "DPGMM+PhonePosteriors. Supervised with Czek Hungarian Russian.",
+            "publication": {
+                "author_short": "Chen et al.",
+                "authors": "Chen, H., Leung, C., Xie, L., Ma, B. & Li, H. ",
+                "paper_title": "Parallel inference of dirichlet process gaussian mixture models for unsupervised acoustic modeling: A feasibility study.",
+                "paper_ref": "Chen, H., Leung, C. C., Xie, L., Ma, B., & Li, H. (2015). Parallel inference of dirichlet process gaussian mixture models for unsupervised acoustic modeling: A feasibility study. In Proceedings of Interspeech.",
+                "bib_ref": "chen2015parallel",
+                "paper_url": "http://lxie.npu-aslp.org/papers/2015Interspeech_CHJ.pdf",
+                "pub_year": 2015.0,
+                "team_name": null,
+                "institution": "NPU & I2R",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 9.7,
+                    "across": 14.9
+                },
+                "xitsonga": {
+                    "within": 15.0,
+                    "across": 9.5
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Ren15c",
+            "submission_id": "",
+            "index": 21,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "STD+CAE+BNF. Supervised with English.",
+            "publication": {
+                "author_short": "Renshaw et al.",
+                "authors": "Renshaw, D., Kamper, H., Jansen, A. & Goldwater, S.",
+                "paper_title": "A comparison of neural network methods for unsupervised representation learning on the zero resource speech challenge.",
+                "paper_ref": "",
+                "bib_ref": "renshaw2015comparison",
+                "paper_url": "https://homepages.inf.ed.ac.uk/sgwater/papers/interspeech15-NNMethods.pdf",
+                "pub_year": 2015.0,
+                "team_name": null,
+                "institution": "Edinburgh & JHU",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 14.0,
+                    "across": 19.3
+                },
+                "xitsonga": {
+                    "within": 18.2,
+                    "across": 13.0
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Bal15c",
+            "submission_id": "",
+            "index": 5,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "SPTK Z-scored MFCCs",
+            "publication": {
+                "author_short": "Baljekar et al.",
+                "authors": "Baljekar, P., Sitaram, S., Muthukumar, P. & Black, A. ",
+                "paper_title": "Using articulatory features and inferred phonological segments in zero resource speech processing.",
+                "paper_ref": "Baljekar, P., Sitaram, S., Muthukumar, P. K., & Black, A. (2015). Using articulatory features and inferred phonological segments in zero resource speech processing. In Proceedings of Interspeech.",
+                "bib_ref": "baljekar2015using",
+                "paper_url": "https://www.isca-speech.org/archive/pdfs/interspeech_2015/baljekar15_interspeech.pdf",
+                "pub_year": 2015.0,
+                "team_name": null,
+                "institution": "CMU",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 17.0,
+                    "across": 28.0
+                },
+                "xitsonga": {
+                    "within": 30.7,
+                    "across": 19.7
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Hec15a",
+            "submission_id": "",
+            "index": 15,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "DPGMM+MFCC+bestLDA+DPGMM",
+            "publication": {
+                "author_short": "Heck et al. 2016",
+                "authors": "Heck, M., Sakti, S. & Nakamura, S.",
+                "paper_title": "Unsupervised linear discriminant analysis for supporting DPGMM clustering in the zero resource scenario.",
+                "paper_ref": "Heck, M., Sakti, S. & Nakamura, S. (2016). Unsupervised linear discriminant analysis for supporting DPGMM clustering in the Zero Resource Scenario. Proceedings of SLTU",
+                "bib_ref": "heck2016unsupervised",
+                "paper_url": "https://reader.elsevier.com/reader/sd/pii/S1877050916300461?token=CB575EC5C1F3CB969515D6CCF4FAA80443F18E24F5304D5C3412D233B6EE1342FFAD1279FB2A17879E2158A97DCA9CF1&originRegion=eu-west-1&originCreation=20220608120801",
+                "pub_year": 2016.0,
+                "team_name": null,
+                "institution": "NAIST",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 11.1,
+                    "across": 16.6
+                },
+                "xitsonga": {
+                    "within": 12.9,
+                    "across": 8.4
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Bad15a",
+            "submission_id": "",
+            "index": 0,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "Autoencoder (12) Bin1 (soft)",
+            "publication": {
+                "author_short": "Badino et al",
+                "authors": "Badino, L., Mereta, A. & Rosasco, L. ",
+                "paper_title": "Discovering discrete subword units with binarized autoencoders and hidden-Markov-model encoders",
+                "paper_ref": "Badino, L., Mereta, A., & Rosasco, L. (2015). Discovering discrete subword units with binarized autoencoders and hidden-markov-model encoders. In Proceedings of Interspeech.",
+                "bib_ref": "badino2015discovering",
+                "paper_url": "https://www.researchgate.net/profile/Leonardo-Badino/publication/281834458_Discovering_discrete_subword_units_with_Binarized_Autoencoders_and_Hidden-Markov-Model_Encoders/links/55fa662d08aeafc8ac38e6d4/Discovering-discrete-subword-units-with-Binarized-Autoencoders-and-Hidden-Markov-Model-Encoders.pdf",
+                "pub_year": 2015.0,
+                "team_name": null,
+                "institution": "RBCS",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 19.7,
+                    "across": 28.7
+                },
+                "xitsonga": {
+                    "within": 26.4,
+                    "across": 17.1
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Ren15d",
+            "submission_id": "",
+            "index": 22,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "STD+AE+B\u00db\u00b2\u00da\u2020NF\u00d9\u201a\u00db\u00b7&**^*\u00ef\u00b7\u00bc\u00e2\u201a\u00a9\u00ef\u00b7\u00bc\u00d9\u00aa\u00c2\u00a3\u00c2\u00a3\u00c2\u00a3\u00c2\u00a3-. Supervised with English.",
+            "publication": {
+                "author_short": "Renshaw et al.",
+                "authors": "Renshaw, D., Kamper, H., Jansen, A. & Goldwater, S.",
+                "paper_title": "A comparison of neural network methods for unsupervised representation learning on the zero resource speech challenge.",
+                "paper_ref": "",
+                "bib_ref": "renshaw2015comparison",
+                "paper_url": "https://homepages.inf.ed.ac.uk/sgwater/papers/interspeech15-NNMethods.pdf",
+                "pub_year": 2015.0,
+                "team_name": null,
+                "institution": "Edinburgh & JHU",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 12.8,
+                    "across": 18.1
+                },
+                "xitsonga": {
+                    "within": 19.3,
+                    "across": 14.4
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Bad15b",
+            "submission_id": "",
+            "index": 1,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "Autoencoder (12) AE12",
+            "publication": {
+                "author_short": "Badino et al",
+                "authors": "Badino, L., Mereta, A. & Rosasco, L. ",
+                "paper_title": "Discovering discrete subword units with binarized autoencoders and hidden-Markov-model encoders",
+                "paper_ref": "Badino, L., Mereta, A., & Rosasco, L. (2015). Discovering discrete subword units with binarized autoencoders and hidden-markov-model encoders. In Proceedings of Interspeech.",
+                "bib_ref": "badino2015discovering",
+                "paper_url": "https://www.researchgate.net/profile/Leonardo-Badino/publication/281834458_Discovering_discrete_subword_units_with_Binarized_Autoencoders_and_Hidden-Markov-Model_Encoders/links/55fa662d08aeafc8ac38e6d4/Discovering-discrete-subword-units-with-Binarized-Autoencoders-and-Hidden-Markov-Model-Encoders.pdf",
+                "pub_year": 2015.0,
+                "team_name": null,
+                "institution": "RBCS",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 16.7,
+                    "across": 26.8
+                },
+                "xitsonga": {
+                    "within": 27.4,
+                    "across": 16.0
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Hec15b",
+            "submission_id": "",
+            "index": 16,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "DPGMM+PLP+bestLDA+DPGMM",
+            "publication": {
+                "author_short": "Heck et al. 2016",
+                "authors": "Heck, M., Sakti, S. & Nakamura, S.",
+                "paper_title": "Unsupervised linear discriminant analysis for supporting DPGMM clustering in the zero resource scenario.",
+                "paper_ref": "Heck, M., Sakti, S. & Nakamura, S. (2016). Unsupervised linear discriminant analysis for supporting DPGMM clustering in the Zero Resource Scenario. Proceedings of SLTU",
+                "bib_ref": "heck2016unsupervised",
+                "paper_url": "https://reader.elsevier.com/reader/sd/pii/S1877050916300461?token=CB575EC5C1F3CB969515D6CCF4FAA80443F18E24F5304D5C3412D233B6EE1342FFAD1279FB2A17879E2158A97DCA9CF1&originRegion=eu-west-1&originCreation=20220608120802",
+                "pub_year": 2016.0,
+                "team_name": null,
+                "institution": "NAIST",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 10.6,
+                    "across": 16.0
+                },
+                "xitsonga": {
+                    "within": 12.6,
+                    "across": 8.0
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Bal15d",
+            "submission_id": "",
+            "index": 6,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "71 Inferred phoneme labels. Supervised with .",
+            "publication": {
+                "author_short": "Baljekar et al.",
+                "authors": "Baljekar, P., Sitaram, S., Muthukumar, P. & Black, A. ",
+                "paper_title": "Using articulatory features and inferred phonological segments in zero resource speech processing.",
+                "paper_ref": "Baljekar, P., Sitaram, S., Muthukumar, P. K., & Black, A. (2015). Using articulatory features and inferred phonological segments in zero resource speech processing. In Proceedings of Interspeech.",
+                "bib_ref": "baljekar2015using",
+                "paper_url": "https://www.isca-speech.org/archive/pdfs/interspeech_2015/baljekar15_interspeech.pdf",
+                "pub_year": 2015.0,
+                "team_name": null,
+                "institution": "CMU",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": null,
+                    "across": null
+                },
+                "xitsonga": {
+                    "within": 46.0,
+                    "across": 42.8
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Che15d",
+            "submission_id": "",
+            "index": 13,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "PhonePosteriors. Supervised with Czek Hungarian Russian.",
+            "publication": {
+                "author_short": "Chen et al.",
+                "authors": "Chen, H., Leung, C., Xie, L., Ma, B. & Li, H. ",
+                "paper_title": "Parallel inference of dirichlet process gaussian mixture models for unsupervised acoustic modeling: A feasibility study.",
+                "paper_ref": "Chen, H., Leung, C. C., Xie, L., Ma, B., & Li, H. (2015). Parallel inference of dirichlet process gaussian mixture models for unsupervised acoustic modeling: A feasibility study. In Proceedings of Interspeech.",
+                "bib_ref": "chen2015parallel",
+                "paper_url": "http://lxie.npu-aslp.org/papers/2015Interspeech_CHJ.pdf",
+                "pub_year": 2015.0,
+                "team_name": null,
+                "institution": "NPU & I2R",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 10.4,
+                    "across": 15.8
+                },
+                "xitsonga": {
+                    "within": 15.5,
+                    "across": 12.0
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Hec15c",
+            "submission_id": "",
+            "index": 17,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "DPGMM",
+            "publication": {
+                "author_short": "Heck et al. 2016",
+                "authors": "Heck, M., Sakti, S. & Nakamura, S.",
+                "paper_title": "Unsupervised linear discriminant analysis for supporting DPGMM clustering in the zero resource scenario.",
+                "paper_ref": "Heck, M., Sakti, S. & Nakamura, S. (2016). Unsupervised linear discriminant analysis for supporting DPGMM clustering in the Zero Resource Scenario. Proceedings of SLTU",
+                "bib_ref": "heck2016unsupervised",
+                "paper_url": "https://reader.elsevier.com/reader/sd/pii/S1877050916300461?token=CB575EC5C1F3CB969515D6CCF4FAA80443F18E24F5304D5C3412D233B6EE1342FFAD1279FB2A17879E2158A97DCA9CF1&originRegion=eu-west-1&originCreation=20220608120803",
+                "pub_year": 2016.0,
+                "team_name": null,
+                "institution": "NAIST",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 12.2,
+                    "across": 19.5
+                },
+                "xitsonga": {
+                    "within": 14.2,
+                    "across": 8.9
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Hec15d",
+            "submission_id": "",
+            "index": 18,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "MFCC+D+DD+VTLN",
+            "publication": {
+                "author_short": "Heck et al. 2016",
+                "authors": "Heck, M., Sakti, S. & Nakamura, S.",
+                "paper_title": "Unsupervised linear discriminant analysis for supporting DPGMM clustering in the zero resource scenario.",
+                "paper_ref": "Heck, M., Sakti, S. & Nakamura, S. (2016). Unsupervised linear discriminant analysis for supporting DPGMM clustering in the Zero Resource Scenario. Proceedings of SLTU",
+                "bib_ref": "heck2016unsupervised",
+                "paper_url": "https://reader.elsevier.com/reader/sd/pii/S1877050916300461?token=CB575EC5C1F3CB969515D6CCF4FAA80443F18E24F5304D5C3412D233B6EE1342FFAD1279FB2A17879E2158A97DCA9CF1&originRegion=eu-west-1&originCreation=20220608120804",
+                "pub_year": 2016.0,
+                "team_name": null,
+                "institution": "NAIST",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 15.7,
+                    "across": 25.5
+                },
+                "xitsonga": {
+                    "within": 30.0,
+                    "across": 19.7
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "baseline15b",
+            "submission_id": "",
+            "index": 9,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "Baseline MFCC + VTLN",
+            "publication": {
+                "author_short": "<b>Baseline MFCC + VTLN</b>",
+                "authors": null,
+                "paper_title": null,
+                "paper_ref": "",
+                "bib_ref": null,
+                "paper_url": null,
+                "pub_year": null,
+                "team_name": null,
+                "institution": "CoML Team",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 14.6,
+                    "across": 24.0
+                },
+                "xitsonga": {
+                    "within": null,
+                    "across": null
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Sri15a",
+            "submission_id": "",
+            "index": 23,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "Isomap. Supervised with .",
+            "publication": {
+                "author_short": "Srivastava et al.",
+                "authors": "Srivastava, B. & Shrivastava, M.",
+                "paper_title": "Articulatory gesture rich representation learning of phonological units in low resource settings. Springer.",
+                "paper_ref": "Srivastava, B. M. L., & Shrivastava, M. (2016, October). Articulatory Gesture Rich Representation Learning of Phonological Units in Low Resource Settings. In International Conference on Statistical Language and Speech Processing (pp. 80-95). Springer.",
+                "bib_ref": "srivastava2016articulatory",
+                "paper_url": "https://www.researchgate.net/publication/308385411_Articulatory_Gesture_Rich_Representation_Learning_of_Phonological_Units_in_Low_Resource_Settings",
+                "pub_year": 2016.0,
+                "team_name": null,
+                "institution": "IIT Hyderabad",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 14.0,
+                    "across": 24.0
+                },
+                "xitsonga": {
+                    "within": 30.0,
+                    "across": 19.1
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Bad15c",
+            "submission_id": "",
+            "index": 2,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "Autoencoder (6) AE6",
+            "publication": {
+                "author_short": "Badino et al",
+                "authors": "Badino, L., Mereta, A. & Rosasco, L. ",
+                "paper_title": "Discovering discrete subword units with binarized autoencoders and hidden-Markov-model encoders",
+                "paper_ref": "Badino, L., Mereta, A., & Rosasco, L. (2015). Discovering discrete subword units with binarized autoencoders and hidden-markov-model encoders. In Proceedings of Interspeech.",
+                "bib_ref": "badino2015discovering",
+                "paper_url": "https://www.researchgate.net/profile/Leonardo-Badino/publication/281834458_Discovering_discrete_subword_units_with_Binarized_Autoencoders_and_Hidden-Markov-Model_Encoders/links/55fa662d08aeafc8ac38e6d4/Discovering-discrete-subword-units-with-Binarized-Autoencoders-and-Hidden-Markov-Model-Encoders.pdf",
+                "pub_year": 2015.0,
+                "team_name": null,
+                "institution": "RBCS",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 17.3,
+                    "across": 26.3
+                },
+                "xitsonga": {
+                    "within": 23.6,
+                    "across": 14.1
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Sri15b",
+            "submission_id": "",
+            "index": 24,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "ConvAE. Supervised with .",
+            "publication": {
+                "author_short": "Srivastava et al.",
+                "authors": "Srivastava, B. & Shrivastava, M.",
+                "paper_title": "Articulatory gesture rich representation learning of phonological units in low resource settings. Springer.",
+                "paper_ref": "Srivastava, B. M. L., & Shrivastava, M. (2016, October). Articulatory Gesture Rich Representation Learning of Phonological Units in Low Resource Settings. In International Conference on Statistical Language and Speech Processing (pp. 80-95). Springer.",
+                "bib_ref": "srivastava2016articulatory",
+                "paper_url": "https://www.researchgate.net/publication/308385411_Articulatory_Gesture_Rich_Representation_Learning_of_Phonological_Units_in_Low_Resource_Settings",
+                "pub_year": 2016.0,
+                "team_name": null,
+                "institution": "IIT Hyderabad",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 15.5,
+                    "across": 28.0
+                },
+                "xitsonga": {
+                    "within": 30.0,
+                    "across": 19.1
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Bal15e",
+            "submission_id": "",
+            "index": 7,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "SPTK MFCC",
+            "publication": {
+                "author_short": "Baljekar et al.",
+                "authors": "Baljekar, P., Sitaram, S., Muthukumar, P. & Black, A. ",
+                "paper_title": "Using articulatory features and inferred phonological segments in zero resource speech processing.",
+                "paper_ref": "Baljekar, P., Sitaram, S., Muthukumar, P. K., & Black, A. (2015). Using articulatory features and inferred phonological segments in zero resource speech processing. In Proceedings of Interspeech.",
+                "bib_ref": "baljekar2015using",
+                "paper_url": "https://www.isca-speech.org/archive/pdfs/interspeech_2015/baljekar15_interspeech.pdf",
+                "pub_year": 2015.0,
+                "team_name": null,
+                "institution": "CMU",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": null,
+                "benchmarks": [
+                    "ABX-15"
+                ],
+                "gpu_budget": null,
+                "parameters": {}
+            },
+            "scores": {
+                "english": {
+                    "within": 16.7,
+                    "across": 29.5
+                },
+                "xitsonga": {
+                    "within": 33.9,
+                    "across": 19.7
+                }
+            },
+            "extras": null
+        }
+    ]
+}

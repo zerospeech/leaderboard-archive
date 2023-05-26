@@ -1,0 +1,16 @@
+metadata:
+  after_challenge: 'no'
+  author: Baljekar et al.
+  bib: <a class="reference internal" href="#baljekar_using_2015" id="id8">[8]</a>
+  binary: 'no'
+  main_idea: 57 Inferred phoneme labels
+  reference: Baljekar, P., Sitaram, S., Muthukumar, P. K., & Black, A. (2015). Using
+    articulatory features and inferred phonological segments in zero resource speech
+    processing. In Proceedings of Interspeech.
+  supervision: ''
+  team: CMU
+scores:
+  english_across: ''
+  english_within: ''
+  xitsonga_across: '46.4'
+  xitsonga_within: '44.1'

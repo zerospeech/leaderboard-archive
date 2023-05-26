@@ -1,0 +1,78 @@
+'2019':
+  audio_samples:
+    english_1: english_1_20200423163457_houwenxin0520.wav
+    english_2: english_2_20200423163457_houwenxin0520.wav
+    surprise_1: surprise_1_20200423163457_houwenxin0520.wav
+    surprise_2: surprise_2_20200423163457_houwenxin0520.wav
+  english:
+    details_abx:
+      auxiliary_embedding1:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 43.49
+        cosine: 43.57
+        levenshtein: 42.52
+    details_bitrate:
+      auxiliary_embedding1: '-'
+      auxiliary_embedding2: '-'
+      test: 245.2
+    scores:
+      abx: 42.52
+      bitrate: 245.2
+      cer: 0.81
+      mos: 2.5
+      similarity: 3.17
+  metadata:
+    abx_distance: levenshtein
+    auxiliary1_description: description of the auxiliary1 embeddings (if used)
+    auxiliary2_description: description of the auxiliary1 embeddings (if used)
+    hyperparameters: VQ-VAE --> learning rate 0.0004, batch size 64, codebook size
+      128, embedding dim 64, commitment loss weight 0.25; MelGAN --> learning rate
+      0.0002, batch size 16, downsample factor 4, adversarial loss weight 1, feature
+      matching loss weight 10;
+    system description: We propose a system composed of a multi-scale hierarchical
+      VQ-VAE encoder to discover discrete spoken word units from speech and a MelGAN
+      vocoder to directly genenate speech. They are trained separately. During VQ-VAE
+      training, we add the speaker id before the VQ-VAE decoder to help reduce the
+      speaker information encoded in the word units. Code will be released at https://github.com/houwenxin/zerospeech2020
+    using_external_data: false
+    using_parallel_train: false
+  surprise:
+    details_abx:
+      auxiliary_embedding1:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 45.7
+        cosine: 45.89
+        levenshtein: 45.13
+    details_bitrate:
+      auxiliary_embedding1: '-'
+      auxiliary_embedding2: '-'
+      test: 329.23
+    scores:
+      abx: 45.13
+      bitrate: 329.23
+      cer: 0.72
+      mos: 2.05
+      similarity: 2.59
+metadata:
+  affiliation: Tokyo Institute of Technology
+  author: Wenxin Hou, Mingxin Zhang, Shengzhou Gao, Takahiro Shinozaki
+  author_short: Hou <i>et al.</i>
+  directory: /mnt/zs2020_submissions/20200423163457_houwenxin0520
+  open_source: true
+  submission_index: 6
+  submitted_at: '2020-04-23T16:34:57+00:00'
+  submitted_by: houwenxin0520

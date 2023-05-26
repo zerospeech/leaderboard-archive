@@ -1,0 +1,80 @@
+'2019':
+  audio_samples:
+    english_1: english_1_20200425093446_murat.saraclar.wav
+    english_2: english_2_20200425093446_murat.saraclar.wav
+    surprise_1: surprise_1_20200425093446_murat.saraclar.wav
+    surprise_2: surprise_2_20200425093446_murat.saraclar.wav
+  english:
+    details_abx:
+      auxiliary_embedding1:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 30.05
+        cosine: 29.93
+        levenshtein: 32.31
+    details_bitrate:
+      auxiliary_embedding1: '-'
+      auxiliary_embedding2: '-'
+      test: 34.61
+    scores:
+      abx: 30.05
+      bitrate: 34.61
+      cer: 0.96
+      mos: 1.28
+      similarity: 2.16
+  metadata:
+    abx_distance: dtw_kl
+    auxiliary1_description: not used
+    auxiliary2_description: not used
+    hyperparameters: learn_rate = 0.001 learn_rate_corsa = 0.0005 batch_size = 1024
+      batch_size_corsa = 256 num_units = 64 embedding_dim = 128 timesteps = 250 timesteps_corsa
+      = 80 L2-norm_weight = 1.0 adversarial_training_weight = 1.0
+    system description: The system is based on the Correspondence Recurrent Sparse
+      Autoencoder (CoRSA) model with the following additions. A modified version of
+      winner-take-all networks is applied to the bottleneck layer activations in order
+      to ensure continuity of the activations. This layer is then quantized to the
+      nearest one-hot vector. In addition to the MSE reconstruction loss and the negative
+      L2 sparsity loss, speaker adversarial training is also applied to make the encoder
+      embeddings speaker-independent.
+    using_external_data: false
+    using_parallel_train: false
+  surprise:
+    details_abx:
+      auxiliary_embedding1:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 28.69
+        cosine: 28.3
+        levenshtein: 28.48
+    details_bitrate:
+      auxiliary_embedding1: '-'
+      auxiliary_embedding2: '-'
+      test: 20.25
+    scores:
+      abx: 28.69
+      bitrate: 20.25
+      cer: 0.9
+      mos: 1.39
+      similarity: 2.84
+metadata:
+  affiliation: "Bo\u011Fazi\xE7i University National Defense University Naval Academy"
+  author: "Batuhan G\xFCndo\u011Fdu Alican G\xF6k Bolaji Yusuf \xD6yk\xFC Deniz K\xF6\
+    se Korhan Polat Mansur Ye\u015Filbursa Murat Sara\xE7lar"
+  author_short: "G\xFCndo\u011Fdu <i>et al.</i>"
+  directory: /mnt/zs2020_submissions/20200425093446_murat.saraclar
+  open_source: true
+  submission_index: 19
+  submitted_at: '2020-04-25T09:34:46+00:00'
+  submitted_by: murat.saraclar

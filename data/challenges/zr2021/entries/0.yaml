@@ -1,0 +1,48 @@
+author_label: <b>Forced align topline</b>
+index: 1
+lexical_all:
+- 0.9219
+- 0.9188
+lexical_invocab:
+- '-'
+- '-'
+more:
+  description:
+    affiliation: EHESS, ENS, PSL Research Univerity, CNRS and Inria
+    author: Zero Speech Challenge Organizers
+    description: The BERT model trained on the force-aligned frames of the LibriSpeech
+      960h dataset.
+    gpu_budget: 1536
+    open_source: false
+    submitted_at: '2020-11-23T11:51:09+00:00'
+    train_set: LibriSpeech 960h dataset
+phonetic_clean_across:
+- 0.0
+- 0.0
+phonetic_clean_within:
+- 0.0
+- 0.0
+phonetic_other_across:
+- 0.0
+- 0.0
+phonetic_other_within:
+- 0.0
+- 0.0
+semantic_librispeech:
+- 4.54
+- 2.41
+semantic_synthetic:
+- 7.92
+- 8.52
+set:
+- dev
+- test
+syntactic:
+- 0.6372
+- 0.6316
+weighted_semantic_librispeech:
+- 4.54
+- 3.69
+weighted_semantic_synthetic:
+- 7.92
+- 5.19

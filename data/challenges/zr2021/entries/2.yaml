@@ -1,0 +1,49 @@
+author_label: <b>RoBERTa topline</b>
+index: 3
+lexical_all:
+- 0.9658
+- 0.9625
+lexical_invocab:
+- '-'
+- '-'
+more:
+  description:
+    affiliation: EHESS, ENS, PSL Research Univerity, CNRS and Inria
+    author: Zero Speech Challenge Organizers
+    description: The pre-trained RoBERTa large model trained on 50K subword units
+      on a huge dataset of total 160GB, 3000 times bigger than the transcription of
+      the LibriSpeech 960h dataset.
+    gpu_budget: 24576
+    open_source: false
+    submitted_at: '2020-11-24T11:51:09+00:00'
+    train_set: 50K subword units on a huge dataset of total 160GB
+phonetic_clean_across:
+- '-'
+- '-'
+phonetic_clean_within:
+- '-'
+- '-'
+phonetic_other_across:
+- '-'
+- '-'
+phonetic_other_within:
+- '-'
+- '-'
+semantic_librispeech:
+- 28.96
+- 27.82
+semantic_synthetic:
+- 32.28
+- 33.16
+set:
+- dev
+- test
+syntactic:
+- 0.8156
+- 0.8211
+weighted_semantic_librispeech:
+- 28.96
+- 21.08
+weighted_semantic_synthetic:
+- 32.28
+- 23.22

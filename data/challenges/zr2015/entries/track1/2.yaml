@@ -1,0 +1,14 @@
+metadata:
+  after_challenge: 'no'
+  author: <b>Topline Kaldi</b>
+  bib: ''
+  binary: 'no'
+  main_idea: Topline posteriorgrams
+  reference: ''
+  supervision: 'yes'
+  team: CoML Team
+scores:
+  english_across: '16.0'
+  english_within: '12.1'
+  xitsonga_across: '04.5'
+  xitsonga_within: '03.5'

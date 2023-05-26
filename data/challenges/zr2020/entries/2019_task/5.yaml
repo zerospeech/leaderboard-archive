@@ -1,0 +1,74 @@
+'2019':
+  audio_samples:
+    english_1: english_1_20200423184651_mingjiechen.wav
+    english_2: english_2_20200423184651_mingjiechen.wav
+    surprise_1: surprise_1_20200423184651_mingjiechen.wav
+    surprise_2: surprise_2_20200423184651_mingjiechen.wav
+  english:
+    details_abx:
+      auxiliary_embedding1:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 50.0
+        cosine: 26.06
+        levenshtein: 44.9
+    details_bitrate:
+      auxiliary_embedding1: '-'
+      auxiliary_embedding2: '-'
+      test: 377.05
+    scores:
+      abx: 26.06
+      bitrate: 377.05
+      cer: 0.47
+      mos: 2.88
+      similarity: 2.35
+  metadata:
+    abx_distance: dtw_cosine
+    hyperparameters:
+      dimension: 128
+      frame rate: 25
+    system description: Followed by Chorowski et al.(2019), wavenet autoencoder is
+      used. Decomposed Vector Quantization is used. Frame rate is 25 hz, dimension
+      is 64. English data is trained for 350k steps and surprise language data is
+      trained for 200k steps. Batch size is 10.
+    using_external_data: false
+    using_parallel_train: false
+  surprise:
+    details_abx:
+      auxiliary_embedding1:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      auxiliary_embedding2:
+        KL: '-'
+        cosine: '-'
+        levenshtein: '-'
+      test:
+        KL: 50.0
+        cosine: 16.47
+        levenshtein: 46.92
+    details_bitrate:
+      auxiliary_embedding1: '-'
+      auxiliary_embedding2: '-'
+      test: 384.23
+    scores:
+      abx: 16.47
+      bitrate: 384.23
+      cer: 0.55
+      mos: 2.28
+      similarity: 2.5
+metadata:
+  affiliation: University of Sheffield
+  author: Mingjie Chen, Thomas Hain
+  author_short: Chen <i>et al.</i>
+  directory: /mnt/zs2020_submissions/20200423184651_mingjiechen
+  open_source: false
+  submission_index: 9
+  submitted_at: '2020-04-23T18:46:51+00:00'
+  submitted_by: mingjiechen

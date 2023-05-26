@@ -1,0 +1,14 @@
+metadata:
+  after_challenge: 'no'
+  author: <b>Baseline MFCC</b>
+  bib: ''
+  binary: 'no'
+  main_idea: Baseline MFCC
+  reference: ''
+  supervision: 'no'
+  team: CoML Team
+scores:
+  english_across: '28.1'
+  english_within: '15.6'
+  xitsonga_across: '33.8'
+  xitsonga_within: '19.1'

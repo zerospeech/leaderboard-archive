@@ -1,0 +1,72 @@
+audio_samples:
+  english_1: english_1_20190315081109_andi611.wav
+  english_2: english_2_20190315081109_andi611.wav
+  surprise_1: surprise_1_20190315081109_andi611.wav
+  surprise_2: surprise_2_20190315081109_andi611.wav
+details_abx:
+  english_auxiliary1_abx_dtw_cosine: '-'
+  english_auxiliary1_abx_dtw_kl: '-'
+  english_auxiliary1_abx_levenshtein: '-'
+  english_auxiliary2_abx_dtw_cosine: '-'
+  english_auxiliary2_abx_dtw_kl: '-'
+  english_auxiliary2_abx_levenshtein: '-'
+  english_test_abx_dtw_cosine: 39.03
+  english_test_abx_dtw_kl: 39.23
+  english_test_abx_levenshtein: 41.99
+  surprise_auxiliary1_abx_dtw_cosine: '-'
+  surprise_auxiliary1_abx_dtw_kl: '-'
+  surprise_auxiliary1_abx_levenshtein: '-'
+  surprise_auxiliary2_abx_dtw_cosine: '-'
+  surprise_auxiliary2_abx_dtw_kl: '-'
+  surprise_auxiliary2_abx_levenshtein: '-'
+  surprise_test_abx_dtw_cosine: 43.2
+  surprise_test_abx_dtw_kl: 43.42
+  surprise_test_abx_levenshtein: 44.25
+details_bitrate:
+  english_auxiliary1_bitrate: '-'
+  english_auxiliary2_bitrate: '-'
+  english_test_bitrate: 48.78
+  surprise_auxiliary1_bitrate: '-'
+  surprise_auxiliary2_bitrate: '-'
+  surprise_test_bitrate: 43.95
+metadata:
+  abx_distance: levenshtein
+  affiliation: College of Electrical Engineering and Computer Science, National Taiwan
+    University
+  author: Ting-Wei Liu, Po-Chun Hsu
+  author_short: Liu <i>et al.</i>
+  auxiliary1_description: None is used
+  auxiliary2_description: None is used
+  directory: /home/zerospeech/2019/submissions/20190315081109_andi611
+  open_source: true
+  submission_index: 6
+  submitted_at: '2019-03-15T08:11:09+00:00'
+  submitted_by: andi611
+  system_description: We present an end-to-end training scheme where we discover discrete<br>linguistic
+    subword units from speech in an unsupervised way, and we<br>use these discovered
+    units to train a text-to-speech model, without<br>any text transcript. We propose
+    an discrete encoding called<br>multilabel-binary vectors (MBV) for subword units
+    discovery, which<br>delivers a strong bottleneck for disentangling speech content
+    and<br>speaker style, and is sufficient to represent all the phonemes in a<br>given
+    language. MBV can be learned under an ASR-TTS auto-encoder<br>reconstruction setting,
+    where an ASR-Encoder is trained to discover a<br>set of common linguistic units
+    given a variety of speakers, and a TTS-<br>Decoder trained to project the discovered
+    units back to the original<br>speech. The proposed method was able to encode a
+    whole language down<br>to phoneme-level with just 64 distinct units. As a result,
+    we were<br>able to perform voice conversion between speakers with theses units,<br>using
+    the ASR-Encoder and TTS-Decoder alone. We will describe our<br>method in detail
+    by submitting a paper to the Interspeech 2019 Special<br>Workshop, using the author
+    names provided above.
+  using_external_data: false
+  using_parallel_train: false
+scores:
+  english_abx: 41.99
+  english_bitrate: 48.78
+  english_cer: 0.89
+  english_mos: 1.22
+  english_similarity: 1.77
+  surprise_abx: 44.25
+  surprise_bitrate: 43.95
+  surprise_cer: 0.81
+  surprise_mos: 1.69
+  surprise_similarity: 1.97

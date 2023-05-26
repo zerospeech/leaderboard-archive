@@ -1,0 +1,2267 @@
+{
+    "last_modified": "2022-08-01T14:17:58.356612",
+    "data": [
+        {
+            "model_id": "topline21b",
+            "submission_id": "",
+            "index": 1,
+            "submission_date": "2020-11-23T11:51:09+00:00",
+            "submitted_by": null,
+            "description": "The BERT model trained on the force-aligned frames of the LibriSpeech 960h dataset.",
+            "publication": {
+                "author_short": "<b>Forced align topline</b>",
+                "authors": null,
+                "paper_title": null,
+                "paper_ref": null,
+                "bib_ref": null,
+                "paper_url": null,
+                "pub_year": null,
+                "team_name": null,
+                "institution": "EHESS, ENS, PSL Research Univerity, CNRS and Inria",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "LibriSpeech 960h dataset",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "1536",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": "-",
+                    "metric": "-"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": null,
+                        "across": null
+                    },
+                    "test": {
+                        "within": null,
+                        "across": null
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": null,
+                        "across": null
+                    },
+                    "test": {
+                        "within": null,
+                        "across": null
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "topline21c",
+            "submission_id": "",
+            "index": 2,
+            "submission_date": "2020-11-23T11:51:09+00:00",
+            "submitted_by": null,
+            "description": "The BERT model trained on the phonetic transcriptions of the LibriSpeech 960h dataset.",
+            "publication": {
+                "author_short": "<b>Phone topline</b>",
+                "authors": null,
+                "paper_title": null,
+                "paper_ref": null,
+                "bib_ref": null,
+                "paper_url": null,
+                "pub_year": null,
+                "team_name": null,
+                "institution": "EHESS, ENS, PSL Research Univerity, CNRS and Inria",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "LibriSpeech 960h dataset",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "1536",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": "-",
+                    "metric": "-"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": null,
+                        "across": null
+                    },
+                    "test": {
+                        "within": null,
+                        "across": null
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": null,
+                        "across": null
+                    },
+                    "test": {
+                        "within": null,
+                        "across": null
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "topline21a",
+            "submission_id": "",
+            "index": 3,
+            "submission_date": "2020-11-24T11:51:09+00:00",
+            "submitted_by": null,
+            "description": "The pre-trained RoBERTa large model trained on 50K subword units on a huge dataset of total 160GB, 3000 times bigger than the transcription of the LibriSpeech 960h dataset.",
+            "publication": {
+                "author_short": "<b>RoBERTa topline</b>",
+                "authors": null,
+                "paper_title": null,
+                "paper_ref": null,
+                "bib_ref": null,
+                "paper_url": null,
+                "pub_year": null,
+                "team_name": null,
+                "institution": "EHESS, ENS, PSL Research Univerity, CNRS and Inria",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "50K subword units on a huge dataset of total 160GB",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "24576",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": "-",
+                    "metric": "-"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": null,
+                        "across": null
+                    },
+                    "test": {
+                        "within": null,
+                        "across": null
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": null,
+                        "across": null
+                    },
+                    "test": {
+                        "within": null,
+                        "across": null
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "baseline21a",
+            "submission_id": "",
+            "index": 4,
+            "submission_date": "2020-11-24T11:51:09+00:00",
+            "submitted_by": null,
+            "description": "Purely random submission",
+            "publication": {
+                "author_short": "<b>Random baseline</b>",
+                "authors": null,
+                "paper_title": null,
+                "paper_ref": null,
+                "bib_ref": null,
+                "paper_url": null,
+                "pub_year": null,
+                "team_name": null,
+                "institution": "EHESS, ENS, PSL Research Univerity, CNRS and Inria",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "nothing",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "0",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.1,
+                    "metric": "euclidean"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.4939,
+                        "across": 0.4994
+                    },
+                    "test": {
+                        "within": 0.4979,
+                        "across": 0.5023
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.4997,
+                        "across": 0.5017
+                    },
+                    "test": {
+                        "within": 0.4997,
+                        "across": 0.5011
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Baseline4-sm",
+            "submission_id": "",
+            "index": 5,
+            "submission_date": "2020-11-24T18:49:00+00:00",
+            "submitted_by": null,
+            "description": "CPC (trained on librispeech 960), kmeans (trained on librispeech 100), BERT (trained on librispeech 960 encoded with the quantized units). See https://zerospeech.com/2021 for more details.\n",
+            "publication": {
+                "author_short": "<b>BERT baseline</b>",
+                "authors": "Nguyen, T., Seyssel, M., Roz\u00e9, P., Rivi\u00e8re, M., Kharitonov, E., Baevski, A., Dunbar, E. & Dupoux, E. ",
+                "paper_title": "The zero resource speech benchmark 2021: Metrics and baselines for unsupervised spoken language modeling.",
+                "paper_ref": "Nguyen, T., Seyssel, M., Roz\u00e9, P., Rivi\u00e8re, M., Kharitonov, E., Baevski, A., Dunbar, E. & Dupoux, E.  (2020.0) The zero resource speech benchmark 2021: Metrics and baselines for unsupervised spoken language modeling.",
+                "bib_ref": "nguyen2020zero",
+                "paper_url": "https://arxiv.org/abs/2011.11588",
+                "pub_year": 2020,
+                "team_name": null,
+                "institution": "EHESS, ENS, PSL Research Univerity, CNRS and Inria",
+                "code": null,
+                "DOI": null,
+                "open_science": true
+            },
+            "details": {
+                "train_set": "librispeech 100 and 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "1536",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0343,
+                        "across": 0.0417
+                    },
+                    "test": {
+                        "within": 0.0328,
+                        "across": 0.0431
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0484,
+                        "across": 0.0759
+                    },
+                    "test": {
+                        "within": 0.0484,
+                        "across": 0.0792
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Baseline4-lg",
+            "submission_id": "",
+            "index": 6,
+            "submission_date": "2020-12-06T15:16:16+00:00",
+            "submitted_by": null,
+            "description": "CPC-big (trained on librispeech 960), kmeans (trained on librispeech 100), LSTM. See https://zerospeech.com/2021 for more details.\n",
+            "publication": {
+                "author_short": "<b>LSTM baseline</b>",
+                "authors": "Nguyen, T., Seyssel, M., Roz\u00e9, P., Rivi\u00e8re, M., Kharitonov, E., Baevski, A., Dunbar, E. & Dupoux, E. ",
+                "paper_title": "The zero resource speech benchmark 2021: Metrics and baselines for unsupervised spoken language modeling.",
+                "paper_ref": "Nguyen, T., Seyssel, M., Roz\u00e9, P., Rivi\u00e8re, M., Kharitonov, E., Baevski, A., Dunbar, E. & Dupoux, E.  (2020.0) The zero resource speech benchmark 2021: Metrics and baselines for unsupervised spoken language modeling.",
+                "bib_ref": "nguyen2020zero",
+                "paper_url": "https://arxiv.org/abs/2011.11589",
+                "pub_year": 2020,
+                "team_name": null,
+                "institution": "EHESS, ENS, PSL Research Univerity, CNRS and Inria",
+                "code": null,
+                "DOI": null,
+                "open_science": true
+            },
+            "details": {
+                "train_set": "librispeech 100 and 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0343,
+                        "across": 0.0417
+                    },
+                    "test": {
+                        "within": 0.0328,
+                        "across": 0.0431
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0484,
+                        "across": 0.0759
+                    },
+                    "test": {
+                        "within": 0.0484,
+                        "across": 0.0792
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Baseline4vg-lg",
+            "submission_id": "",
+            "index": 7,
+            "submission_date": "2021-01-01T15:16:16+00:00",
+            "submitted_by": null,
+            "description": "Low-budget baseline, composed of VG + KMEANS (50) + BERT small",
+            "publication": {
+                "author_short": "<b>VG baseline (low budget)",
+                "authors": "Alishahi, A., Chrupa\u0142a, G., Cristia, A., Dupoux, E., Higy, B., Lavechin, M., R\u00e4s\u00e4nen, O. & Yu, C.",
+                "paper_title": "R-2021VG: Zero-resource speech challenge, visually-grounded language modelling track.",
+                "paper_ref": "Alishahi, A., Chrupa\u0142a, G., Cristia, A., Dupoux, E., Higy, B., Lavechin, M., R\u00e4s\u00e4nen, O. & Yu, C. (2021.0) R-2021VG: Zero-resource speech challenge, visually-grounded language modelling track.",
+                "bib_ref": "alishahi2021zr",
+                "paper_url": "https://arxiv.org/abs/2107.06547",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Aalto University, CNRS, EHESS, ENS, Inria, PSL Research University, Tampere University, Tilburg University, University of Texas",
+                "code": null,
+                "DOI": null,
+                "open_science": true
+            },
+            "details": {
+                "train_set": "SpokenCOCO, Librispeech",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "72",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.02,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0869,
+                        "across": 0.1064
+                    },
+                    "test": {
+                        "within": 0.0839,
+                        "across": 0.1059
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0987,
+                        "across": 0.1473
+                    },
+                    "test": {
+                        "within": 0.0987,
+                        "across": 0.1503
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Baseline4vg-sm",
+            "submission_id": "",
+            "index": 8,
+            "submission_date": "2021-01-01T15:16:16+00:00",
+            "submitted_by": null,
+            "description": "High-budget baseline composed of CPC small + VG + KMEANS (500) + BERT big",
+            "publication": {
+                "author_short": "<b>VG baseline (high budget)",
+                "authors": "Alishahi, A., Chrupa\u0142a, G., Cristia, A., Dupoux, E., Higy, B., Lavechin, M., R\u00e4s\u00e4nen, O. & Yu, C.",
+                "paper_title": "R-2021VG: Zero-resource speech challenge, visually-grounded language modelling track.",
+                "paper_ref": "Alishahi, A., Chrupa\u0142a, G., Cristia, A., Dupoux, E., Higy, B., Lavechin, M., R\u00e4s\u00e4nen, O. & Yu, C. (2021.0) R-2021VG: Zero-resource speech challenge, visually-grounded language modelling track.",
+                "bib_ref": "alishahi2021zr",
+                "paper_url": "https://arxiv.org/abs/2107.06546",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Aalto University, CNRS, EHESS, ENS, Inria, PSL Research University, Tampere University, Tilburg University, University of Texas",
+                "code": null,
+                "DOI": null,
+                "open_science": true
+            },
+            "details": {
+                "train_set": "SpokenCOCO, Librispeech",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "160",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.02,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0551,
+                        "across": 0.0673
+                    },
+                    "test": {
+                        "within": 0.0536,
+                        "across": 0.0671
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0744,
+                        "across": 0.1133
+                    },
+                    "test": {
+                        "within": 0.0744,
+                        "across": 0.1192
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Nie21",
+            "submission_id": "",
+            "index": 9,
+            "submission_date": "2021-03-22T23:00:44+00:00",
+            "submitted_by": null,
+            "description": "CPC-big (from the zerospeech2021 baseline), speaker normalization, kmeans (trained on a subset of LibriSpeech 100), LSTM language model (from the zerospeech2021 baseline).",
+            "publication": {
+                "author_short": "van Niekerk <i>et al.</i>",
+                "authors": "Niekerk, B., Nortje, L., Baas, M. & Kamper, H. ",
+                "paper_title": "Analyzing speaker information in self-supervised models to improve zero-resource speech processing.",
+                "paper_ref": "Niekerk, B., Nortje, L., Baas, M. & Kamper, H.  (2021.0) Analyzing speaker information in self-supervised models to improve zero-resource speech processing.",
+                "bib_ref": "van2021analyzing",
+                "paper_url": "https://arxiv.org/abs/2108.00917",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Stellenbosch University",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "LibriSpeech 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0537,
+                        "across": 0.0663
+                    },
+                    "test": {
+                        "within": 0.0541,
+                        "across": 0.0689
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.088,
+                        "across": 0.1289
+                    },
+                    "test": {
+                        "within": 0.088,
+                        "across": 0.1314
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Cho21a",
+            "submission_id": "",
+            "index": 10,
+            "submission_date": "2021-03-23T02:11:00+00:00",
+            "submitted_by": null,
+            "description": "Information Retrieval to ZeroSpeech 2021. In our submission we have decided to verify the limits of information retrieval approaches to acoustic representations, word-spotting and word semantics discovery. For ABX we use baseline representations. For other tasks we use baseline k-means clustering for quantization. For sWUGGY we provide for each query word the minimum cost of edit-distance matching a given word to the Librispeech960 corpus. This essentially attempts to perform a dictionary lookup - real words should match with a low score, while artificial words should match with a higher one. For sSIMI we segment the sequences of pseudophonemes into words using SentencePiece, we then learn the embeddings of discovered pseudo-words using word embedding approaches. We then map the pseudophones of the query word to the nearest discovered pseudoword. For sBLIMP we provide LM scores, similarly to the baseline.",
+            "publication": {
+                "author_short": "Chorowski <i>et al.</i>",
+                "authors": "Chorowski, J., Ciesielski, G., Dzikowski, J., \u0141a\u0144cucki, A., Marxer, R., Opala, M., Pusz, P., Rychlikowski, P. & Stypu\u0142kowski, M.",
+                "paper_title": "Information retrieval for zerospeech 2021: The submission by university of wroclaw.",
+                "paper_ref": "Chorowski, J., Ciesielski, G., Dzikowski, J., \u0141a\u0144cucki, A., Marxer, R., Opala, M., Pusz, P., Rychlikowski, P. & Stypu\u0142kowski, M. (2021.0) Information retrieval for zerospeech 2021: The submission by university of wroclaw.",
+                "bib_ref": "chorowski2021information",
+                "paper_url": "https://arxiv.org/abs/2106.11603",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "University of Wroclaw",
+                "code": null,
+                "DOI": null,
+                "open_science": true
+            },
+            "details": {
+                "train_set": "LibriSpeech",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0338,
+                        "across": 0.0413
+                    },
+                    "test": {
+                        "within": 0.0329,
+                        "across": 0.0425
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.048,
+                        "across": 0.0761
+                    },
+                    "test": {
+                        "within": 0.048,
+                        "across": 0.0789
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Cho21b",
+            "submission_id": "",
+            "index": 11,
+            "submission_date": "2021-03-23T04:42:00+00:00",
+            "submitted_by": null,
+            "description": "Information Retrieval to ZeroSpeech 2021. In our submission we have decided to verify the limits of information retrieval approaches to acoustic representations, word-spotting and word semantics discovery. For ABX we have projected the embeddings of the baseline model into the nullspace of a speaker classification model, to make the embeddings less speaker sensitive. We perform a k-means clustering of embeddings (based on cosine distances) for quantization for other tasks. Additionally, we apply the following technique for ABX on top of embeddings -  we use the centers of the obtained clusters, and we move each embedding a part of the distance (e.g. half) in the direction of the closest cluster's center. This aims to include information about the whole dataset coming from clustering without substantial loss of local information, as a kind of denoising. For sWUGGY we provide for each query word the negative of the minimum dynamic time warping cost of matching a given word to the subsequences of the Librispeech960 corpus. This essentially attempts to perform a dictionary lookup - real words should match with a low score, while artificial words should match with a higher one. For sSIMI we segment the sequences of pseudophonemes into words using SentencePiece, we then learn the embeddings of discovered pseudo-words using word embedding approaches. We then map the pseudophones of the query word to the nearest discovered pseudoword. For sBLIMP we provide LM scores, similarly to the baseline.",
+            "publication": {
+                "author_short": "Chorowski <i>et al.</i>",
+                "authors": "Chorowski, J., Ciesielski, G., Dzikowski, J., \u0141a\u0144cucki, A., Marxer, R., Opala, M., Pusz, P., Rychlikowski, P. & Stypu\u0142kowski, M.",
+                "paper_title": "Information retrieval for zerospeech 2021: The submission by university of wroclaw.",
+                "paper_ref": "Chorowski, J., Ciesielski, G., Dzikowski, J., \u0141a\u0144cucki, A., Marxer, R., Opala, M., Pusz, P., Rychlikowski, P. & Stypu\u0142kowski, M. (2021.0) Information retrieval for zerospeech 2021: The submission by university of wroclaw.",
+                "bib_ref": "chorowski2021information",
+                "paper_url": "https://arxiv.org/abs/2106.11604",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "University of Wroclaw",
+                "code": null,
+                "DOI": null,
+                "open_science": true
+            },
+            "details": {
+                "train_set": "LibriSpeech",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0295,
+                        "across": 0.036
+                    },
+                    "test": {
+                        "within": 0.0285,
+                        "across": 0.0369
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.045,
+                        "across": 0.0699
+                    },
+                    "test": {
+                        "within": 0.045,
+                        "across": 0.0728
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Liu21",
+            "submission_id": "",
+            "index": 12,
+            "submission_date": "2021-03-23T09:01:51+00:00",
+            "submitted_by": null,
+            "description": "Mockingjay with cluster re-train (trained on librispeech 100) K-means. LSTM.\n",
+            "publication": {
+                "author_short": "Liu <i>et al.</i>",
+                "authors": "liu",
+                "paper_title": "-",
+                "paper_ref": "liu (2021.0) -",
+                "bib_ref": "-",
+                "paper_url": "-",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Information Engineering University",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 100",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.1696,
+                        "across": 0.2452
+                    },
+                    "test": {
+                        "within": 0.1714,
+                        "across": 0.2387
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.1965,
+                        "across": 0.2989
+                    },
+                    "test": {
+                        "within": 0.1965,
+                        "across": 0.3057
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Mae21a",
+            "submission_id": "",
+            "index": 13,
+            "submission_date": "2021-03-23T16:23:00+00:00",
+            "submitted_by": null,
+            "description": "This system combined a baseline method with a Deep Clustering method. Specifically, we trained an autoregressive neural network model for phoneme classification using pseudo-labels obtained by clustering outputs of a CPC network with k-means, and then executing the second-round clustering with the outputs of the final layer of the autoregressive model. We used a CPC-big baseline model which was trained on Libri-light 6k as a seed model, and used LibriSpeech 960h for pseudo-label phoneme classification tasks by constructing the same network as the CPC-big model. We adopted a BERT-small model on LibriSpeech 960h for LM training. Experimental results show that a relative improvement in the sBLIMP score of 2.3 % is achieved compared to a baseline method (CPC-big+km50+BERT-small).",
+            "publication": {
+                "author_short": "Maekaku <i>et al.</i>",
+                "authors": "Maekaku, T., Chang, X., Fujita, Y., Chen, L., Watanabe, S. & Rudnicky, A. ",
+                "paper_title": "Speech representation learning combining conformer cpc with deep cluster for the zerospeech challenge 2021.",
+                "paper_ref": "Maekaku, T., Chang, X., Fujita, Y., Chen, L., Watanabe, S. & Rudnicky, A.  (2021.0) Speech representation learning combining conformer cpc with deep cluster for the zerospeech challenge 2021.",
+                "bib_ref": "maekaku2021speech",
+                "paper_url": "https://arxiv.org/abs/2107.05899",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Yahoo Japan Corporation, Carnegie Mellon University",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "CPC training: Libri-light 6k, Phoneme classification task: LibriSpeech 960h, kmeans: LibriSpeech 100h, LM: LibriSpeech 960h",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0328,
+                        "across": 0.0414
+                    },
+                    "test": {
+                        "within": 0.0315,
+                        "across": 0.0425
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0497,
+                        "across": 0.0827
+                    },
+                    "test": {
+                        "within": 0.0497,
+                        "across": 0.0864
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Mae21b",
+            "submission_id": "",
+            "index": 14,
+            "submission_date": "2021-03-23T16:24:00+00:00",
+            "submitted_by": null,
+            "description": "This system combined a baseline method with a Deep Clustering method. Specifically, we trained an autoregressive neural network model for phoneme classification using pseudo-labels obtained by clustering outputs of a CPC network with k-means, and then executing the second-round clustering with the outputs of the final layer of the autoregressive model. We used a CPC-big baseline model which was trained on Libri-light 6k as a seed model, and used LibriSpeech 960h for pseudo-label phoneme classification tasks by constructing the same network as the CPC-big model except that the hidden unit size was 1024 units. We adopted a BERT-small model on LibriSpeech 960h for LM training. Experimental results show that relative improvements in the ABX metric of 4.8 - 8.8 % are achieved compared to a baseline method (CPC-big) on dev-clean dataset.",
+            "publication": {
+                "author_short": "Maekaku <i>et al.</i>",
+                "authors": "Maekaku, T., Chang, X., Fujita, Y., Chen, L., Watanabe, S. & Rudnicky, A. ",
+                "paper_title": "Speech representation learning combining conformer cpc with deep cluster for the zerospeech challenge 2021.",
+                "paper_ref": "Maekaku, T., Chang, X., Fujita, Y., Chen, L., Watanabe, S. & Rudnicky, A.  (2021.0) Speech representation learning combining conformer cpc with deep cluster for the zerospeech challenge 2021.",
+                "bib_ref": "maekaku2021speech",
+                "paper_url": "https://arxiv.org/abs/2107.05900",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Yahoo Japan Corporation, Carnegie Mellon University",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "CPC training: Libri-light 6k, Phoneme classification task: LibriSpeech 960h, kmeans: LibriSpeech 100h, LM: LibriSpeech 960h",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0313,
+                        "across": 0.0409
+                    },
+                    "test": {
+                        "within": 0.0306,
+                        "across": 0.0409
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0505,
+                        "across": 0.0799
+                    },
+                    "test": {
+                        "within": 0.0505,
+                        "across": 0.0817
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Mae21c",
+            "submission_id": "",
+            "index": 15,
+            "submission_date": "2021-03-23T16:24:30+00:00",
+            "submitted_by": null,
+            "description": "This system combined a baseline method with a Deep Clustering method. Specifically, we trained an autoregressive neural network model for phoneme classification using pseudo-labels obtained by clustering outputs of a CPC network with k-means, and then executing the second-round clustering with the outputs of the final layer of the autoregressive model. We used LibriSpeech 460h data for CPC training and phoneme classification. In both tasks, we adopted the same network as a CPC-small model, but we replaced a Transformer layer with a Conformer one for CPC training. We utilized a BERT-small model on LibriSpeech 960h for LM training. Experimental results show that our method outperforms a baseline (CPC-big+km50+BERT-small) in sWUGGY metric.",
+            "publication": {
+                "author_short": "Maekaku <i>et al.</i>",
+                "authors": "Maekaku, T., Chang, X., Fujita, Y., Chen, L., Watanabe, S. & Rudnicky, A. ",
+                "paper_title": "Speech representation learning combining conformer cpc with deep cluster for the zerospeech challenge 2021.",
+                "paper_ref": "Maekaku, T., Chang, X., Fujita, Y., Chen, L., Watanabe, S. & Rudnicky, A.  (2021.0) Speech representation learning combining conformer cpc with deep cluster for the zerospeech challenge 2021.",
+                "bib_ref": "maekaku2021speech",
+                "paper_url": "https://arxiv.org/abs/2107.05901",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Yahoo Japan Corporation, Carnegie Mellon University",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "CPC training: LibriSpeech 460h, Phoneme classification task: LibriSpeech 460h, k-means: LibriSpeech 100h, LM: LibriSpeech 960h",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0405,
+                        "across": 0.0542
+                    },
+                    "test": {
+                        "within": 0.0387,
+                        "across": 0.0519
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0612,
+                        "across": 0.1049
+                    },
+                    "test": {
+                        "within": 0.0612,
+                        "across": 0.1076
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Mae21d",
+            "submission_id": "",
+            "index": 16,
+            "submission_date": "2021-03-23T16:25:00+00:00",
+            "submitted_by": null,
+            "description": "This system combined a baseline method with a Deep Clustering method. Specifically, we trained an autoregressive neural network model for phoneme classification using pseudo-labels obtained by clustering outputs of a CPC network with k-means, and then executing the second-round clustering with the outputs of the final layer of the autoregressive model. We used LibriSpeech 460h data for CPC training and phoneme classification. In both tasks, we utilized the same network as a CPC-small model. We adopted a BERT-small model on LibriSpeech 960h for LM training. Experimental results show that our method outperforms a baseline method (CPC-big+km50+BERT-small) in the sSIMI metric.",
+            "publication": {
+                "author_short": "Maekaku <i>et al.</i>",
+                "authors": "Maekaku, T., Chang, X., Fujita, Y., Chen, L., Watanabe, S. & Rudnicky, A. ",
+                "paper_title": "Speech representation learning combining conformer cpc with deep cluster for the zerospeech challenge 2021.",
+                "paper_ref": "Maekaku, T., Chang, X., Fujita, Y., Chen, L., Watanabe, S. & Rudnicky, A.  (2021.0) Speech representation learning combining conformer cpc with deep cluster for the zerospeech challenge 2021.",
+                "bib_ref": "maekaku2021speech",
+                "paper_url": "https://arxiv.org/abs/2107.05902",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Yahoo Japan Corporation, Carnegie Mellon University",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "CPC training: LibriSpeech 460h, Phoneme classification task: LibriSpeech 460h, k-means: LibriSpeech 100h, LM: LibriSpeech 960h",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0393,
+                        "across": 0.0519
+                    },
+                    "test": {
+                        "within": 0.0371,
+                        "across": 0.0503
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0599,
+                        "across": 0.1004
+                    },
+                    "test": {
+                        "within": 0.0599,
+                        "across": 0.1047
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Pen21",
+            "submission_id": "",
+            "index": 17,
+            "submission_date": "2021-11-04T10:09:42+00:00",
+            "submitted_by": null,
+            "description": "Our model is a variant of the FaST-VGS (https://arxiv.org/abs/2109.08186). Which augments the audio encoder of FaST-VGS with additional transformer layers and the loss with wav2vec2.0-type contrastive loss. We jointly trained the model on SpokenCOCO for speech-image matching and LibriSpeech for audio frame-level contrastive modeling. The language modeling part (i.e. KMeans quantization and BERT training) is the same as the high budget VG baseline.",
+            "publication": {
+                "author_short": "Harwath et al.",
+                "authors": "Peng, P. & Harwath, D. ",
+                "paper_title": "Self-supervised representation learning for speech using visual grounding and masked language modeling.",
+                "paper_ref": "Peng, P. & Harwath, D.  (2021.0) Self-supervised representation learning for speech using visual grounding and masked language modeling.",
+                "bib_ref": "peng2022self",
+                "paper_url": "https://arxiv.org/abs/2202.03543",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "UT Austin",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "LibriSpeech and SpokenCOCO",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "468",
+                "parameters": {
+                    "visually_grounded": true,
+                    "frame_shift": 0.02,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0423,
+                        "across": 0.0491
+                    },
+                    "test": {
+                        "within": 0.0424,
+                        "across": 0.0508
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0558,
+                        "across": 0.0787
+                    },
+                    "test": {
+                        "within": 0.0558,
+                        "across": 0.0791
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Lee21a",
+            "submission_id": "",
+            "index": 18,
+            "submission_date": "2021-11-04T10:43:59+00:00",
+            "submitted_by": null,
+            "description": "WPBERT, a BERT-small based language model trained using both word and phonetic representations. Used pretrained ResDAVEnet-VQ vq3 embeddings as word representations, vq2 embeddings as phonetic representations.",
+            "publication": {
+                "author_short": "Kim et al.",
+                "authors": "Kyogu Lee, Jaeyeon Kim, Injune Hwang",
+                "paper_title": "-",
+                "paper_ref": "Kyogu Lee, Jaeyeon Kim, Injune Hwang (2021.0) -",
+                "bib_ref": "-",
+                "paper_url": "-",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Seoul National University",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "ResDAVEnet-VQ was pretrained on PlacesAudio. WPBERT was trained on LibriSpeech960. Not along with VAD.",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "7",
+                "parameters": {
+                    "visually_grounded": true,
+                    "frame_shift": 0.02,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0717,
+                        "across": 0.0932
+                    },
+                    "test": {
+                        "within": 0.065,
+                        "across": 0.0917
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0957,
+                        "across": 0.1494
+                    },
+                    "test": {
+                        "within": 0.0957,
+                        "across": 0.1546
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Lee21b",
+            "submission_id": "",
+            "index": 19,
+            "submission_date": "2021-11-03T23:55:34+00:00",
+            "submitted_by": null,
+            "description": "WPBERT, a BERT-small based language model trained using both word and phonetic representations. Used pretrained ResDAVEnet-VQ vq3 embeddings as word representations, vq2 embeddings as phonetic representations. Instead of directly using the embeddigns, for this version of the submission, we first changed them to integer values based on the codebook, then trained the language model. Also, we took the representations from the layer that gave less biased result for librispeech and synthetic datatset compared to the earlier submission.",
+            "publication": {
+                "author_short": "Kim et al.",
+                "authors": "Kyogu Lee, Jaeyeon Kim, Injune Hwang",
+                "paper_title": "-",
+                "paper_ref": "Kyogu Lee, Jaeyeon Kim, Injune Hwang (2021.0) -",
+                "bib_ref": "-",
+                "paper_url": "-",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Seoul National University",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "ResDAVEnet-VQ was pretrained on PlacesAudio. WPBERT was trained on LibriSpeech960. Not along with VAD.",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "7",
+                "parameters": {
+                    "visually_grounded": true,
+                    "frame_shift": 0.02,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0717,
+                        "across": 0.093
+                    },
+                    "test": {
+                        "within": 0.065,
+                        "across": 0.0904
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0956,
+                        "across": 0.1489
+                    },
+                    "test": {
+                        "within": 0.0956,
+                        "across": 0.1544
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Gan21a",
+            "submission_id": "",
+            "index": 20,
+            "submission_date": "2021-11-18T10:43:59+00:00",
+            "submitted_by": null,
+            "description": "CPC-big (trained on librispeech 960), kmeans (trained on librispeech 100), LSTM. See https://zerospeech.com/2021 for more details.\n",
+            "publication": {
+                "author_short": "Dr.Sriram Ganapathy et al.",
+                "authors": "Dr.Sriram Ganapathy, Varun Krishna",
+                "paper_title": "-",
+                "paper_ref": "Dr.Sriram Ganapathy, Varun Krishna (2021.0) -",
+                "bib_ref": "-",
+                "paper_url": "-",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Indian Institute of Science",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 100 and 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.059,
+                        "across": 0.0819
+                    },
+                    "test": {
+                        "within": 0.0504,
+                        "across": 0.0708
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0766,
+                        "across": 0.1333
+                    },
+                    "test": {
+                        "within": 0.0766,
+                        "across": 0.1401
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Ngu21a",
+            "submission_id": "",
+            "index": 21,
+            "submission_date": "2021-11-22T11:16:16+00:00",
+            "submitted_by": null,
+            "description": "BERT model trained with continuous input from the features of the  CNN Encoder of the CPC big model, and discrete output from k-means  clustering of the CPC big model from Zerospeech 2021 baseline system.\n",
+            "publication": {
+                "author_short": "Tu Anh et al.",
+                "authors": "Nguyen, T., Sagot, B. & Dupoux, E. ",
+                "paper_title": "Are discrete units necessary for spoken language modeling? ",
+                "paper_ref": "Nguyen, T., Sagot, B. & Dupoux, E.  (2021.0) Are discrete units necessary for spoken language modeling? ",
+                "bib_ref": "nguyen22discrete",
+                "paper_url": "https://arxiv.org/abs/2203.05936",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Inria & EHESS, ENS, PSL Research Univerity, CNRS",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 100 and 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "2560",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0374,
+                        "across": 0.0455
+                    },
+                    "test": {
+                        "within": 0.0349,
+                        "across": 0.0456
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0552,
+                        "across": 0.0869
+                    },
+                    "test": {
+                        "within": 0.0552,
+                        "across": 0.0919
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Ngu21b",
+            "submission_id": "",
+            "index": 22,
+            "submission_date": "2021-11-22T11:16:16+00:00",
+            "submitted_by": null,
+            "description": "HuBERT model (https://arxiv.org/abs/2106.07447) trained on librispeech 960,  2nd iteration. 1st iteration: discrete targets obtained by clustering MFCC  features with k-means (k=100). 2nd iteration: discrete targets obtained  by clustering 6th-layer features of 1st iteration with k-means (k=500). ABX is reported on the targets features used to train the 2nd iteration.\n",
+            "publication": {
+                "author_short": "Tu Anh et al.",
+                "authors": "Nguyen, T., Sagot, B. & Dupoux, E. ",
+                "paper_title": "Are discrete units necessary for spoken language modeling? ",
+                "paper_ref": "Nguyen, T., Sagot, B. & Dupoux, E.  (2021.0) Are discrete units necessary for spoken language modeling? ",
+                "bib_ref": "nguyen22discrete",
+                "paper_url": "https://arxiv.org/abs/2203.05936",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Inria & EHESS, ENS, PSL Research Univerity, CNRS",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "2112",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.02,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0376,
+                        "across": 0.0464
+                    },
+                    "test": {
+                        "within": 0.038,
+                        "across": 0.047
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0502,
+                        "across": 0.0773
+                    },
+                    "test": {
+                        "within": 0.0502,
+                        "across": 0.077
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Ngu21c",
+            "submission_id": "",
+            "index": 23,
+            "submission_date": "2021-11-22T11:16:16+00:00",
+            "submitted_by": null,
+            "description": "HuBERT model (https://arxiv.org/abs/2106.07447) trained on librispeech 960,  3rd iteration. 1st iteration: discrete targets obtained by clustering MFCC  features with k-means (k=100). 2nd iteration: discrete targets obtained  by clustering 6th-layer features of 1st iteration with k-means (k=500). 3rd iteration: discrete targets obtained by clustering 12th-layer features  of 2nd iteration with k-means (k=500). ABX is reported on the targets features  used to train the 3rd iteration.\n",
+            "publication": {
+                "author_short": "Tu Anh et al.",
+                "authors": "Nguyen, T., Sagot, B. & Dupoux, E. ",
+                "paper_title": "Are discrete units necessary for spoken language modeling? ",
+                "paper_ref": "Nguyen, T., Sagot, B. & Dupoux, E.  (2021.0) Are discrete units necessary for spoken language modeling? ",
+                "bib_ref": "nguyen22discrete",
+                "paper_url": "https://arxiv.org/abs/2203.05936",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Inria & EHESS, ENS, PSL Research Univerity, CNRS",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "3424",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.02,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0326,
+                        "across": 0.0381
+                    },
+                    "test": {
+                        "within": 0.0303,
+                        "across": 0.0383
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.04,
+                        "across": 0.0591
+                    },
+                    "test": {
+                        "within": 0.04,
+                        "across": 0.0563
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Ngu21d",
+            "submission_id": "",
+            "index": 24,
+            "submission_date": "2021-11-22T11:16:16+00:00",
+            "submitted_by": null,
+            "description": "Reimplementation of ZeroSpeech 2021 baseline (CPC-big + kmeans + BERT),  slightly modified by using NCE loss instead of NLL loss in the output  of the BERT model.\n",
+            "publication": {
+                "author_short": "Tu Anh et al.",
+                "authors": "Nguyen, T., Sagot, B. & Dupoux, E. ",
+                "paper_title": "Are discrete units necessary for spoken language modeling? ",
+                "paper_ref": "Nguyen, T., Sagot, B. & Dupoux, E.  (2021.0) Are discrete units necessary for spoken language modeling? ",
+                "bib_ref": "nguyen22discrete",
+                "paper_url": "https://arxiv.org/abs/2203.05936",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Inria & EHESS, ENS, PSL Research Univerity, CNRS",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 100 and 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "2720",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0374,
+                        "across": 0.0455
+                    },
+                    "test": {
+                        "within": 0.0349,
+                        "across": 0.0455
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0552,
+                        "across": 0.0869
+                    },
+                    "test": {
+                        "within": 0.0552,
+                        "across": 0.092
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "\u0141a\u014421",
+            "submission_id": "",
+            "index": 25,
+            "submission_date": "2021-11-23T15:07:16+00:00",
+            "submitted_by": null,
+            "description": "Our submission uses the baseline CPC model. For ABX, we remove speaker identity with a linear projection and average representations with k-Means centroids (https://arxiv.org/abs/2106.11603). For other tasks, we use pseudo-phones derived with a self-trained segmenting language model without speaker normalization. In the lexical and syntactic task, we ensemble AWD-LSTMs trained directly on those representations. In the semantic task, we train a word2vec model on pseudo-words found using the segmentation of pseudo-phone sequences.",
+            "publication": {
+                "author_short": "Adrian \u0141ancucki et al.",
+                "authors": "Adrian \u0141ancucki, Tomasz Grzegorzek, Santiago Cuervo, Ricard Marxer, Pawe\u0142 Rychlikowski, Jan Chorowski",
+                "paper_title": "-",
+                "paper_ref": "Adrian \u0141ancucki, Tomasz Grzegorzek, Santiago Cuervo, Ricard Marxer, Pawe\u0142 Rychlikowski, Jan Chorowski (2021.0) -",
+                "bib_ref": "-",
+                "paper_url": "-",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "University of Wroclaw",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "LibriLight 6k",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0295,
+                        "across": 0.0354
+                    },
+                    "test": {
+                        "within": 0.0285,
+                        "across": 0.0367
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.045,
+                        "across": 0.0705
+                    },
+                    "test": {
+                        "within": 0.045,
+                        "across": 0.0733
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Bha21b",
+            "submission_id": "",
+            "index": 26,
+            "submission_date": "2021-11-24T18:52:09+00:00",
+            "submitted_by": null,
+            "description": "Segmental CPC is used for modelling at phone level. For ABX, frame level features from CPC-big are used.",
+            "publication": {
+                "author_short": "Saurabhchand Bhati et al.",
+                "authors": "Bhati, S., Villalba, J., \u017belasko, P., Moro-Velazquez, L. & Dehak, N.",
+                "paper_title": "Unsupervised speech segmentation and variable rate representation learning using segmental contrastive predictive coding.",
+                "paper_ref": "Bhati, S., Villalba, J., \u017belasko, P., Moro-Velazquez, L. & Dehak, N. (2021.0) Unsupervised speech segmentation and variable rate representation learning using segmental contrastive predictive coding.",
+                "bib_ref": "bhati2021unsupervised",
+                "paper_url": "https://arxiv.org/abs/2110.02345",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "JHU",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "LibriSpeech 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0375,
+                        "across": 0.0456
+                    },
+                    "test": {
+                        "within": 0.0349,
+                        "across": 0.0451
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0553,
+                        "across": 0.0874
+                    },
+                    "test": {
+                        "within": 0.0553,
+                        "across": 0.0916
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Bha21a",
+            "submission_id": "",
+            "index": 27,
+            "submission_date": "2021-11-24T18:52:09+00:00",
+            "submitted_by": null,
+            "description": "Segmental CPC is used for modelling at phone level. For ABX, frame level features from CPC-big are used.",
+            "publication": {
+                "author_short": "Saurabhchand Bhati et al.",
+                "authors": "Bhati, S., Villalba, J., \u017belasko, P., Moro-Velazquez, L. & Dehak, N.",
+                "paper_title": "Unsupervised speech segmentation and variable rate representation learning using segmental contrastive predictive coding.",
+                "paper_ref": "Bhati, S., Villalba, J., \u017belasko, P., Moro-Velazquez, L. & Dehak, N. (2021.0) Unsupervised speech segmentation and variable rate representation learning using segmental contrastive predictive coding.",
+                "bib_ref": "bhati2021unsupervised",
+                "paper_url": "https://arxiv.org/abs/2110.02345",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "JHU",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "LibriSpeech 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0374,
+                        "across": 0.0451
+                    },
+                    "test": {
+                        "within": 0.0349,
+                        "across": 0.0457
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0553,
+                        "across": 0.0867
+                    },
+                    "test": {
+                        "within": 0.0553,
+                        "across": 0.0919
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Gao21b",
+            "submission_id": "",
+            "index": 28,
+            "submission_date": "2021-12-03T11:41:09+00:00",
+            "submitted_by": null,
+            "description": "In this model, we use a CPC segmentation module to generate boundaries of audios (removed most silence segments by VAD). Then we average the features from pretrained CPC-big within the adjacent boundaries and use kmeans to get pseudo units. A bert model is used to train the language models. ABX results are from the baseline.",
+            "publication": {
+                "author_short": "Lingyun Gao et al.",
+                "authors": "Lingyun Gao, Siyuan Feng, Odette Scharenborg",
+                "paper_title": "-",
+                "paper_ref": "Lingyun Gao, Siyuan Feng, Odette Scharenborg (2021.0) -",
+                "bib_ref": "-",
+                "paper_url": "-",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Delft University of Technology",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0638,
+                        "across": 0.083
+                    },
+                    "test": {
+                        "within": 0.0671,
+                        "across": 0.0841
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.1022,
+                        "across": 0.149
+                    },
+                    "test": {
+                        "within": 0.1022,
+                        "across": 0.1516
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Gao21a",
+            "submission_id": "",
+            "index": 29,
+            "submission_date": "2022-01-12T16:02:29+00:00",
+            "submitted_by": null,
+            "description": "In this model, we use a CPC segmentation module to generate boundaries of audios (removed most silence segments by VAD). Then we average the features from pretrained CPC-big within the adjacent boundaries and use kmeans to get pseudo units. A roberta model is used to train the language models.",
+            "publication": {
+                "author_short": "Lingyun Gao et al.",
+                "authors": "Lingyun Gao, Siyuan Feng, Odette Scharenborg",
+                "paper_title": "-",
+                "paper_ref": "Lingyun Gao, Siyuan Feng, Odette Scharenborg (2021.0) -",
+                "bib_ref": "-",
+                "paper_url": "-",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Delft University of Technology",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0668,
+                        "across": 0.0887
+                    },
+                    "test": {
+                        "within": 0.066,
+                        "across": 0.0851
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.1105,
+                        "across": 0.1573
+                    },
+                    "test": {
+                        "within": 0.1105,
+                        "across": 0.1651
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Gao21c",
+            "submission_id": "",
+            "index": 30,
+            "submission_date": "2022-01-12T15:50:31+00:00",
+            "submitted_by": null,
+            "description": "In this model, we use a CPC segmentation module to generate boundaries of audios (removed most silence segments by VAD). Then we average the features from pretrained CPC-big within the adjacent boundaries and use kmeans to get pseudo units. A small bert model is used to train the language models.",
+            "publication": {
+                "author_short": "Lingyun Gao et al.",
+                "authors": "Lingyun Gao, Siyuan Feng, Odette Scharenborg",
+                "paper_title": "-",
+                "paper_ref": "Lingyun Gao, Siyuan Feng, Odette Scharenborg (2021.0) -",
+                "bib_ref": "-",
+                "paper_url": "-",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Delft University of Technology",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "35",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0736,
+                        "across": 0.1142
+                    },
+                    "test": {
+                        "within": 0.0745,
+                        "across": 0.1094
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.1119,
+                        "across": 0.1853
+                    },
+                    "test": {
+                        "within": 0.1119,
+                        "across": 0.1931
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Gan21b",
+            "submission_id": "",
+            "index": 31,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "For ABX Joint minimization of cluster loss and CPC loss. For other tasks we trained BERT language model on the pseudo text.\n",
+            "publication": {
+                "author_short": "Dr.Sriram Ganapathy et al.",
+                "authors": "Dr.Sriram Ganapathy, Varun Krishna",
+                "paper_title": "-",
+                "paper_ref": "Dr.Sriram Ganapathy, Varun Krishna (2021.0) -",
+                "bib_ref": "-",
+                "paper_url": "-",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Indian Institute of Science",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 100 and 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0326,
+                        "across": 0.0414
+                    },
+                    "test": {
+                        "within": 0.0325,
+                        "across": 0.041
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0494,
+                        "across": 0.0796
+                    },
+                    "test": {
+                        "within": 0.0494,
+                        "across": 0.0815
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Gan21c",
+            "submission_id": "",
+            "index": 32,
+            "submission_date": null,
+            "submitted_by": null,
+            "description": "For ABX Joint minimization of cluster loss and CPC loss. For other tasks we trained BERT language model on the pseudo text.\n",
+            "publication": {
+                "author_short": "Dr.Sriram Ganapathy et al.",
+                "authors": "Dr.Sriram Ganapathy, Varun Krishna",
+                "paper_title": "-",
+                "paper_ref": "Dr.Sriram Ganapathy, Varun Krishna (2021.0) -",
+                "bib_ref": "-",
+                "paper_url": "-",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Indian Institute of Science",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 100 and 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0338,
+                        "across": 0.0448
+                    },
+                    "test": {
+                        "within": 0.0334,
+                        "across": 0.0435
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0535,
+                        "across": 0.0878
+                    },
+                    "test": {
+                        "within": 0.0535,
+                        "across": 0.0907
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Gan21d",
+            "submission_id": "",
+            "index": 33,
+            "submission_date": "2022-03-29T17:18:33.544340",
+            "submitted_by": "varun",
+            "description": "CPC-big (trained on librispeech 960), kmeans (trained on librispeech 100), LSTM. See https://zerospeech.com/2021 for more details.\n",
+            "publication": {
+                "author_short": "Dr.Sriram Ganapathy et al.",
+                "authors": "Dr.Sriram Ganapathy, Varun Krishna",
+                "paper_title": "-",
+                "paper_ref": "Dr.Sriram Ganapathy, Varun Krishna (2021.0) -",
+                "bib_ref": "-",
+                "paper_url": "-",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Indian Institute of Science",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 100 and 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0317,
+                        "across": 0.0399
+                    },
+                    "test": {
+                        "within": 0.0309,
+                        "across": 0.0393
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0479,
+                        "across": 0.0778
+                    },
+                    "test": {
+                        "within": 0.0479,
+                        "across": 0.0806
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Gan21e",
+            "submission_id": "",
+            "index": 34,
+            "submission_date": "2022-07-30T15:35:29.855073",
+            "submitted_by": "varun",
+            "description": "jm_mean",
+            "publication": {
+                "author_short": "Dr.Sriram Ganapathy et al.",
+                "authors": "Dr.Sriram Ganapathy, Varun Krishna",
+                "paper_title": "-",
+                "paper_ref": "Dr.Sriram Ganapathy, Varun Krishna (2021.0) -",
+                "bib_ref": "-",
+                "paper_url": "-",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Indian Institute of Science",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 100 and 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0317,
+                        "across": 0.0397
+                    },
+                    "test": {
+                        "within": 0.0309,
+                        "across": 0.0399
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0479,
+                        "across": 0.0778
+                    },
+                    "test": {
+                        "within": 0.0479,
+                        "across": 0.0804
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Gan21f",
+            "submission_id": "",
+            "index": 35,
+            "submission_date": "2022-07-30T15:46:27.601528",
+            "submitted_by": "varun",
+            "description": "jm_mean30_prune",
+            "publication": {
+                "author_short": "Dr.Sriram Ganapathy et al.",
+                "authors": "Dr.Sriram Ganapathy, Varun Krishna",
+                "paper_title": "-",
+                "paper_ref": "Dr.Sriram Ganapathy, Varun Krishna (2021.0) -",
+                "bib_ref": "-",
+                "paper_url": "-",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Indian Institute of Science",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 100 and 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0292,
+                        "across": 0.0352
+                    },
+                    "test": {
+                        "within": 0.0292,
+                        "across": 0.0367
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.045,
+                        "across": 0.0699
+                    },
+                    "test": {
+                        "within": 0.045,
+                        "across": 0.0717
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Gan21g",
+            "submission_id": "",
+            "index": 36,
+            "submission_date": "2022-07-31T19:11:04.418026",
+            "submitted_by": "varun",
+            "description": "jm_mean30",
+            "publication": {
+                "author_short": "Dr.Sriram Ganapathy et al.",
+                "authors": "Dr.Sriram Ganapathy, Varun Krishna",
+                "paper_title": "-",
+                "paper_ref": "Dr.Sriram Ganapathy, Varun Krishna (2021.0) -",
+                "bib_ref": "-",
+                "paper_url": "-",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Indian Institute of Science",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 100 and 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0303,
+                        "across": 0.037
+                    },
+                    "test": {
+                        "within": 0.0292,
+                        "across": 0.0382
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.0461,
+                        "across": 0.072
+                    },
+                    "test": {
+                        "within": 0.0461,
+                        "across": 0.0746
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Gan21h",
+            "submission_id": "",
+            "index": 37,
+            "submission_date": "2022-07-30T18:54:59.107292",
+            "submitted_by": "varun",
+            "description": "wav2vec_vq",
+            "publication": {
+                "author_short": "Dr.Sriram Ganapathy et al.",
+                "authors": "Dr.Sriram Ganapathy, Varun Krishna",
+                "paper_title": "-",
+                "paper_ref": "Dr.Sriram Ganapathy, Varun Krishna (2021.0) -",
+                "bib_ref": "-",
+                "paper_url": "-",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Indian Institute of Science",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 100 and 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.1064,
+                        "across": 0.1199
+                    },
+                    "test": {
+                        "within": 0.1001,
+                        "across": 0.1207
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.1316,
+                        "across": 0.1757
+                    },
+                    "test": {
+                        "within": 0.1316,
+                        "across": 0.1868
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Gan21i",
+            "submission_id": "",
+            "index": 38,
+            "submission_date": "2022-07-31T15:39:14.597319",
+            "submitted_by": "varun",
+            "description": "wav2vec",
+            "publication": {
+                "author_short": "Dr.Sriram Ganapathy et al.",
+                "authors": "Dr.Sriram Ganapathy, Varun Krishna",
+                "paper_title": "-",
+                "paper_ref": "Dr.Sriram Ganapathy, Varun Krishna (2021.0) -",
+                "bib_ref": "-",
+                "paper_url": "-",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Indian Institute of Science",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 100 and 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0946,
+                        "across": 0.1168
+                    },
+                    "test": {
+                        "within": 0.0902,
+                        "across": 0.1133
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.1235,
+                        "across": 0.1763
+                    },
+                    "test": {
+                        "within": 0.1235,
+                        "across": 0.1844
+                    }
+                }
+            },
+            "extras": null
+        },
+        {
+            "model_id": "Gan21j",
+            "submission_id": "",
+            "index": 39,
+            "submission_date": "2022-07-31T19:21:36.418733",
+            "submitted_by": "varun",
+            "description": "wav2vec2",
+            "publication": {
+                "author_short": "Dr.Sriram Ganapathy et al.",
+                "authors": "Dr.Sriram Ganapathy, Varun Krishna",
+                "paper_title": "-",
+                "paper_ref": "Dr.Sriram Ganapathy, Varun Krishna (2021.0) -",
+                "bib_ref": "-",
+                "paper_url": "-",
+                "pub_year": 2021,
+                "team_name": null,
+                "institution": "Indian Institute of Science",
+                "code": null,
+                "DOI": null,
+                "open_science": false
+            },
+            "details": {
+                "train_set": "librispeech 100 and 960",
+                "benchmarks": [
+                    "sLM-21",
+                    "ABX-LS"
+                ],
+                "gpu_budget": "60",
+                "parameters": {
+                    "visually_grounded": false,
+                    "frame_shift": 0.01,
+                    "metric": "cosine"
+                }
+            },
+            "scores": {
+                "clean": {
+                    "dev": {
+                        "within": 0.0848,
+                        "across": 0.0976
+                    },
+                    "test": {
+                        "within": 0.0775,
+                        "across": 0.0956
+                    }
+                },
+                "other": {
+                    "dev": {
+                        "within": 0.1034,
+                        "across": 0.1422
+                    },
+                    "test": {
+                        "within": 0.1034,
+                        "across": 0.1504
+                    }
+                }
+            },
+            "extras": null
+        }
+    ]
+}

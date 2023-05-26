@@ -1,0 +1,22 @@
+metadata:
+  DOI: ''
+  affiliation: PSL University, CNRS, ENS, EHESS, INRIA
+  author: <b>Baseline</b>
+  rank: ''
+  supervision: 'No'
+scores:
+  LANG1_10s: '23.2'
+  LANG1_120s: '23.0'
+  LANG1_1s: '23.6'
+  LANG2_10s: '29.5'
+  LANG2_120s: '29.5'
+  LANG2_1s: '30.0'
+  english_10s: '23.4'
+  english_120s: '23.4'
+  english_1s: '23.4'
+  french_10s: '25.5'
+  french_120s: '25.2'
+  french_1s: '25.2'
+  mandarin_10s: '21.3'
+  mandarin_120s: '21.3'
+  mandarin_1s: '21.3'
